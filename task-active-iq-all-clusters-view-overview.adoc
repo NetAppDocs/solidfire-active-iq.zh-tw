@@ -1,0 +1,28 @@
+---
+permalink: task-active-iq-all-clusters-view-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, all, clusters, view 
+summary: 深入瞭SolidFire Active IQ 解《All ClustersView》（所有叢集檢視）頁面。 
+---
+= 所有叢集檢視
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+「*所有叢集檢視*」是SolidFire Active IQ 介紹功能的登陸頁。
+
+瞭解您可以從* All ClustersView *存取的內容：
+
+* link:task-active-iq-all-clusters-view-dashboard.html["所有叢集檢視儀表板"]
+* link:task-active-iq-alerts.html["警示"]
+* link:task-active-iq-capacity-licensing.html["容量授權"]
+* link:task-active-iq-term-capacity.html["術語容量"]
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

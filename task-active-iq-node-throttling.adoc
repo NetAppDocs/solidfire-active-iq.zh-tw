@@ -1,0 +1,63 @@
+---
+permalink: task-active-iq-node-throttling.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes, throttling 
+summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。 
+---
+= 節點節流
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+在所選叢集的「*節點*>*節點節流*」頁面（可從側邊面板取得）上、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。
+
+深入瞭解檢視節點節流資訊：
+
+* <<View graphs and select date ranges>>
+* <<Export node throttling data>>
+
+
+
+
+== 檢視圖表並選取日期範圍
+
+在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。
+
+您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。
+
+此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：
+
+* 綠色=高達39%
+* 黃色= 40至59%
+* 紅色=超過59%
+
+
+link:task-active-iq-qos-recommendations.html["瞭解叢集的QoS建議"]。
+
+
+NOTE: 從「節點節流」頁面、您可以判斷儲存叢集中是否有QoS推送、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software["知識庫文章"^] 以取得資訊。
+
+將滑鼠指標放在圖表的任一點、以查看時間點詳細資料。
+
+.展開圖表範例
+====
+image:node_throttling_range.PNG["節點節流圖表"]
+
+====
+
+
+== 匯出節點節流資料
+
+您可以將圖表資料匯出成以逗號分隔的值（CSV）格式。只會匯出圖表中顯示的資訊。
+
+.步驟
+. 在清單檢視或圖表中、選取 image:export_button.PNG["匯出按鈕"] 圖示。
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

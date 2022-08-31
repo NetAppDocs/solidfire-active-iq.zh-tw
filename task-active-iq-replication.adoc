@@ -1,0 +1,99 @@
+---
+permalink: task_active_iq_replication.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, replication 
+summary: 深入瞭SolidFire Active IQ 解《Replication》（複製）頁面。 
+---
+= 複寫
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+「*複寫*」頁面可從所選叢集的側邊面板取得、提供有關叢集配對和磁碟區配對的資訊。
+
+深入瞭解叢集配對與磁碟區配對頁面：
+
+* <<cluster_pairs,叢集配對>>
+* <<volume_pairs,Volume配對>>
+
+
+
+
+== 叢集配對
+
+在所選叢集的「*複寫*>*叢集配對*」頁面上、您可以檢視下列有關叢集配對的資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 叢集配對ID | 建立叢集配對時提供的ID編號。 
+
+
+| 遠端叢集名稱 | 配對的遠端叢集名稱。 
+
+
+| 遠端MVIP | 管理遠端叢集的虛擬IP。 
+
+
+| 複寫磁碟區 | 表示在配對叢集上複寫的磁碟區數目。 
+
+
+| 狀態 | 叢集配對狀態。 
+
+
+| UUID | 通用唯一識別碼。 
+|===
+
+
+== Volume配對
+
+在所選叢集的「*複寫*>*磁碟區配對*」頁面上、您可以檢視下列有關磁碟區配對的資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| Volume ID | 建立磁碟區時提供的ID編號。 
+
+
+| 帳戶ID | 指派給磁碟區的帳戶ID。 
+
+
+| Volume狀態 | 複寫Volume的狀態。 
+
+
+| 複寫模式 | 為Volume配對選取的模式類型。 
+
+
+| 方向  a| 
+指出Volume資料的方向：
+
+* 資料來源：表示資料正在寫入叢集外部的目標。
+* 目標：表示資料正從外部來源寫入本機磁碟區。
+
+
+
+
+| 非同步延遲  a| 
+自上次與遠端叢集同步磁碟區以來的時間長度。如果Volume未配對、則此為null。
+
+
+NOTE: 處於作用中複寫狀態的目標Volume永遠會有0（零）的非同步延遲。在複寫期間、目標磁碟區可感知系統需求、並假設非同步延遲隨時都是準確的。
+
+
+
+| 遠端叢集 | 磁碟區所在的遠端叢集名稱。 
+
+
+| 遠端Volume ID | 遠端叢集上磁碟區的Volume ID。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

@@ -1,0 +1,32 @@
+---
+permalink: task-active-iq-manage-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq 
+summary: 深入瞭SolidFire Active IQ 解此功能。 
+---
+= 管理SolidFire Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+深入瞭解如何使用 link:https://activeiq.solidfire.com/["（需要登入）SolidFire Active IQ"^] 若要監控叢集容量與效能：
+
+* link:task-active-iq-all-clusters-view-overview.html["所有叢集檢視"]
+* link:task-active-iq-select-cluster-overview.html["選取叢集"]
+* link:task-active-iq-nodes-overview.html["節點"]
+* link:task_active_iq_drives.html["磁碟機"]
+* link:task_active_iq_volumes_overview.html["磁碟區"]
+* link:task_active_iq_replication.html["複寫"]
+* link:task-active-iq-virtual-volumes.html["虛擬磁碟區"]
+* link:task-active-iq-qos-recommendations.html["QoS建議"]
+* link:task-active-iq-virtual-machines.html["虛擬機器（NetApp HCI 僅限VMware叢集）"]
+* link:task-active-iq-vmware-alarms.html["VMware警示（NetApp HCI 僅限VMware叢集）"]
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

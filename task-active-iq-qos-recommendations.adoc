@@ -1,0 +1,25 @@
+---
+permalink: task-active-iq-qos-recommendations.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, qos, recommendations, quality, of, service 
+summary: 深入瞭解SolidFire Active IQ 中的QoS建議頁面。 
+---
+= QoS建議
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+「* QoS建議*」頁面可從所選叢集的側邊面板取得、根據最近的效能資料、針對叢集提供每日服務品質（QoS）建議。QoS建議僅支援Element軟體11.x或更新版本上的叢集。
+
+根據近期活動的Volume統計資料、提出效能建議。Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。
+
+
+
+== 如需詳細資訊、請參閱
+
+* https://docs.netapp.com/us-en/element-software/concepts/concept_data_manage_volumes_solidfire_quality_of_service.html["效能與QoS、適用於SolidFire 整個儲存叢集"^]
+* https://docs.netapp.com/us-en/element-software/hccstorage/task-hcc-qos-policies.html["建立及管理Volume QoS原則"^]
+* https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]
+

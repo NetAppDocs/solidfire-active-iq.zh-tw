@@ -1,0 +1,55 @@
+---
+permalink: task_active_iq_drives.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, drives 
+summary: 深入瞭SolidFire Active IQ 解《Drives》（磁碟機）頁面。 
+---
+= 磁碟機
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+每個節點都包含一或多個實體磁碟機、用於儲存叢集的部分資料。叢集會在磁碟機成功新增至叢集後、使用磁碟機的容量和效能。
+
+在「*磁碟機*」頁面（可從選取叢集的側邊面板取得）上、您可以從「*作用中*」、「*可用*」和「*失敗*」索引標籤中選取來篩選頁面。
+
+根據磁碟機功能的狀態、叢集中的每個磁碟機都有下列資訊可供使用：
+
+[cols="25,75"]
+|===
+| 標題 | 說明 
+
+
+| 磁碟機ID | 指派給磁碟機的連續編號。 
+
+
+| 節點ID | 當節點新增至叢集時、會指派節點編號。 
+
+
+| 服務ID | 與磁碟機相關聯之區塊或分片服務的目前服務ID。 
+
+
+| 插槽 | 磁碟機實體所在的插槽編號。 
+
+
+| 容量 | 磁碟機的GB大小。 
+
+
+| 韌體版本 | 磁碟機上的韌體版本。 
+
+
+| 序列 | SSD的序號。 
+
+
+| 磨損 | 剩餘磨損程度指示燈。 
+
+
+| 類型 | 磁碟機類型可以是區塊或中繼資料。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

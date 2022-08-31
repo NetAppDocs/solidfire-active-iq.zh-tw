@@ -1,0 +1,26 @@
+---
+permalink: task_active_iq_volumes_overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, volumes, cluster 
+summary: 深入瞭SolidFire Active IQ 解《Volumes》（磁碟區）頁面。 
+---
+= 磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+在* Volumes（磁碟區）*頁面（可從所選叢集的側邊面板取得）上、您可以檢視叢集上已配置之磁碟區的相關資訊。每個磁碟區資訊類別都會以表格格式或圖形格式呈現。
+
+從* Volumes *（磁碟區*）頁面瞭解顯示內容：
+
+* link:task-active-iq-active-volumes.html["作用中磁碟區"]
+* link:task-active-iq-snapshots-and-schedules.html["快照與Snapshot排程"]
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

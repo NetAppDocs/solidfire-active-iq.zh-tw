@@ -1,0 +1,118 @@
+---
+permalink: task-active-iq-snapshots-and-schedules.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, snapshot, details, schedule 
+summary: 深入瞭SolidFire Active IQ 解如何檢視Snapshot詳細資料和Snapshot排程詳細資料。 
+---
+= 快照與Snapshot排程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+深入瞭解如何檢視快照與快照排程的相關資訊：
+
+* <<Snapshots>>
+* <<Snapshot Schedules>>
+
+
+
+
+== 快照
+
+從所選叢集的側邊面板所提供的* Volumes（磁碟區）頁面、您可以檢視磁碟區快照的相關資訊。
+
+.步驟
+. 選擇* Volumes *>* Snapshot*。
+. 或者、選取* Volumes（磁碟區）>* Active Volumes（*作用中磁碟區）*、然後在Actions（動作）欄中選取 image:more_information.PNG["更多資訊"] 圖示、然後選取*檢視Snapshot*。
+. （選用）您可以選取、將快照清單匯出為CSV檔案 image:export_button.PNG["匯出按鈕"] 圖示。
+
+
+下列清單說明可用的詳細資料：
+
+[cols="25,75"]
+|===
+| 標題 | 說明 
+
+
+| ID | 顯示指派給快照的快照ID。 
+
+
+| Volume ID | 建立磁碟區時提供的ID。 
+
+
+| 帳戶ID | 指派給磁碟區的帳戶ID。 
+
+
+| UUID | 通用唯一識別碼。 
+
+
+| 尺寸 | 使用者定義的快照大小。 
+
+
+| Volume大小 | 從中建立快照的磁碟區大小。 
+
+
+| 創造時間 | 建立快照的時間。 
+
+
+| 保留至 | 刪除快照的日期和時間。 
+
+
+| 群組Snapshot ID | 快照所屬的群組ID（如果與其他Volume快照一起分組）。 
+
+
+| 複寫  a| 
+顯示遠端叢集上的快照狀態：
+
+* Present：快照存在於遠端叢集上。
+* 不存在：快照不存在於遠端叢集上。
+* 同步：目標叢集目前正在複寫快照。
+* 刪除：目標複寫了快照、然後將其刪除。
+
+
+|===
+
+
+== Snapshot排程
+
+您可以從所選叢集的側邊面板、從「* Volumes *>* Snapshot Schedules *」頁面檢視快照排程詳細資料。
+
+您可以選取、將快照排程清單匯出為CSV檔案 image:export_button.PNG["匯出按鈕"] 圖示。
+
+下列清單說明可用的詳細資料：
+
+[cols="25,75"]
+|===
+| 標題 | 說明 
+
+
+| ID | 指派給排程的排程ID。 
+
+
+| 名稱 | 使用者指派的排程名稱。 
+
+
+| 頻率 | 排程執行的頻率。頻率可設定為小時、分鐘、週或月。 
+
+
+| 重複發生 | 指出排程是否重複。 
+
+
+| Volume ID | 包含在排程快照中的Volume ID。 
+
+
+| 上次執行 | 上次執行排程的時間。 
+
+
+| 上次執行狀態 | 上次排程執行的結果。可能值：「成功」或「錯誤」 
+
+
+| 手動暫停 | 識別排程是否已手動暫停。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

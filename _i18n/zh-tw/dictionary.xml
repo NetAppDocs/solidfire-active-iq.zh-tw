@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="204042bcddaa7ab2b31862bf16f2c67b" category="summary">深入瞭SolidFire Active IQ 解如何檢視Snapshot詳細資料和Snapshot排程詳細資料。</block>
+  <block id="93bb810a3cacb25ddd5222f7ad5ae531" category="doc">快照與Snapshot排程</block>
+  <block id="69a78035942727554b9b0c40d0820c1c" category="paragraph">深入瞭解如何檢視快照與快照排程的相關資訊：</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
+  <block id="bf17366f9ec1f35ef74cee8e10aaccb9" category="list-text"><block ref="fd722e2b1b734c791adb6af07451d4f2" category="inline-xref-macro-rx"></block></block>
+  <block id="81cce8f2f8a0b0ed4b4db31bd50569aa" category="list-text"><block ref="e2dc546eddf3630f1681ca4408d05022" category="inline-xref-macro-rx"></block></block>
+  <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="section-title">快照</block>
+  <block id="f83c40ca847cafd42ef7aeb0fc297615" category="paragraph">從所選叢集的側邊面板所提供的* Volumes（磁碟區）頁面、您可以檢視磁碟區快照的相關資訊。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="33a061a30025cee07ce09ffbdd494525" category="list-text">選擇* Volumes *&gt;* Snapshot*。</block>
+  <block id="5dc731e46ae38b87ff3e3e2eaf459db2" category="inline-image-macro">更多資訊</block>
+  <block id="9349a4d131af5f3ec718969c53656a53" category="list-text">或者、選取* Volumes（磁碟區）&gt;* Active Volumes（*作用中磁碟區）*、然後在Actions（動作）欄中選取 <block ref="8854623112a7e68b3d51b1506334573e" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*檢視Snapshot*。</block>
+  <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">匯出按鈕</block>
+  <block id="06d2b66e0772fbe0c9171654415f8b7c" category="list-text">（選用）您可以選取、將快照清單匯出為CSV檔案 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="8d4295395ee365e6a510b0b9b40779ba" category="paragraph">下列清單說明可用的詳細資料：</block>
+  <block id="0101316665d4f82adaa26d86fbbb2d6e" category="cell">標題</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="b718adec73e04ce3ec720dd11a06a308" category="cell">ID</block>
+  <block id="e8a5cda5af516a679b90335fd0075ec2" category="cell">顯示指派給快照的快照ID。</block>
+  <block id="cccc95b62282240886ee975a3f122adb" category="cell">Volume ID</block>
+  <block id="9945e2fd77bbd5895f0c5964af73b56d" category="cell">建立磁碟區時提供的ID。</block>
+  <block id="351a2eb8764e19b9e565e8a355469e70" category="cell">帳戶ID</block>
+  <block id="2cb42f90cdbddd8c71799ac087c29f2f" category="cell">指派給磁碟區的帳戶ID。</block>
+  <block id="5a54d9ad87f7c4c1c70c8f05b9515d5a" category="cell">UUID</block>
+  <block id="a693044c4126a3808a141722f72b6846" category="cell">通用唯一識別碼。</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">尺寸</block>
+  <block id="d14f48c4f9c4220279708b1a81a0da74" category="cell">使用者定義的快照大小。</block>
+  <block id="191fac23c2b2ea4e948178972521292f" category="cell">Volume大小</block>
+  <block id="de7a7811629b22bd725c2f30e7762999" category="cell">從中建立快照的磁碟區大小。</block>
+  <block id="5e0a8fe96e2accd99b923c62952fa005" category="cell">創造時間</block>
+  <block id="b7cb1509443d4dc336e7a87710b155b6" category="cell">建立快照的時間。</block>
+  <block id="3302fe62cf18a31fc1bf2e207efd5a31" category="cell">保留至</block>
+  <block id="6bc276ea323b0825bcb0596dcd880037" category="cell">刪除快照的日期和時間。</block>
+  <block id="74251996680362042d34e0fd65d1a64a" category="cell">群組Snapshot ID</block>
+  <block id="41e84ae198952dbc689a2e17f3ff20b6" category="cell">快照所屬的群組ID（如果與其他Volume快照一起分組）。</block>
+  <block id="cde9e6576d2cd1bb93387925d982000d" category="cell">複寫</block>
+  <block id="9f3889aff3174ecbe2e71a73a6531fea" category="paragraph">顯示遠端叢集上的快照狀態：</block>
+  <block id="5ae29ab9c92cee5374650fb1b21addb4" category="list-text">Present：快照存在於遠端叢集上。</block>
+  <block id="c9ff879be0e4bd806af0ced632ace574" category="list-text">不存在：快照不存在於遠端叢集上。</block>
+  <block id="76f096c43b09e4905ae00a9cc88ab756" category="list-text">同步：目標叢集目前正在複寫快照。</block>
+  <block id="fd4e6a45b192b907cde370c10de38cd2" category="list-text">刪除：目標複寫了快照、然後將其刪除。</block>
+  <block id="d8255a9dfec1cb7e4f18cd98f176b3a3" category="section-title">Snapshot排程</block>
+  <block id="0215a8be6bd12534d05f3dfb1b3d941b" category="paragraph">您可以從所選叢集的側邊面板、從「* Volumes *&gt;* Snapshot Schedules *」頁面檢視快照排程詳細資料。</block>
+  <block id="67dd8a9c7300c7a68539b856568b643c" category="inline-image-macro">匯出按鈕</block>
+  <block id="5193b4f0872addfec7dfa6218c781e70" category="paragraph">您可以選取、將快照排程清單匯出為CSV檔案 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="cb5999fbac4fc8ae662c003393b32504" category="cell">指派給排程的排程ID。</block>
+  <block id="49ee3087348e8d44e1feda1917443987" category="cell">名稱</block>
+  <block id="66da3089a67e69b9ad13c6d1b92a8f8a" category="cell">使用者指派的排程名稱。</block>
+  <block id="7cf395303ce3665a9834721d4b748e4b" category="cell">頻率</block>
+  <block id="bad4c99f075d2330a83e8be438f50a84" category="cell">排程執行的頻率。頻率可設定為小時、分鐘、週或月。</block>
+  <block id="582ff616b727759a2208c65b27b0d309" category="cell">重複發生</block>
+  <block id="30138559db68a3be09a74ae44a0019aa" category="cell">指出排程是否重複。</block>
+  <block id="557e717eb0851c8b37f05adb39a1cd39" category="cell">Volume ID</block>
+  <block id="5d6da1915b05fdfa3f810f1cb45d8629" category="cell">包含在排程快照中的Volume ID。</block>
+  <block id="05a3a24340b7b9cc8d4e08f0ef4f4dd9" category="cell">上次執行</block>
+  <block id="5e60cc0fde146278e4f3589308b5006e" category="cell">上次執行排程的時間。</block>
+  <block id="7232cc207d04580f7bc752f9269ee419" category="cell">上次執行狀態</block>
+  <block id="081b56495eec3a64fd9628f7a125317a" category="cell">上次排程執行的結果。可能值：「成功」或「錯誤」</block>
+  <block id="e309aa8c5dea3400911a17c61bb74200" category="cell">手動暫停</block>
+  <block id="c2a806f0596d90a4081b26a3b19b13d8" category="cell">識別排程是否已手動暫停。</block>
+  <block id="9c83e144e5481ac6766f4055e566594d" category="section-title">如需詳細資訊、請參閱</block>
+  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link">NetApp 產品文件</block>
+  <block id="854eabf79b65c478387570fb11e721ca" category="paragraph"><block ref="854eabf79b65c478387570fb11e721ca" category="inline-link-rx"></block></block>
+  <block id="fd8f7be6c3e8a4de651ab3cd1c7f7c06" category="summary">深入瞭SolidFire Active IQ 解《All ClustersView》（所有叢集檢視）頁面。</block>
+  <block id="d33e0bf5cc18fdf44d1e95c80b1da8e2" category="doc">所有叢集檢視</block>
+  <block id="3dd95b8e03aee0d3c1c195b2193bbac4" category="paragraph">「*所有叢集檢視*」是SolidFire Active IQ 介紹功能的登陸頁。</block>
+  <block id="1712068517f4ae325dc7c49bca8a727d" category="paragraph">瞭解您可以從* All ClustersView *存取的內容：</block>
+  <block id="98aecf6b1b7c9ebbb25261990e7f5542" category="inline-link-macro">所有叢集檢視儀表板</block>
+  <block id="b22459c42fa05b62fcf6efae76d217e0" category="list-text"><block ref="b22459c42fa05b62fcf6efae76d217e0" category="inline-link-macro-rx"></block></block>
+  <block id="df583ae7ba964fd4806b55904da81813" category="inline-link-macro">警示</block>
+  <block id="24065c72b6183812a2182740e9714ac5" category="list-text"><block ref="24065c72b6183812a2182740e9714ac5" category="inline-link-macro-rx"></block></block>
+  <block id="799a3fe6cff876fa3027852cc5707a2e" category="inline-link-macro">容量授權</block>
+  <block id="d670b82fe0337950f878b889f6933104" category="list-text"><block ref="d670b82fe0337950f878b889f6933104" category="inline-link-macro-rx"></block></block>
+  <block id="d7d8c18bcc1cc8a4b125abd8f5edd2b9" category="inline-link-macro">術語容量</block>
+  <block id="4eca902cc4ae3f106780131e01e88f4b" category="list-text"><block ref="4eca902cc4ae3f106780131e01e88f4b" category="inline-link-macro-rx"></block></block>
+  <block id="0cefee73bdb85b3d4d3c8c689e1f1c0a" category="summary">深入瞭解SolidFire Active IQ 《節點節流》頁面。</block>
+  <block id="25a0046a8717b473571a227501cd74e2" category="doc">節點節流</block>
+  <block id="59fcde6598b4ab87af49810271746190" category="paragraph">在所選叢集的「*節點*&gt;*節點節流*」頁面（可從側邊面板取得）上、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。</block>
+  <block id="0df9a444c778c6506f58f43cc0edd434" category="paragraph">深入瞭解檢視節點節流資訊：</block>
+  <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
+  <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
+  <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">檢視圖表並選取日期範圍</block>
+  <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。</block>
+  <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。</block>
+  <block id="0461c4fc34e0832d93b7333b2c5410c3" category="paragraph">此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：</block>
+  <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">綠色=高達39%</block>
+  <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">黃色= 40至59%</block>
+  <block id="77b4dabdac23af0111f4e3fffcb2f6e5" category="list-text">紅色=超過59%</block>
+  <block id="f8feac3680b404eb25b3b1fea6aa6e70" category="inline-link-macro">瞭解叢集的QoS建議</block>
+  <block id="ea716f1a51591b923cd83aaa8faa830c" category="paragraph"><block ref="4334742ebeca91bbb52799a64e982fde" category="inline-link-macro-rx"></block>。</block>
+  <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">知識庫文章</block>
+  <block id="847e4940ea24aaa4424f3c4a37535b12" category="admonition">從「節點節流」頁面、您可以判斷儲存叢集中是否有QoS推送、請參閱<block ref="6de779e3b42a864ec2ff941281a0ceca" category="inline-link-rx"></block> 以取得資訊。</block>
+  <block id="f5a7af379fa1ac15911d3b781873b129" category="paragraph">將滑鼠指標放在圖表的任一點、以查看時間點詳細資料。</block>
+  <block id="19eb44463cdadfc868f1a40170c2492a" category="example-title">展開圖表範例</block>
+  <block id="f49cb77ff5ce537f4ee301d1be0be1c1" category="inline-image-macro">節點節流圖表</block>
+  <block id="201fcedd51648e6d2c3fb5c04a6413ce" category="paragraph"><block ref="201fcedd51648e6d2c3fb5c04a6413ce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c82fc13660c1f7b9e81fb05a1b3dc1a0" category="section-title">匯出節點節流資料</block>
+  <block id="b94aaf1b6153416c8fbec130b4b4572c" category="paragraph">您可以將圖表資料匯出成以逗號分隔的值（CSV）格式。只會匯出圖表中顯示的資訊。</block>
+  <block id="e6e76398fa578c847ffbf12cf9020f0d" category="list-text">在清單檢視或圖表中、選取 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="dc5cf938fcbe14ca9f14ce9da37d6b2b" category="summary">深入瞭SolidFire Active IQ 解VMware警報頁面、請參閱《VMware警報》。</block>
+  <block id="f469efb122e55cd81d10c070659ca6ac" category="doc">VMware警示</block>
+  <block id="3a2e93282d452c78a49d4de90ae7ef51" category="paragraph">從* VMware警報*頁面（可從所選NetApp HCI 的VMware叢集側邊面板取得）、您可以檢視有關叢集的VMware警示相關資訊。</block>
+  <block id="70d5204d2eee71cb2f88868b65803de9" category="admonition">「* VMware警報*」頁面僅適用於NetApp HCI 某個VMware叢集。</block>
+  <block id="43534abbbd12201bfa97d847e928d0e1" category="paragraph">瞭解UI中顯示的VMware警示資料。</block>
+  <block id="8011b540330c21d66ddf1ca785f8c844" category="cell">vCenter IP</block>
+  <block id="7903af51168f6e3a84e0a05f16f21680" category="cell">vCenter Server的IP位址。</block>
+  <block id="e1ba2665bdacc1fee125d13ae7a2310f" category="cell">實體ID</block>
+  <block id="ff92a0cff97f615fd6a2f39ade917f00" category="cell">vSphere中產生警示的物件ID。</block>
+  <block id="ec53a8c4f07baed5d8825072c89799be" category="cell">狀態</block>
+  <block id="825b54f1c522b01e546865fba66fb23a" category="cell">VMware警示的嚴重性。</block>
+  <block id="ef748968b1c9d053a66a1824587146b4" category="cell">警示名稱</block>
+  <block id="99678f7a117bc8aabf09db380162078b" category="cell">VMware警示的名稱。</block>
+  <block id="a27b6647124cd63c0c6175743b633c3e" category="cell">VMware警示說明。</block>
+  <block id="598b092e27986b9b865df094fe4948b9" category="cell">觸發時間</block>
+  <block id="677b17da2c12cb51b4885efd8fc8d12e" category="cell">警示在Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。</block>
+  <block id="3e029ce2c3d8433b34f693041956192d" category="summary">深入瞭SolidFire Active IQ 解如何在功能介紹中檢視叢集資訊。</block>
+  <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">選取叢集</block>
+  <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">當您從*選取叢集*下拉式清單中選取叢集時、可以檢視特定叢集的叢集資訊。每個叢集資訊類別都會以表格格式或圖形格式呈現。</block>
+  <block id="bf4336b6c177b0eea8653853a0f152fc" category="paragraph">從*儀表板*叢集總覽或側邊面板的*報告*下拉式功能表、瞭解各種可用的清單和篩選條件：</block>
+  <block id="8dbfa38b833867442634cdf2a6756bca" category="inline-link-macro">單一叢集檢視儀表板</block>
+  <block id="394c111301227a2139f9444cb09edb3f" category="list-text"><block ref="394c111301227a2139f9444cb09edb3f" category="inline-link-macro-rx"></block></block>
+  <block id="bbb006833f01ec561077704bef27cb73" category="inline-link-macro">叢集的報告選項</block>
+  <block id="e8451b80e6ac689caa1caf052ce73f12" category="list-text"><block ref="e8451b80e6ac689caa1caf052ce73f12" category="inline-link-macro-rx"></block></block>
+  <block id="f6fb41cae39c67dddfa257340be0abea" category="summary">深入瞭SolidFire Active IQ 解此功能。</block>
+  <block id="e852c121c8b4d7d81549beabc923b380" category="doc">管理SolidFire Active IQ</block>
+  <block id="e0c3d75ee02be06d06a4a60347b6470a" category="inline-link-macro">（需要登入）SolidFire Active IQ</block>
+  <block id="ad00578da57eea95dea349fb430f6e5f" category="paragraph">深入瞭解如何使用 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block> 若要監控叢集容量與效能：</block>
+  <block id="d8ca343535696fc3bc6e295975432a7c" category="list-text"><block ref="d8ca343535696fc3bc6e295975432a7c" category="inline-link-macro-rx"></block></block>
+  <block id="15ac47d735d2abb9f151cb6f3bd87f56" category="list-text"><block ref="15ac47d735d2abb9f151cb6f3bd87f56" category="inline-link-macro-rx"></block></block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="inline-link-macro">節點</block>
+  <block id="81da7f2200669b74dbe1d84983bfe4dc" category="list-text"><block ref="81da7f2200669b74dbe1d84983bfe4dc" category="inline-link-macro-rx"></block></block>
+  <block id="63a6b9b3b5de50d32228700cfe042610" category="inline-link-macro">磁碟機</block>
+  <block id="1c968709a3462ab0df1449c2d11bde23" category="list-text"><block ref="1c968709a3462ab0df1449c2d11bde23" category="inline-link-macro-rx"></block></block>
+  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="inline-link-macro">磁碟區</block>
+  <block id="ecc1ca87dba4ff5285bc315dba67c326" category="list-text"><block ref="ecc1ca87dba4ff5285bc315dba67c326" category="inline-link-macro-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link-macro">複寫</block>
+  <block id="c0ce04e9e4abab6be41f5db5258d5c42" category="list-text"><block ref="c0ce04e9e4abab6be41f5db5258d5c42" category="inline-link-macro-rx"></block></block>
+  <block id="86a60eaa1d2754d3ef920fff5bdf0e91" category="inline-link-macro">虛擬磁碟區</block>
+  <block id="44273fb1c66e463d49a94f9db5f32122" category="list-text"><block ref="44273fb1c66e463d49a94f9db5f32122" category="inline-link-macro-rx"></block></block>
+  <block id="cfadbebab98b6929c6f6db3fddfc6860" category="inline-link-macro">QoS建議</block>
+  <block id="3220a3924ad848bdfae6c4beb49a4df0" category="list-text"><block ref="3220a3924ad848bdfae6c4beb49a4df0" category="inline-link-macro-rx"></block></block>
+  <block id="1b031407a74cfe3989b3fe7b4a7d1a12" category="inline-link-macro">虛擬機器（NetApp HCI 僅限VMware叢集）</block>
+  <block id="f00a95482a80a821b5463f824bd414ef" category="list-text"><block ref="f00a95482a80a821b5463f824bd414ef" category="inline-link-macro-rx"></block></block>
+  <block id="a9ddb5f12cc652ccb3d0e88c6a1c5a53" category="inline-link-macro">VMware警示（NetApp HCI 僅限VMware叢集）</block>
+  <block id="2d6e026e9e7262187ded62f8ab25de95" category="list-text"><block ref="2d6e026e9e7262187ded62f8ab25de95" category="inline-link-macro-rx"></block></block>
+  <block id="c45bb0482081628f5278db1ac69fd7c4" category="summary">深入瞭NetApp HCI 解SolidFire Active IQ 如何在功能介紹中檢視節點的詳細資料。</block>
+  <block id="2797a319903e5732b12f8b1ca2eefc30" category="doc">檢視NetApp HCI 儲存與運算節點的詳細資料</block>
+  <block id="62b424183f41e9b71a242eb8fbb83422" category="paragraph">NetApp H系列節點組成NetApp HCI 了一套功能完善的系統、其中有兩種類型：運算和儲存節點。</block>
+  <block id="216709c8a74899ac9552418b218fedc3" category="paragraph">在「*節點*」頁面上、資訊列提供下列資料的快速概觀：</block>
+  <block id="449cb1399f131e775cbd452af1b71a94" category="list-text">vCenter IP：vCenter Server的IP位址</block>
+  <block id="416d6ad49d8853217a6bb321dc6df5aa" category="list-text">MVIP：管理虛擬IP位址</block>
+  <block id="c51558c5b0e3376ab979005c0eadcc9e" category="list-text">SVIP：儲存虛擬IP位址</block>
+  <block id="da7544491b44fbb47826dba38839ec09" category="section-title">檢視儲存節點的相關資訊</block>
+  <block id="cebd7bb7558a8eaa1c2318dbc486f702" category="paragraph">選取* Storage*以檢視下列有關叢集中儲存節點的資訊。</block>
+  <block id="9662ae1ef14a335ab1e536bd29504c48" category="cell">系統產生的節點ID。</block>
+  <block id="fc4438f0f67d3ef19c2ea6bf8466ef5e" category="paragraph">節點狀態：</block>
+  <block id="92ea8e6e7e5dc1001579cbdf5edc1d66" category="list-text">健全狀況：節點沒有與其相關的重大錯誤。</block>
+  <block id="2d58fcc09c5df59938313061ae2b4328" category="list-text">離線：無法存取節點。選取連結以檢視錯誤記錄。</block>
+  <block id="fb3b7b652062793ec89e4631aa75837e" category="list-text">故障：此節點有相關錯誤。選取連結以檢視錯誤記錄。</block>
+  <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="cell">類型</block>
+  <block id="14745691658fdcfae1452045cb6f3ca6" category="cell">顯示節點的模型類型。</block>
+  <block id="9cbb50b1bb15ffe24043c5f68161a2d4" category="cell">機箱/插槽</block>
+  <block id="8e273b1b6e5fe15a335118ec393e64c5" category="cell">指派給機箱和節點插槽位置的唯一序號。</block>
+  <block id="78cf8ce506d5cd24bcd85ed03795e147" category="cell">序號</block>
+  <block id="99e27a3b4d4ede370056195c4b29c8df" category="cell">指派給節點的唯一序號。</block>
+  <block id="34b6cd75171affba6957e308dcbd92be" category="cell">版本</block>
+  <block id="1b547602fa501a408206b388b4d87ea4" category="cell">每個節點上執行的Element軟體版本。</block>
+  <block id="32aa0bd7b7946c62f9c5214e91fa1db6" category="cell">管理IP</block>
+  <block id="a63c939565f37ea240b8015513244109" category="cell">指派給節點的管理IP位址、用於1GbE或10GbE網路管理工作。</block>
+  <block id="dbc7f5bd401ce78c24749d6c2a29fb42" category="cell">儲存IP</block>
+  <block id="4e6df10ce822632abd24bc1d83035051" category="cell">指派給用於iSCSI網路探索和所有資料網路流量之節點的儲存IP位址。</block>
+  <block id="bbbabdbe1b262f75d99d62880b953be1" category="cell">角色</block>
+  <block id="f3be7be88a768481f7dc512d35d95b5d" category="paragraph">識別節點在叢集中的角色：</block>
+  <block id="5b677361708b3a9e7ae889385ded1639" category="list-text">叢集主機：執行叢集範圍管理工作、並包含MVIP和SVIP的節點。</block>
+  <block id="e6897c8bbde08136163ed91dd0933239" category="list-text">集合節點：參與叢集的節點。視叢集大小而定、共有3或5個頻道群節點。</block>
+  <block id="f806640cb8d3e91e43e2fdcfa5cab1c8" category="cell">平均IOPS持續30分鐘</block>
+  <block id="18d37c100a92b8d3934f933d9476a1da" category="cell">在過去30分鐘內、針對以此節點為主要節點的所有磁碟區執行的IOPS平均總和。</block>
+  <block id="6125b5ff1062e9f4dc503a9bcd890061" category="cell">過去30分鐘的平均處理量</block>
+  <block id="f526d8fc07e0bc9a9f0f9c9af1ffd853" category="cell">過去30分鐘內針對以此節點為主要節點的所有磁碟區執行的平均處理量總和。</block>
+  <block id="d005c20c61645b19021767d50f4ca419" category="cell">平均延遲（微秒）持續30分鐘</block>
+  <block id="f2d3fd54a5200d7293fec3c093f66a72" category="cell">過去30分鐘內、完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。若要根據作用中磁碟區報告此度量、則只會使用非零延遲值。</block>
+  <block id="b79811f01736e3044c4df106fb6cb1ee" category="section-title">檢視運算節點的相關資訊</block>
+  <block id="5c353ef8d2ffffd6428ec66b599af4a6" category="paragraph">選取*運算*以檢視叢集中運算節點的下列相關資訊。</block>
+  <block id="a12a3079e14ced46e69ba52b8a90b21a" category="cell">IP</block>
+  <block id="7136370ef3e3f5918cde3ac36d11a41b" category="cell">運算節點的IP位址。</block>
+  <block id="ba64f25e75449d6fd3b83d0e757cc71c" category="cell">vCenter狀態</block>
+  <block id="0e76eb70b527cd518635bcd29f0071d8" category="cell">VMware所帶來的價值。請將游標移至此處以取得VMware說明。</block>
+  <block id="5aae2f588f5869f693f4a40cf10b4a79" category="cell">機箱/插槽</block>
+  <block id="e0846390871bfc3e4e7552d1564b6802" category="cell">VMotion IP</block>
+  <block id="47f226b70c879177eb9a5a9af9a55657" category="cell">運算節點的VMware VMotion網路IP位址。</block>
+  <block id="a1a357511551bfbe37039f02333f6776" category="summary">深入瞭SolidFire Active IQ 解《Capacity Licensing》（容量授權）頁面。</block>
+  <block id="37f8ea9d07b7d63c80cd626540aa9604" category="doc">容量授權</block>
+  <block id="31b2b28c9fceb6b631b5795fabe2321d" category="paragraph">在「*所有叢集檢視*」的「*容量授權*」頁面上、您可以檢視NetApp容量授權模式的相關資訊。使用標準SolidFire 版的客戶應忽略本頁面。</block>
+  <block id="8216cc48f5722149e5d1e53c518b2f6b" category="paragraph">容量授權是NetApp提供的替代授權選項。瞭解或執行容量授權相關工作：</block>
+  <block id="7e240928383acb93e5066a6149430337" category="cell">資源池名稱</block>
+  <block id="a7c2894459867d6b7662505b602c3515" category="cell">與授權相關的客戶名稱。</block>
+  <block id="a0d64a53ee9b8a87f69e700d17e5a258" category="cell">授權容量</block>
+  <block id="f73b7ab2e4344b39ae6a227088972a7b" category="cell">購買的軟體容量授權總和。</block>
+  <block id="ca417e12e3bdfd0126be45ef198553cb" category="cell">已配置的容量</block>
+  <block id="3fde5aaad264c61b4984d1e6f082d56f" category="cell">客戶環境中所有授權容量節點上的已配置容量量。</block>
+  <block id="4dae8bad0c5d13c63f586456ee0ad67a" category="cell">已用容量</block>
+  <block id="d98ec4d09dba4f68d9f548219556ca09" category="cell">叢集資源池中所有叢集目前使用的容量。</block>
+  <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">叢集</block>
+  <block id="331491aa4118975b5d832b3bf73155ca" category="cell">叢集數及其ID、構成授權的叢集集集區。</block>
+  <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">深入瞭解SolidFire Active IQ 中的QoS建議頁面。</block>
+  <block id="4bcb78be7a1595a1156ae7e0b3ed4052" category="paragraph">「* QoS建議*」頁面可從所選叢集的側邊面板取得、根據最近的效能資料、針對叢集提供每日服務品質（QoS）建議。QoS建議僅支援Element軟體11.x或更新版本上的叢集。</block>
+  <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">根據近期活動的Volume統計資料、提出效能建議。Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。</block>
+  <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">效能與QoS、適用於SolidFire 整個儲存叢集</block>
+  <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
+  <block id="50ee1f895e7e284e9dd0f8f045bc11a2" category="inline-link">建立及管理Volume QoS原則</block>
+  <block id="47c1cc14a918686ff80203d8d1e3607c" category="list-text"><block ref="47c1cc14a918686ff80203d8d1e3607c" category="inline-link-rx"></block></block>
+  <block id="c1611363cb08bee418a62fbfb67269a0" category="summary">深入瞭解SolidFire Active IQ UI功能與功能。</block>
+  <block id="be16873972b6107404555247ffe64f79" category="doc">使用Active IQ 這個功能</block>
+  <block id="f1a747b1e6d6c145fc34a1bf342de1e5" category="paragraph">深入瞭解中的UI功能 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block>：</block>
+  <block id="75b5f200ff2e07a1cd3c280094c30efa" category="list-text"><block ref="f0659da1107154bd84c9b38aff0b247a" category="inline-xref-macro-rx"></block></block>
+  <block id="0c1d112f9709394d300cbeaa66450a9a" category="list-text"><block ref="7fe5ed762c45abe7d0470e2a89b1a892" category="inline-xref-macro-rx"></block></block>
+  <block id="a203af3f0d66d28fe2d73970f2e0d116" category="list-text"><block ref="e400a695433230a8595ae0b4b563579f" category="inline-xref-macro-rx"></block></block>
+  <block id="a7087cf075fc6214538853e9fc4bba90" category="list-text"><block ref="04d29e85cc3282c3e9f14ce261f88f45" category="inline-xref-macro-rx"></block></block>
+  <block id="16df60c28b1f6e1a615a049c6108358e" category="list-text"><block ref="bfbbec3472fd971f56fdb3fbab3e87d8" category="inline-xref-macro-rx"></block></block>
+  <block id="1a6488574db4303b10848152736e8e55" category="list-text"><block ref="1f6092bfe2d74192af9ae009324aa099" category="inline-xref-macro-rx"></block></block>
+  <block id="aa01e24e60b9724b9b233b2a1e85f950" category="section-title">使用篩選條件</block>
+  <block id="5d26e76a9cf020fc45752e6bd4299da5" category="paragraph">您可以排序及篩選Active IQ 有關頁面的清單資訊。檢視清單（例如節點、磁碟機、磁碟區等）時、您可以使用篩選功能來聚焦資訊、使其更容易放入螢幕。</block>
+  <block id="07090d1b9cebf025d6cde2aae5e03df7" category="list-text">檢視清單資訊時、請選取*篩選*。</block>
+  <block id="cdbd324b57aa494a017f6e074e75201f" category="list-text">從下拉式功能表中選擇要篩選的欄名稱。</block>
+  <block id="f63739fda10056be3da6baf6e8dd41e2" category="list-text">為欄選取限制。</block>
+  <block id="a5eff96d846ad607703b11ea960d32b8" category="list-text">輸入要篩選的文字。</block>
+  <block id="7ba64273bac8dc11b7b790d85cf04b57" category="list-text">選取*新增篩選器*。</block>
+  <block id="90d7ed86fe86985c51b54820847e2593" category="paragraph">系統會針對清單中的資訊執行新的篩選、並暫時儲存新的篩選器。選取的篩選條件會顯示在篩選對話方塊的底部。</block>
+  <block id="7ea481ef8b107ec0e3d3a1d12e68b0a8" category="list-text">（選用）您可以執行下列步驟來新增其他篩選：</block>
+  <block id="bb99e9eacaa13bbc90afc00d6ffec84d" category="list-text">選取另一個欄標題和限制。</block>
+  <block id="fa5e680730153cba5aa2eea9fe92df91" category="list-text">（選用）選取（* x*）以移除篩選條件、並顯示未篩選的清單資訊。</block>
+  <block id="d8f25e98301a184a517a02a45e877668" category="admonition">有些表格包含從檢視中排除欄的選項。若要獲得最佳結果、請選取*「欄」*、確認設定篩選時顯示所有必要的欄。</block>
+  <block id="0afcb3a7292642b6ea0c8552bcdda4b4" category="section-title">排序清單</block>
+  <block id="6feb28d1635888c4fa07a4bae13d10e0" category="paragraph">您可以在Active IQ 某些頁面上、根據一或多個欄來排序清單資訊、這些欄位位於UI的特定頁面上。這有助於您在螢幕上安排所需的資訊。</block>
+  <block id="b2fe74238164b5710d7de83add293f15" category="list-text">若要依單一欄排序、請選取欄標題、直到資訊依照所需順序排序為止。</block>
+  <block id="8966a96d9cb66f42b54a27af655b2dde" category="list-text">若要依多欄排序、請執行下列步驟：</block>
+  <block id="5086a34fd2d544eff43f823c0abb1a5e" category="list-text">選取您要排序的第一欄的欄標題、直到資訊依照所需的順序排序為止。</block>
+  <block id="f0b581d41df8170d039b7ab94d23bedb" category="list-text">若要新增欄位、請按住命令鍵並選取欄位標題、直到資訊依照所需的順序排序為止。您可以新增多個欄。</block>
+  <block id="fe48c20e5efa8ea3384dafbca06149f9" category="paragraph">並非所有頁面都提供此功能。</block>
+  <block id="c318d09ab59f1e0ea20767694d2e4c5f" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。如果可用、請選取左側的縮圖配置、在圖表之間切換。這些配置也可以隱藏。</block>
+  <block id="3b698da50955c7deb51e1067384ddcbf" category="paragraph">將滑鼠指標放在圖形線上、以查看時間點詳細資料。</block>
+  <block id="3fec4185af6286dde10db11550f16c33" category="inline-image-macro">圖表與日期範圍</block>
+  <block id="f88e66b6769f04ff8da0fae43eef9f6a" category="paragraph"><block ref="f88e66b6769f04ff8da0fae43eef9f6a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a26f157c7c5fdf3bc8f927a1a1ba2fdb" category="section-title">匯出清單檢視和報告資料</block>
+  <block id="9dc1a16b99af819147fc3f744fc8a213" category="paragraph">您可以將整個清單檢視或圖表資料匯出成以逗號分隔的值（CSV）格式。對於某些清單、例如叢集或節點、您可以選取要匯出的欄位；預設會選取顯示的欄位。如果有特定的排序順序、或是使用篩選器來限制顯示的項目、則會將該排序順序和篩選器保留在匯出的檔案中。</block>
+  <block id="b09eaa1277bfee2694f0a182ed0f097b" category="list-text">在清單檢視或圖表中、選取 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="979c617c7763705237acbbc078c557d0" category="section-title">選取叢集</block>
+  <block id="e5fad98e0daae45b4573102e78e1e75c" category="paragraph">在本指南中、您可以檢視環境中個別叢集的相關資訊。Active IQ</block>
+  <block id="106cd3aec5e4e5fa0e87d54a10970b5a" category="list-text">從「Se儀表板」選取*「Select a Cluster"（選擇叢集）*。Active IQ</block>
+  <block id="3227b9c5b489035bbfe108ec539744f8" category="list-text">下拉式功能表會列出您可用的任何叢集。</block>
+  <block id="5849fbc4cd9d8ff6190306213ca2cd61" category="list-text">使用搜尋欄位來尋找所需的叢集或最近檢視的叢集。</block>
+  <block id="86a2da85271fc1113b1bf591705f342e" category="list-text">選取名稱以選取叢集。</block>
+  <block id="6c2fc87d25afe10c773420717eeb2df8" category="section-title">圖示參考</block>
+  <block id="2af69473b0142d749e9f31cb03d74915" category="paragraph">您可能會在檢視UI Active IQ 以供參考時看到下列圖示。</block>
+  <block id="817434295a673aed431435658b65d9a7" category="cell">圖示</block>
+  <block id="9e36976cde9f2ece8b67172092ddc794" category="inline-image-macro">重新整理圖示</block>
+  <block id="6044018059a6046033f39c1dce734735" category="paragraph"><block ref="6044018059a6046033f39c1dce734735" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="63a6a88c066880c5ac42394a22803ca6" category="cell">重新整理</block>
+  <block id="ba4484b740822363967ef7dbb090de6a" category="inline-image-macro">篩選圖示</block>
+  <block id="83e4832c67cc91eeb1aec1927e0a4086" category="paragraph"><block ref="83e4832c67cc91eeb1aec1927e0a4086" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d7778d0c64b6ba21494c97f77a66885a" category="cell">篩選器</block>
+  <block id="045b9f10f68ab62e06536e6b96ca72ee" category="paragraph"><block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0095a9fa74d1713e43e370a7d7846224" category="cell">匯出</block>
+  <block id="9fae436e9d498fc72fc369aa4188dbd1" category="inline-image-macro">功能表圖示</block>
+  <block id="0394d5cd9adafeb64d44c535a81d6cea" category="paragraph"><block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e80a7c4942d11d72389723faeaf2d638" category="cell">帳戶設定、文件、意見反應、支援及登出的功能表。</block>
+  <block id="296c321ad020f51c428aeb084e771cea" category="inline-image-macro">複製到剪貼簿圖示</block>
+  <block id="d7d067e20c8e370becffedb2f6f720fa" category="paragraph"><block ref="d7d067e20c8e370becffedb2f6f720fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="45f182deaf0d0f615663ac9696c280b2" category="cell">選取一次以複製到剪貼簿。</block>
+  <block id="69625f808ea246e81b0669941cc84c4b" category="inline-image-macro">換行文字切換</block>
+  <block id="333e30ad34a51521650a19e6c5ed190b" category="paragraph"><block ref="4b721dbea3c36dc1ecc82dab69057c23" category="inline-image-macro-rx" type="image"></block>
+<block ref="3be4bd4a2a7fbe8479778d034bed66af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8edc7514d4b5058ae3a8f287dd9f848e" category="cell">切換按鈕以換行和取消換行。</block>
+  <block id="f710764c6ac562956bcf0a1805cf87a5" category="inline-image-macro">更多資訊圖示</block>
+  <block id="4f5566da2ccf00c2ae1725ffa75f28f4" category="paragraph"><block ref="4f5566da2ccf00c2ae1725ffa75f28f4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f9d43bb88c35632903d5eb16decc380" category="cell">更多資訊：選取以取得其他選項。</block>
+  <block id="e44b6e341cd265f3c2894bc90107e6cb" category="inline-image-macro">更多詳細資料圖示</block>
+  <block id="45ebbd5bdb9477285076cbc10c602f1d" category="paragraph"><block ref="45ebbd5bdb9477285076cbc10c602f1d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea2e81a1b728b000d0a80f1b7adb8d39" category="cell">請選取以取得更多詳細資料。</block>
+  <block id="1ae8a55f317d3b2570e79a0b4a668040" category="section-title">提供意見回饋</block>
+  <block id="7ad9169e449c48f53920205d4212004e" category="paragraph">您Active IQ 可以使用整個UI都可存取的電子郵件意見反應選項、協助改善此功能並解決任何UI問題。</block>
+  <block id="0c6ab2fbcdd7cedaa7510d6167c60089" category="list-text">從UI的任何頁面中、選取 <block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*意見反應*。</block>
+  <block id="e392fa2dbe4893eaf358507add7c6068" category="list-text">在電子郵件的訊息本文中輸入相關資訊。</block>
+  <block id="ed6e35e068e0c344e24d1f96c26dbafd" category="list-text">附上任何實用的螢幕擷取畫面。</block>
+  <block id="94f66866107911bd36ca9497f33cdf55" category="list-text">選取*傳送*。</block>
+  <block id="4b3d8483a8b2506b40d023edaac154a9" category="summary">深入瞭SolidFire Active IQ 解《Drives》（磁碟機）頁面。</block>
+  <block id="b0c0af6c8cf6c4616d1ee9701645ade1" category="paragraph">每個節點都包含一或多個實體磁碟機、用於儲存叢集的部分資料。叢集會在磁碟機成功新增至叢集後、使用磁碟機的容量和效能。</block>
+  <block id="6fbfc6b16cda64b958efc9314c88e14d" category="paragraph">在「*磁碟機*」頁面（可從選取叢集的側邊面板取得）上、您可以從「*作用中*」、「*可用*」和「*失敗*」索引標籤中選取來篩選頁面。</block>
+  <block id="487410f64ae924deada9efbd3aa70b43" category="paragraph">根據磁碟機功能的狀態、叢集中的每個磁碟機都有下列資訊可供使用：</block>
+  <block id="85b9e3354e9c2e275f8a6a8974020064" category="cell">磁碟機ID</block>
+  <block id="53257575d2f2e64c1255ca3c534779df" category="cell">指派給磁碟機的連續編號。</block>
+  <block id="5c7209cbcf1475a6e48114564f387e20" category="cell">節點ID</block>
+  <block id="dca7f179cd025747b9ba99ef6cbad5fa" category="cell">當節點新增至叢集時、會指派節點編號。</block>
+  <block id="0612c008c0ceac34b53b5ca6a5ac4814" category="cell">服務ID</block>
+  <block id="5d0e53f070d9c63c79efafc5c97eae74" category="cell">與磁碟機相關聯之區塊或分片服務的目前服務ID。</block>
+  <block id="9234cc57c43f272b55a94b0069fe62d1" category="cell">插槽</block>
+  <block id="2b5edf7ab4654d285ee8dd9dc02a155a" category="cell">磁碟機實體所在的插槽編號。</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">容量</block>
+  <block id="0fa5d749b774e71fe6f5ee56465dfa99" category="cell">磁碟機的GB大小。</block>
+  <block id="b4afdc58343195e73c31f1fb68c162fb" category="cell">韌體版本</block>
+  <block id="226f7f8f252d334d028d0214487c8d62" category="cell">磁碟機上的韌體版本。</block>
+  <block id="5255d3daaa0a6276b844d61401e6f493" category="cell">序列</block>
+  <block id="3b2bed04b0899e0cf9c0ed137280b14b" category="cell">SSD的序號。</block>
+  <block id="67992418ca03737d9a630ecf8410b57b" category="cell">磨損</block>
+  <block id="0764c9c306c714faa43e5b6ed05cfa28" category="cell">剩餘磨損程度指示燈。</block>
+  <block id="4ed6644ba60f9bb007a94eb19a134c73" category="cell">磁碟機類型可以是區塊或中繼資料。</block>
+  <block id="3b81ca83c5be5ecf16994a0ab9b669f0" category="summary">深入瞭SolidFire 解SolidFire Active IQ 如何在功能區中檢視功能區節點的詳細資料。</block>
+  <block id="46183e1c4a1f5df81c1a3e9de5392a85" category="doc">檢視SolidFire 功能區儲存節點詳細資料</block>
+  <block id="a49bb66adf425675465c10fb37185865" category="paragraph">每個節點都是SSD的集合。每個儲存節點都隨附CPU、網路、快取和儲存資源。儲存節點資源會集中到節點叢集內。</block>
+  <block id="6d9b066e7f8486fdcb1c0faa95d44b48" category="list-text">MVIP VLAN ID：MVIP的虛擬LAN ID</block>
+  <block id="485083122718a2ccfa8addc2daf98222" category="list-text">SVIP VLAN ID：SVIP的虛擬LAN ID</block>
+  <block id="d5f05a6242e183f0c2ce865fa4625f89" category="paragraph">叢集中的每個儲存節點都有下列資訊可供使用：</block>
+  <block id="f1978dfed516347015a6db8f870c386c" category="cell">系統產生的節點名稱。</block>
+  <block id="6ecb056d430ebf109cb53b71b4e3bbf6" category="cell">顯示節點的模型類型。</block>
+  <block id="21dffd11e52f3b29376f4508b2ad0b1a" category="cell">服務標籤</block>
+  <block id="c85128056ac648977b9e0da5daf91c2d" category="cell">指派給節點的唯一服務標籤號碼。</block>
+  <block id="0b78ef57d4dacade728a829821159de3" category="cell">指派給節點的管理IP MIP位址、用於1GbE或10GbE網路管理工作。</block>
+  <block id="70087224b93e8179deda7438fae8e843" category="cell">叢集IP</block>
+  <block id="4d08639c19d21e8b1b2dd93fd1ecb110" category="cell">指派給節點的叢集IP位址、用於同一叢集中節點之間的通訊。</block>
+  <block id="9f4766e9e0e83d660691c78a09d23354" category="cell">複寫連接埠</block>
+  <block id="768753cc21c3d4323b9b2eccf398c766" category="cell">節點上用於遠端複寫的連接埠。</block>
+  <block id="018b442dee50396927f5cd9f63eb5c73" category="list-text">集合節點：參與叢集的節點。視叢集大小而定、共有三或五個頻道群節點。</block>
+  <block id="83b76c853ccd3badf8f29d1866234bdd" category="list-text">Fibre Channel：叢集中的FC節點。</block>
+  <block id="273520ae2b0e4a202c36942359c00981" category="summary">深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。</block>
+  <block id="aca90d0397c9490780bfa614d3eda075" category="paragraph">從所選叢集的側邊面板上提供的* VVols頁面*、您可以檢視有關虛擬磁碟區及其相關儲存容器、傳輸協定端點、繫結和主機的資訊。</block>
+  <block id="6fa75a2879ede33bb8dcbe609ed93225" category="paragraph">瞭解VVols相關工作：</block>
+  <block id="8ee38da65565b437e30df8b4fc2120c6" category="list-text"><block ref="cc3a190077155e9f11e55893a04126b0" category="inline-xref-macro-rx"></block></block>
+  <block id="20a800131c78b90a5f3cfe114f23578f" category="list-text"><block ref="5ded2a046dc5ca86637f3ae24cd70a11" category="inline-xref-macro-rx"></block></block>
+  <block id="427c47678b1253b05de4cc969a1e69a1" category="list-text"><block ref="0438ed7546a9ccca6ea31cb94f48bb41" category="inline-xref-macro-rx"></block></block>
+  <block id="3a711397217e10d79c4f76137db4c3fa" category="list-text"><block ref="9d7a5a13ad72f63838a097b34692bfd2" category="inline-xref-macro-rx"></block></block>
+  <block id="330ab730707379ab7dd6073af2af7a37" category="list-text"><block ref="842b4663dd531fbec8e79946bdde515b" category="inline-xref-macro-rx"></block></block>
+  <block id="1cd4dd4eff6bc90708a6a05c5d116a57" category="section-title">虛擬磁碟區詳細資料</block>
+  <block id="0b286bd72571d699ece37ec34b85f379" category="paragraph">所選叢集的「* VVols *&gt;*虛擬磁碟區*」頁面提供叢集上每個作用中虛擬磁碟區的相關資訊。</block>
+  <block id="fd6bac109d479ec3660fd4daeeded3a1" category="cell">基礎Volume的ID。</block>
+  <block id="72d6eb7733941a274a474f7cc4d97973" category="cell">Snapshot ID</block>
+  <block id="18b99b1c60c785bf6c157da699e2baf7" category="cell">基礎Volume快照的ID。如果虛擬磁碟區不代表快照、則值為零。</block>
+  <block id="d3dfbc11e6d0d6eb61fad9ddc9419720" category="cell">父虛擬Volume ID</block>
+  <block id="710e0498ba48f8e78ac9fad184302721" category="cell">父虛擬Volume的虛擬Volume ID。如果ID全部為零、則虛擬磁碟區是獨立的、沒有父磁碟區的連結。</block>
+  <block id="39284bc15cc3ead1fcde533b6223e5bd" category="cell">虛擬Volume ID</block>
+  <block id="65e7eceda5f7a3a4b8ad5c9dc805102e" category="cell">虛擬Volume的通用唯一識別碼。</block>
+  <block id="e2b1bd7ca517a4f5e67bfcc81c2491e3" category="cell">指派給虛擬磁碟區的名稱。</block>
+  <block id="e299599f8efc86aa0d8d61168d051a1d" category="cell">客體作業系統類型</block>
+  <block id="833df3c835dccbd2d2bea79ad3565e77" category="cell">與虛擬磁碟區相關聯的作業系統。</block>
+  <block id="215d4e81a170071d6cabef7b3ed6eeaa" category="cell">虛擬磁碟區類型：config、Data、Memory、Swap或其他。</block>
+  <block id="bf733d8a933c1601697f364223fc7ecb" category="cell">存取</block>
+  <block id="e1e6fa782f7366bf136403e362b890ce" category="cell">指派給虛擬磁碟區的讀寫權限。</block>
+  <block id="06558d52f35642f1b9b65567cd3d5b73" category="cell">虛擬磁碟區的大小、單位為GB或Gbibytes（GiB）。</block>
+  <block id="a9f20df91ac5dc80fe7936cc907992d7" category="paragraph">Volume目前使用的容量：</block>
+  <block id="0d41440d4801018486cf327b83d69659" category="list-text">綠色=高達80%</block>
+  <block id="300a5093e1cb326b562210f53988afee" category="list-text">黃色=高於80%</block>
+  <block id="5b5079e248a91a6d6c28fb86a4cad548" category="list-text">紅色=高於95%</block>
+  <block id="d4e2713d1b1725a1592f9268589f990d" category="cell">Snapshot</block>
+  <block id="fadf39ce65f04a2f85e97d15194bf3ed" category="cell">關聯的快照數量。選取要連結至快照複本詳細資料的號碼。</block>
+  <block id="b05f9ccd772b396ac1f5a05345a9d4f8" category="cell">最小IOPS</block>
+  <block id="f7b0caeae1eff7aa69f15dab3b3e49f6" category="cell">虛擬磁碟區的最低IOPS QoS設定。</block>
+  <block id="4f5a6f8b41826526724ba294b8e056bd" category="cell">最大IOPS</block>
+  <block id="d73dc4359cc244e2e7c244a8c6985664" category="cell">虛擬磁碟區的IOPS QoS上限設定。</block>
+  <block id="affd4aba1c5f696e972368c9eb698c65" category="cell">暴增IOPS</block>
+  <block id="217e34ceabdf947bd5cb0d6489f80b13" category="cell">虛擬磁碟區的最大突發QoS設定。</block>
+  <block id="861067601d0ef72892cbbea2d51adf87" category="cell">VMW_vmid</block>
+  <block id="d870a57204d71bfa6c8d1ce8e1dadf18" category="cell">在前面加上「VMW_」的欄位中、資訊由VMware定義。如需說明、請參閱VMware文件。</block>
+  <block id="f4483adffae4eeedf190fd70af674b9f" category="cell">虛擬磁碟區建立工作完成的時間。</block>
+  <block id="06df33001c1d7187fdd81ea1f5b277aa" category="cell">行動</block>
+  <block id="7b77c5f549bde888e38f291bc3353184" category="cell">選取垂直下拉式功能表、以取得個別虛擬磁碟區的詳細資料。</block>
+  <block id="4d78dfc9687e2eb88ff42391d71297a1" category="section-title">儲存容器</block>
+  <block id="cbc475cebc9be986cb56b503a92289ca" category="paragraph">在所選叢集的「* VVols *&gt;* Storage Containers*」頁面上、您可以檢視叢集上所有作用中儲存容器的下列資訊。</block>
+  <block id="d33bd5408c2cfbf48ad4e7687b202de3" category="cell">與儲存容器相關聯的帳戶ID。</block>
+  <block id="36358175bed92483c0fb79a0c75cc106" category="cell">儲存容器的名稱。</block>
+  <block id="e2858261023e06f54084b6c009e9032f" category="paragraph">儲存容器的狀態：</block>
+  <block id="a507855536939dbee1cb704ccef400de" category="list-text">作用中：儲存容器正在使用中。</block>
+  <block id="d8cdcbe62a5d6f72101972671eee5810" category="list-text">鎖定：儲存容器已鎖定。</block>
+  <block id="842161645428550f052e20ba15f883a7" category="cell">PE類型</block>
+  <block id="73fff1d086f175a0bb6e0e1930727128" category="cell">表示傳輸協定端點類型（SCSI是Element軟體唯一可用的傳輸協定）。</block>
+  <block id="97b27abcf2cb88ed1f35235ea8ed2c87" category="cell">儲存Container ID</block>
+  <block id="0e871f9546dab517c2a2f2adab43f755" category="cell">虛擬Volume儲存容器的通用唯一識別碼（UUID）。</block>
+  <block id="089e3e1cef632fbf154b2dc3eda6efe6" category="cell">作用中虛擬磁碟區</block>
+  <block id="5c59501afe6edcea3ee36f0e10e88691" category="cell">與儲存容器相關聯的作用中虛擬磁碟區數目。</block>
+  <block id="46e10ef0a7b741f8f10598a068b2ffef" category="section-title">傳輸協定端點</block>
+  <block id="1ca931ef9e3ea754db6638098a0a5a6e" category="paragraph">所選叢集的「* VVols *&gt;*傳輸協定端點*」頁面提供傳輸協定端點資訊、例如主要供應商ID、次要供應商ID和傳輸協定端點ID。</block>
+  <block id="4ea227763d30236ffd0ee9bb74bc63b2" category="cell">主要供應商ID</block>
+  <block id="0a0b13afe93632b8332d02f879fd041e" category="cell">主要傳輸協定端點供應商的ID。</block>
+  <block id="aee0989fce21f5dc81f542f7d01b804c" category="cell">次要供應商ID</block>
+  <block id="a73bedb975fdc5c796f2383cc8c0ef08" category="cell">次要傳輸協定端點供應商的ID。</block>
+  <block id="57463481ab1fc12849a240ee8eddcef0" category="cell">傳輸協定端點ID</block>
+  <block id="d59c0f104b797200877314defac2ef53" category="cell">傳輸協定端點的UUID。</block>
+  <block id="e2362260f18002b3632d7b49f6e71a0c" category="cell">傳輸協定端點狀態</block>
+  <block id="c6eaeb4d2ad625691e41defab07c6b05" category="paragraph">傳輸協定端點的狀態：</block>
+  <block id="311f5a231d659759a307ba82df5ae0b1" category="list-text">作用中：傳輸協定端點正在使用中。</block>
+  <block id="c28f2fbff737247d179e53310813c25c" category="list-text">開始：傳輸協定端點正在啟動。</block>
+  <block id="3bc140f31e1723e9de29afb03dc8f623" category="list-text">容錯移轉：傳輸協定端點已容錯移轉。</block>
+  <block id="9e722aa926bf6b3741abf6ccfb8ce461" category="list-text">保留：保留傳輸協定端點。</block>
+  <block id="6e7eb0d16608bf5ecdab414380ca6996" category="cell">供應商類型</block>
+  <block id="b7b663d9fae8c52e8ea6f0581de3f9af" category="cell">傳輸協定端點供應商的類型：主要或次要。</block>
+  <block id="8e972bb59c678e1603402283900b7907" category="cell">SCSI NAA裝置ID</block>
+  <block id="110dc101ed5bc1feeae78cbef2baf64a" category="cell">NAA IEEE註冊延伸格式之傳輸協定端點的全域唯一SCSI裝置識別碼。</block>
+  <block id="8124579383e90243e4b06323d2b37f8d" category="section-title">主機</block>
+  <block id="f6a9d1a3dd1073389804639061a07438" category="paragraph">所選叢集的「* VVols *&gt;* hosts*」頁面提供有關裝載虛擬磁碟區的VMware ESXi主機的資訊。</block>
+  <block id="c60f17085dd008238072cb1a936f5937" category="cell">主機ID</block>
+  <block id="9db53b5b8761db7ba513bd1ae58e158b" category="cell">託管虛擬磁碟區的ESXi主機UUID、已由叢集得知。</block>
+  <block id="7f6d3619d9855ce68f747dbc829eb7c1" category="cell">綁定</block>
+  <block id="02a73b513780bc249b4cab0c22720dd5" category="cell">ESXi主機所繫結的所有虛擬磁碟區之繫結ID。</block>
+  <block id="f10afd689c1cac981b6ded816060bd12" category="cell">ESX叢集ID</block>
+  <block id="4ab568f98f17ebc43108d86d4160b2dc" category="cell">vSphere主機叢集ID或vCenter Guid。</block>
+  <block id="00d8a6bdff95482621e24aa3d3c2bfea" category="cell">啟動器IQN</block>
+  <block id="5bf82e30143007adb7f5da32c41a39b2" category="cell">虛擬Volume主機的啟動器IQN。</block>
+  <block id="dcd4cd585476687d83cd7e548a29857f" category="cell">《S-傳輸協定端點ID》SolidFire</block>
+  <block id="343e7c07345dadd21afd5d8e348ca649" category="cell">ESXi主機目前可見的傳輸協定端點。</block>
+  <block id="f3fdbc0cbe5fab386d8288b5d2304669" category="paragraph">所選叢集的「* VVols *&gt;* Bindings *」頁面提供有關每個虛擬磁碟區的繫結資訊。</block>
+  <block id="f9a613788268b734e17dd8ef48a124ef" category="cell">頻段ID中的傳輸協定端點</block>
+  <block id="c24f23b60e45bce5cb5e9226c6eb1722" category="cell">傳輸協定端點的SCSI NAA裝置ID。</block>
+  <block id="dd4f1a39d1d2c24a8b982b14f4100778" category="cell">傳輸協定端點類型</block>
+  <block id="0bb31dd412a96cdce88a879dcde1d664" category="cell">VVOL繫結ID</block>
+  <block id="854071550d537458e8ac6ffcda041410" category="cell">虛擬磁碟區的繫結UUID。</block>
+  <block id="71bbddbfd7c142f58ed7732bed676f16" category="cell">VVOL ID</block>
+  <block id="535494700eebba415bc7021933d27d4d" category="cell">虛擬磁碟區的UUID。</block>
+  <block id="e409e374ee273a64a48c40a79ad77af0" category="cell">VVOL次要ID</block>
+  <block id="eac82ed7f866e4f21162ce00c4a89f75" category="cell">虛擬磁碟區的次要ID、即SCSI第二層LUN ID。</block>
+  <block id="c4421ada0b4588952b2a028ee5b33cb5" category="summary">深入瞭SolidFire Active IQ 解中的「虛擬機器」頁面。</block>
+  <block id="76b0fa668c1cd016096eb9bc1bfde44a" category="doc">虛擬機器</block>
+  <block id="6eaa97e1c91dbeb3fb83287355ec0c3e" category="paragraph">從*虛擬機器*頁面（可從所選NetApp HCI 的VMware叢集側邊面板取得）、您可以檢視有關虛擬機器（VM）的CPU和儲存設備相關狀態資訊。</block>
+  <block id="5921ca9469eb8cf1e1a69e2d3b081869" category="admonition">「*虛擬機器*」頁面僅適用於NetApp HCI 一個VMware叢集。</block>
+  <block id="21069985229913cfdaf583d12e439f5c" category="paragraph">深入瞭解篩選及瞭解UI中顯示的VM資料。</block>
+  <block id="12e08d602c4e243c7e7f50806c91254f" category="section-title">檢視虛擬機器詳細資料</block>
+  <block id="8ea1b2897da42a4661881c12f4c2e0d5" category="paragraph">「*虛擬機器*」頁面可從所選叢集的側邊面板取得、提供與叢集相關之每個作用中VM的相關資訊。</block>
+  <block id="d1a4d22bcbd84f65a5e8493bd0648a37" category="paragraph">除了所有Active IQ 的資訊頁面上都有傳統的篩選選項、*虛擬機器*頁面還有快速篩選按鈕、您可以選擇這些按鈕來判斷可用度的常見VM狀態。</block>
+  <block id="3977b1efa79b62267b5296bdda767f96" category="paragraph">資訊列提供下列資料的快速概觀：</block>
+  <block id="8fc013cf555a5949086eb32f3d1c8477" category="list-text">虛擬機器：與儲存叢集相關之VM的數量和各種可用度狀態。</block>
+  <block id="5c5bc2732adae8204719332c2130b4ea" category="list-text">狀態：VM的警告或錯誤數目。</block>
+  <block id="5e9c88f700485ac1b07552c3e63ccbe2" category="list-text">已配置資源：與儲存叢集相關之所有VM的總儲存和記憶體資源。</block>
+  <block id="d3508876f37d1b31f875dbf098f0afbc" category="cell">VM的易記名稱。</block>
+  <block id="72a0d4ba9e9696e40524a737b0a40a96" category="paragraph">VM的可用度狀態：</block>
+  <block id="97a29a8702d4347a4638109bc966c7e4" category="list-text">正常：虛擬機器如預期般回應。</block>
+  <block id="aa564585aff6303d5256f8ca12416040" category="list-text">警告：已報告警告。如需詳細資料、請參閱vSphere。</block>
+  <block id="89fe17c46fb0c264765af552cb486694" category="list-text">重大：已報告重大錯誤。如需詳細資料、請參閱vSphere。</block>
+  <block id="a31073f549db38f57306182118759b62" category="list-text">不明：無法存取VM。</block>
+  <block id="b82a8e736139293b9409cd1434dc167d" category="cell">電源狀態</block>
+  <block id="d3f4078b45535eb61b7c99383b0a98d8" category="cell">指出虛擬機器是開機、關機或暫停。</block>
+  <block id="c94709de99eb3af98a34f2d5cd907353" category="cell">CPU數量</block>
+  <block id="c3df8b475013a604166226ef7b09dca4" category="cell">每個VM的CPU數量。</block>
+  <block id="c3fe2d3b4ec0dacb76463cb9ed25fc92" category="cell">主機記憶體使用量</block>
+  <block id="565f93e89fa876393db6ca773acdef23" category="cell">虛擬機器正在使用的ESXi主機記憶體量。</block>
+  <block id="4e256476ac51957e351fed07dc0272ad" category="cell">CPU使用率</block>
+  <block id="1959b32c5ca38b3b7a535323d7a5d571" category="cell">作用中虛擬CPU在VM中佔可用CPU總數百分比的百分比。</block>
+  <block id="df4b03197e9bafdfacba34fc3ed90a47" category="cell">使用中的VM儲存資源百分比。</block>
+  <block id="88ff6e86b59db304eb74de1543bf4c7b" category="cell">尖峰磁碟延遲</block>
+  <block id="5a529043625752bcfb1e77ad15feedc4" category="cell">偵測到的磁碟延遲上限（毫秒）。</block>
+  <block id="301d574ef42563b03638c8eae19225cb" category="cell">警示</block>
+  <block id="01ca3775ecb2e56e4506e34194e23fe5" category="cell">虛擬機器上觸發的vSphere警示數目。</block>
+  <block id="f3286cd901faaa36af9e24f9ad54bfce" category="summary">深入瞭SolidFire Active IQ 解有關警示的功能。</block>
+  <block id="1e53594c0e7e6a197c8de47c40c9b020" category="paragraph">從* All ClustersView*內的* alert*下拉式功能表、您可以檢視警示記錄、建立及管理警示原則、以及檢視及抑制叢集通知。</block>
+  <block id="1ca444a9fe0fc04865605858b2955061" category="paragraph">瞭解或執行警示相關工作：</block>
+  <block id="749e19e33787f222c5558f95992d6146" category="list-text"><block ref="026463b919e2b7f255cbc10e15521260" category="inline-xref-macro-rx"></block></block>
+  <block id="197f140560b87c4f38c7707190eb0b49" category="list-text"><block ref="9a07defc83e2849042f3ae66d4da1180" category="inline-xref-macro-rx"></block></block>
+  <block id="e792fb9ea032926fe5df94e1c20e2462" category="list-text"><block ref="784aa92f569c8b62b984312e4b5deeeb" category="inline-xref-macro-rx"></block></block>
+  <block id="77be4d234ace206aeb24593c65abb314" category="inline-xref">建立警示原則</block>
+  <block id="de5291d6268e408d277f44c69d28f260" category="list-text"><block ref="2f3f297c95d1ffb05a79d3f0f52122a0" category="inline-xref-macro-rx"></block></block>
+  <block id="c1848a903aa18756d64bb387ffd388bf" category="inline-xref">警示原則類型</block>
+  <block id="ff8c2dbcab077f2f670d310bb03203da" category="list-text"><block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block></block>
+  <block id="d487701d02a2f909987cb5f31875a123" category="list-text"><block ref="9f9ee4ccabbfc6d8162fbe5da3975f1b" category="inline-xref-macro-rx"></block></block>
+  <block id="b52dfeff1522c57d0cbb04e9b4db3a71" category="list-text"><block ref="1f49020b12327ca881fb5ef5d417aedf" category="inline-xref-macro-rx"></block></block>
+  <block id="60225ecfe230da4e63b368a28ff87b31" category="list-text"><block ref="7d7849dc5c7c43be014f0ac3748f9e33" category="inline-xref-macro-rx"></block></block>
+  <block id="b99b15bb41b2c303d6983c859b7c49cc" category="list-text"><block ref="1eb13dbef9fb5d8b9081762329341589" category="inline-xref-macro-rx"></block></block>
+  <block id="e167c37c8ab7ac2a7d24dc73a29dce4d" category="list-text"><block ref="c326176da9704a7f9ba3ca9e1967e88f" category="inline-xref-macro-rx"></block></block>
+  <block id="0408339d29e4cd1035417f054ba4ae08" category="list-text"><block ref="67b8c77b86e9004171339b5f37f888f3" category="inline-xref-macro-rx"></block></block>
+  <block id="cb4e8f19506e9b313821a3e84d688b53" category="section-title">檢視警示記錄</block>
+  <block id="60d8aecad6900d12d7327141d147a77d" category="paragraph">您可以檢視未解析或已解析警示的歷程記錄。</block>
+  <block id="7cd812a528b07a8918d2b975a6a6d0fe" category="list-text">選取*警示*&gt;*歷程記錄*。</block>
+  <block id="faa9f13745b59f33ebd7ea8e2693e988" category="list-text">選取*未解析*或*已解析*索引標籤、即可檢視叢集警示的歷程記錄。</block>
+  <block id="3839bb929381511714006ecdb55cf171" category="list-text">（選用）選取 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示、將資料匯出至CSV檔案。</block>
+  <block id="26472a7947ab4ee6d5f15555aafcc099" category="section-title">警示記錄詳細資料</block>
+  <block id="d2e6c726b1e7dedcfe113369b7e61c79" category="paragraph">All ClustersView中警示下拉式功能表中的*歷程記錄*頁面最多可顯示10000個警示歷程記錄項目、包括過去30天內解決的所有未解決警示和警示。</block>
+  <block id="f1dfaae4ccc8af0ee8d655854ad48059" category="paragraph">下列清單說明您可以使用的詳細資料：</block>
+  <block id="d52ec35b5e512df6a2ae980b72783d2a" category="cell">警示ID</block>
+  <block id="2c88570a62053ea1ada6f335c6ec0be3" category="cell">每個警示的唯一ID。</block>
+  <block id="073b1bbd5b71098e61f7c3b8240a29bf" category="cell">已觸發</block>
+  <block id="1f651dfd3ac360a180bc507f91626bf4" category="cell">上次通知</block>
+  <block id="a6a8ac15fb17b26b85c153114a46008e" category="cell">最近一封警示電子郵件的傳送時間。</block>
+  <block id="f691f042a559b1c1a4f89826c6f75760" category="cell">已解決</block>
+  <block id="63dcd33ad63a089418e95278513a75db" category="cell">顯示警示原因是否已解決。</block>
+  <block id="4010dd55973e12f80e403905ecf91009" category="cell">解決時間</block>
+  <block id="f3ee8ca17a0ec6678a30860ca8dd70ab" category="cell">解決問題的時間。</block>
+  <block id="51359e8b51c63b87d50cb1bab73380e2" category="cell">原則</block>
+  <block id="577b678890091d6f366d78b6250ce59e" category="cell">這是使用者定義的警示原則名稱。</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="cell">嚴重性</block>
+  <block id="a26838e4a15587fe3dce631969ac877d" category="cell">建立警示原則時指派的嚴重性。</block>
+  <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">目的地</block>
+  <block id="20c773f6d5591f313c733f43d205c3dc" category="cell">選取以接收警示電子郵件的電子郵件地址。</block>
+  <block id="1c76cbfe21c6f44c1d1e59d54f3e4420" category="cell">公司</block>
+  <block id="12d637dd473b00b6a6e6b955fb51288a" category="cell">與警示相關的客戶名稱。</block>
+  <block id="249694a485fc5d3289c38986b4f8e887" category="cell">叢集</block>
+  <block id="395a2827aacec94ff2183ea6ed2523ab" category="cell">顯示新增警示原則的叢集名稱。</block>
+  <block id="f698f67f5666aff10729d8a1cb1c14d2" category="cell">觸發</block>
+  <block id="601196b963688a67f39766583574efdb" category="cell">觸發警示的使用者定義設定。</block>
+  <block id="4d1c0d628f7187afcd0dbf03553e9365" category="section-title">檢視警示原則</block>
+  <block id="36056ade5aa16b4101c0f4cf7927c138" category="paragraph">「*所有叢集檢視*」中「*警示*」下拉式功能表中的「*原則*」頁面會顯示所有叢集的下列原則資訊。</block>
+  <block id="002f7378a5fcfc2f66cfea851a7fd5f4" category="cell">原則名稱</block>
+  <block id="ae1d52073742c822d33f127442660e95" category="cell">使用者定義的警示原則名稱。</block>
+  <block id="370ed24b10bc15a8ba6506396950587d" category="cell">警示原則中定義的電子郵件地址。</block>
+  <block id="1ca28eab141d80f8e597fbb7fafd836a" category="cell">警示原則中指派的嚴重性。</block>
+  <block id="1631c4e389478fa051f979b99593a100" category="cell">警示原則中定義的每個叢集的數目和名稱。選取資訊圖示以顯示相關的叢集。</block>
+  <block id="9e2941b3c81256fac10392aaca4ccfde" category="cell">條件</block>
+  <block id="0d29c8ddb5ed5a65d5d44730b42b1ba7" category="cell">使用者定義的警示觸發時間設定。</block>
+  <block id="9c075b32b766a4c54b2f84b06d185cf5" category="cell">抑制類型</block>
+  <block id="dd0969e75953f83803820b452a15e493" category="paragraph">決定要抑制哪些警示和事件。可以使用下列類型：</block>
+  <block id="bd9a031408fbeb9484be00dbf0d80b7c" category="list-text">*完整*：叢集的所有警示會在指定的期間內受到抑制。不會產生支援案例或電子郵件警示。</block>
+  <block id="c1d64baa0dca6d002e0cad0fa6778caa" category="list-text">*升級*：非關鍵叢集警示會在指定的期間內受到抑制。關鍵警示仍會產生支援案例和電子郵件。</block>
+  <block id="d4ba4976bc5891b1d0de887398687191" category="list-text">*運算*：VMware在運算節點上觸發的警示會被抑制。</block>
+  <block id="af1280c2d5fe28d0f1a25815436d39dc" category="list-text">*節點硬體*：與節點維護相關的警示會被抑制。例如、交換磁碟機或使節點離線。</block>
+  <block id="f8a0872b790e83f24d55f56b38533e0b" category="list-text">*磁碟機*：與磁碟機健全狀況相關的警示會被抑制。</block>
+  <block id="12466c75ab546c4ddbc461e4de8e07db" category="list-text">*網路*：抑制與網路組態和健全狀況相關的警示。</block>
+  <block id="0db1cce788620df7a4c7d689ff100e01" category="list-text">*電源*：電源備援警示會被抑制。它並不會抑制當電力完全中斷時會發生的_node離 線_警示。</block>
+  <block id="8afa45cebae7b4d6b5e5612895162c7f" category="cell">選取垂直下拉式功能表、以編輯和刪除所選原則的選項。</block>
+  <block id="49d358016a7837e9dc8880930fffab76" category="paragraph">您可以建立警示原則、以監控Active IQ 來自*《所有叢集檢視》*的資訊（英文）。警示原則可讓您在整個安裝中、透過一個或多個叢集收到狀態或效能事件的通知、以便在更嚴重的事件發生之前或在回應之前採取行動。</block>
+  <block id="36ed984fd18203c62c9a269a95420a4e" category="list-text">選取*警示*&gt;*原則*。</block>
+  <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">選取*建立原則*。</block>
+  <block id="7ed81deb3a22d8d97542963bd55c0baf" category="list-text">從*原則類型*清單中選取警示類型。請參閱 <block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block>。</block>
+  <block id="47a93da6ad750dd8d2fbdd1434dd8cfe" category="admonition">視所選的原則類型而定、「*建立原則*」對話方塊中會有其他原則專屬欄位。</block>
+  <block id="c9bf1131529ed582c8581988656d57ca" category="list-text">輸入新警示原則的名稱。</block>
+  <block id="dc7e09d16b45c58a84f6b531c3e592f2" category="admonition">警示原則名稱應說明警示建立的條件。描述性標題有助於輕鬆識別警示。警示原則名稱會顯示為系統其他位置的參考資料。</block>
+  <block id="e3963604a6c3ccdcf69fd4fae2ff9998" category="list-text">選取嚴重性等級。</block>
+  <block id="7f54b014549bb2dc1fa87c6e1041dab3" category="admonition">警示原則嚴重性等級以色彩編碼、可從*警示*&gt;*歷程記錄頁面*輕鬆篩選。</block>
+  <block id="5f322a0988592b8fe7215e4524abfdd4" category="list-text">從*可支援的類型*中選取一種類型、以判斷警示原則的抑制類型。您可以選取多種類型。</block>
+  <block id="8cc8343a4ab71756d32efb387c1f4cbc" category="paragraph">確認關聯是否合理。例如、您已針對網路警示原則選取*網路抑制*。</block>
+  <block id="6635a5bdefcfe9dd1a1de767937c8e2e" category="list-text">選取要納入原則的一或多個叢集。</block>
+  <block id="0575fe3e5651eb2b0bcb60f573f3d8a4" category="admonition">當您在建立原則之後、將新叢集新增至安裝時、叢集不會自動新增至現有的警示原則。您必須編輯現有的警示原則、然後選取要與原則關聯的新叢集。</block>
+  <block id="5c0369121c1a170a2041d2524b014808" category="list-text">輸入一或多個要傳送警示通知的電子郵件地址。如果您要輸入多個地址、則必須使用一個逗號來分隔每個地址。</block>
+  <block id="d81a5e7fc584a49f379e1a5d68305fdb" category="list-text">選取*儲存警示原則*。</block>
+  <block id="9ad0c6ac3768fba8e3b8fe5e2722e8b9" category="paragraph">您可以根據*「建立原則*」對話方塊中所列的可用原則類型、從*「警示*」&gt;*「原則*」建立警示原則。</block>
+  <block id="41cc50d505c2066168512ac38ce87ff4" category="paragraph">可用的原則警示包括下列類型：</block>
+  <block id="cc34a7c064d7dad286c9d460e22937f2" category="cell">原則類型</block>
+  <block id="73f836eab53514d2eb06603ade47f4b4" category="cell">叢集故障</block>
+  <block id="cf02d39b7c84b8a321af8ee61ca82913" category="cell">在發生特定類型或任何類型的叢集故障時傳送通知。</block>
+  <block id="a4ecfc70574394990cf17bd83df499f7" category="cell">活動</block>
+  <block id="bdb0919076c685cebdd1a5e15a870e2b" category="cell">在發生特定事件類型時傳送通知。</block>
+  <block id="005967533beb354ae8eaf2e57784276f" category="cell">故障磁碟機</block>
+  <block id="f7326701aa75a228ec2efa3454075bd4" category="cell">在磁碟機故障時傳送通知。</block>
+  <block id="f5f2ca5e9834f3b119e9d8a791c3737d" category="cell">可用磁碟機</block>
+  <block id="6c5fb30a6a09a237b6f3f828b60d2176" category="cell">當磁碟機在_可用_狀態時傳送通知。</block>
+  <block id="23ef2ef8b8aef7070cbca6e34f8794c3" category="cell">叢集使用率</block>
+  <block id="e6b6788ca0a8d60abfecc994c52c0472" category="cell">當使用的叢集容量和效能超過指定百分比時、會傳送通知。</block>
+  <block id="6fd3918e511dc78559a4bd85edd8425e" category="cell">可用空間</block>
+  <block id="2b6d944db432daa8655ed6507414cb0d" category="cell">當可用叢集空間低於指定百分比時、會傳送通知。</block>
+  <block id="164ad6bd1a9ceba54f457dfe0ce85008" category="cell">可配置空間</block>
+  <block id="596ec0bf4bea008d7bd36761f1e0cae3" category="cell">當資源配置式叢集空間低於指定百分比時、會傳送通知。</block>
+  <block id="4dab6622470bb0314e94cb50bbe0cc21" category="cell">收集器未報告</block>
+  <block id="d4172f749d3caf851de49361bf395028" category="cell">在管理節點上執行的支援Active IQ 功能收集器無法在Active IQ 指定的期間內將資料傳送至支援中心時、會傳送通知。</block>
+  <block id="12d4e8c195d420a94eb66a6817679969" category="cell">磁碟機耗損</block>
+  <block id="93cd8a60fc9b91519dd8d2d115514856" category="cell">當叢集中的磁碟機有低於指定的耗損百分比或保留空間剩餘時、便會傳送通知。</block>
+  <block id="c5b0aacb61d57bd9ceefa1b1c235fbfb" category="cell">iSCSI工作階段</block>
+  <block id="a7c4949238afd11229eae65ffc9f85f1" category="cell">當作用中iSCSI工作階段的數目大於指定的值時、會傳送通知。</block>
+  <block id="a810f7ffd8b3ba7fc2959a7fd14c6ec1" category="cell">機箱恢復能力</block>
+  <block id="77842a19e3e2ead223bcccb4cd8836c1" category="cell">當叢集的已用空間大於使用者指定的百分比時、會傳送通知。您應該選取一個百分比、以便在達到叢集恢復臨界值之前及早通知。達到此臨界值之後、叢集便無法再從機箱層級的故障中自動修復。</block>
+  <block id="779eeaf551ed09558987b7ac98255734" category="cell">VMware警報</block>
+  <block id="c9184508136db9cf47dc30aa2804ded2" category="cell">當VMware警示觸發並回報Active IQ 至VMware時、會傳送通知。</block>
+  <block id="702a419d8a0eab07e38ee09f58a29bbe" category="cell">自訂保護網域恢復能力</block>
+  <block id="9fae5454809c4b11e59aed2ffb0787ed" category="cell">當使用空間增加到超過指定的自訂保護網域恢復臨界值百分比時、系統會傳送通知。如果此百分比達到100、表示儲存叢集在自訂保護網域故障發生後、沒有足夠的可用容量可自行修復。</block>
+  <block id="cc775eb9d20d6f35d83ef2b8af721a64" category="cell">節點核心/損毀傾印檔案</block>
+  <block id="d683262635ad25ef7bdb8b7c2f9498c5" category="cell">當服務變得無回應且必須重新啟動時、系統會建立核心檔案或損毀傾印檔案、並傳送通知。這不是正常作業期間的預期行為。</block>
+  <block id="98728fc25cfd75f44fa15f11f44858da" category="section-title">編輯警示原則</block>
+  <block id="3d582a5f6d9b414dcf61211c9fc2cc84" category="paragraph">您可以編輯警示原則、從原則中新增或移除叢集、或變更其他原則設定。</block>
+  <block id="ee919763c36013900a2c9787485981be" category="list-text">選擇功能表以取得更多選項*「Actions」（動作）*。</block>
+  <block id="93d95d0b33cb762ab39f0eef1def1176" category="list-text">選取*編輯原則*。</block>
+  <block id="ae6ac4f0348221d6e2dc3b5f1b7dd400" category="admonition">原則類型和類型特定的監控條件無法編輯。</block>
+  <block id="777162ac2a0421c409dfeed5792eb54e" category="list-text">（選用）輸入新警示原則的修訂名稱。</block>
+  <block id="fd63d1ed56029626e0f9d657db693509" category="list-text">（選用）選擇不同的嚴重性等級。</block>
+  <block id="2058c58527480be7dbf445ba4ff7b9d1" category="admonition">警示原則嚴重性等級以色彩編碼、可從「警示」&gt;「歷程記錄」頁面輕鬆篩選。</block>
+  <block id="ad3295ccf1dd6e15695cd14006eded89" category="list-text">從*可支援的類型*中選取一種類型、以判斷警示原則何時處於作用中狀態的抑制類型。您可以選取多種類型。</block>
+  <block id="8c7c703b4fb498f75a0c96aaafe3e43a" category="list-text">（選用）選取或移除與原則的叢集關聯。</block>
+  <block id="f629b7260b3f2820d5407e17c2d681c2" category="admonition">當您在建立原則之後、將新叢集新增至安裝時、叢集不會自動新增至現有的警示原則。您必須選取要與原則關聯的新叢集。</block>
+  <block id="836293d3e4afc5b7fcd956169c3f6092" category="list-text">（選用）修改一或多個要傳送警示通知的電子郵件地址。如果您要輸入多個地址、則必須使用一個逗號來分隔每個地址。</block>
+  <block id="ed8b08154b9b884ff6263372e56da866" category="section-title">刪除警示原則</block>
+  <block id="47a34f68c1b78fe9d57718cb00b783e0" category="paragraph">刪除警示原則會將其從系統中永久移除。不再傳送該原則的電子郵件通知、也會移除與原則相關的叢集。</block>
+  <block id="df0aff143ffb445b070ed2ad24cf9a54" category="list-text">在「*動作*」下、選取功能表以取得更多選項。</block>
+  <block id="e5b870dbe59cf34663a4cb178ce28225" category="list-text">選取*刪除原則*。</block>
+  <block id="ad5a54b96d86e967dc2a014c681f9377" category="list-text">確認行動。</block>
+  <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">原則會從系統中永久移除。</block>
+  <block id="685a82571a4b315892d300d3410d13b9" category="section-title">檢視抑制的叢集</block>
+  <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">在「*所有叢集檢視*」*內*「警示*」下拉式功能表的「*受支援的叢集*」頁面上、您可以檢視已抑制警示通知的叢集清單。</block>
+  <block id="d8d9aa68c453cb9b41b4de4fced325c7" category="paragraph">NetApp支援或客戶可在執行維護時、抑制叢集的警示通知。如果使用升級抑制功能來抑制叢集的通知、則不會傳送在升級期間發生的一般警示。此外、也有一個完整警示抑制選項、可在指定的期間內停止叢集的警示通知。您可以在「*警示*」功能表的「*歷程記錄*」頁面上、檢視任何在通知被抑制時未傳送的電子郵件警示。受抑制的通知會在定義的持續時間過後自動恢復。</block>
+  <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">下列資訊可在*受支援的叢集*頁面上找到。</block>
+  <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">指派給叢集的公司名稱。</block>
+  <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">叢集ID</block>
+  <block id="ede2b30206235e476ba08b09618f897f" category="cell">建立叢集時指派的叢集編號。</block>
+  <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="cell">叢集名稱</block>
+  <block id="e3d5f2a7512ede9e52a01c31493bfb81" category="cell">指派給叢集的名稱。</block>
+  <block id="2bbc845892f400626baab5af687527c5" category="cell">開始時間</block>
+  <block id="4820b9ef9bd7442acc6ccdf08f9614d3" category="cell">啟動抑制通知的確切時間。</block>
+  <block id="c91a577b72313356fad611c55f43c10f" category="cell">結束時間</block>
+  <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">通知抑制排定結束的確切時間</block>
+  <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">選取選項以隱藏或恢復叢集的通知。</block>
+  <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">隱藏叢集通知</block>
+  <block id="9858acb2dd14a30e26cf805c6de0730a" category="paragraph">您可以針對單一叢集或多個叢集、隱藏叢集層級的警示通知。</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項：</block>
+  <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">從*儀表板*總覽中、選取您要隱藏之叢集的「動作」功能表。</block>
+  <block id="36dbb4ac73c2a1146dafa537aa33167b" category="list-text">從*警示*&gt;*叢集抑制*選取*抑制叢集*。</block>
+  <block id="86f3f33990d194ee217c1ba5e0cd6501" category="list-text">在*抑制叢集警示*對話方塊中、執行下列動作：</block>
+  <block id="3faf81240a474d1bab3caae427a0b972" category="list-text">如果您從「*抑制叢集*」頁面選取「*抑制叢集*」按鈕、請選取叢集。</block>
+  <block id="d9eec58efcbfdf3d4c1babd111ed996c" category="inline-xref">深入瞭解抑制類型</block>
+  <block id="cb886f47c22a31667b6be5251d178c52" category="list-text">選取警示抑制類型為*完整*、*升級*、*運算*、*節點硬體*、*磁碟機*、 *網路*或*電源*。 <block ref="a879a530d2e9cfbfff346e782418a668" category="inline-xref-macro-rx"></block>。</block>
+  <block id="dbb77a21634d63a653c797feb9464c44" category="admonition">叢集可以有多種抑制類型、但無法共用抑制類型。例如、叢集可以有*完整*、*運算*和*磁碟機*抑制、但不能有兩個*完整*抑制。當叢集上已存在抑制功能時、它會呈現灰色。若要取代現有的抑制、請選取*置換現有的*、然後選取新的抑制類型。</block>
+  <block id="d2f9ee75eef16569d25256f62c3285af" category="list-text">選取一般持續時間、或輸入應抑制通知的自訂結束日期和時間。</block>
+  <block id="399e38cad3fefa8ffc7773b5e82ba0a4" category="list-text">選取* Suppress *。</block>
+  <block id="55c71a545e88a736b0fd984ef1cf9011" category="admonition">此動作也會禁止向NetApp支援部門發出特定或所有通知。在叢集抑制生效之後、NetApp支援或任何有權檢視叢集的使用者都可以更新抑制狀態。</block>
+  <block id="a443139ca208c123b09b1ef2ea201c2a" category="section-title">結束叢集的叢集抑制</block>
+  <block id="af4d6c3c349c26acb6899c265fcdd80b" category="paragraph">您可以在使用「抑制叢集」功能所套用的叢集上結束叢集警示抑制。這可讓叢集恢復警示報告的正常狀態。</block>
+  <block id="ec6bcf74434b801a7cfe579b722e1b4c" category="list-text">從*儀表板*總覽或*警示*&gt;*叢集抑制*、針對您想要恢復正常警示報告的單一或多個叢集進行終止抑制：</block>
+  <block id="54337ee0f200dfcaa388f569168f76f4" category="list-text">對於單一叢集、請選取叢集的「動作」功能表、然後選取*「結束抑制」*。</block>
+  <block id="9ef78003c570ffd4cf0f0340af7c6c32" category="list-text">對於多個叢集、請選取叢集、然後選取*結束選取的抑制*。</block>
+  <block id="ccc56a6622f5dccc8b39bf717c5273e9" category="section-title">警示通知電子郵件</block>
+  <block id="c06a2fcebc732d180073389e143e156a" category="paragraph">訂閱者若收到系統上觸發的每個警示、將會收到不同的狀態電子郵件。Active IQ與警示相關的狀態電子郵件有三種類型：</block>
+  <block id="bcbb59ba38b8d8a53386ea9e5e619fa2" category="cell">新警示電子郵件</block>
+  <block id="df4912f6cebf8a31418b4aeb4d73f330" category="cell">這類電子郵件會在觸發警示時傳送。</block>
+  <block id="ce547e1ced608d92b9c86ba4168ed5b6" category="cell">提醒警示電子郵件</block>
+  <block id="1b47a3d81aae84e37a71064a2903cd7c" category="cell">只要警示保持作用中、這類電子郵件每24小時會傳送一次。</block>
+  <block id="044afe12f06c3c458fc6291a79d418a8" category="cell">警示已解決電子郵件</block>
+  <block id="3829177bd670988e19a56851d1a4ea71" category="cell">此類電子郵件會在問題解決時傳送。</block>
+  <block id="677e016c7eaf3331ccd1c804e864af59" category="inline-xref">建立警示原則</block>
+  <block id="c22e90ac52174362bd45e5b5612be3f2" category="paragraph">建立警示原則之後、如果產生此原則的新警示、系統會將電子郵件傳送至指定的電子郵件地址（請參閱 <block ref="d3622ec23eed744fc7f8438a4503d22d" category="inline-xref-macro-rx"></block>）。</block>
+  <block id="5a369f3dd03e3e56754791b4f8ac41b7" category="paragraph">根據報告的錯誤類型、警示電子郵件主旨行使用下列其中一種格式：</block>
+  <block id="7aba862ba08d2a1ba46ee1358d3b6b84" category="list-text">未解決的叢集故障：[叢集名稱]（[sity]）上的「叢集故障代碼」故障</block>
+  <block id="611ea2c666b1b177eaf06c99c48c6bff" category="list-text">已解決叢集故障：「Resolved：[cluster fault code] fault on [cluster name]（已解決：[叢集故障代碼]故障、位於[cluster name]（[sity]））」</block>
+  <block id="02f29ba56a590349572ebac9b1a83e08" category="list-text">未解決的警示：針對[叢集名稱]（[sity]）發出「[原則名稱]警示」</block>
+  <block id="a5bfb2935db6ff4645be98f354d7b7d8" category="list-text">已解決警示故障：「Resolved：[policy name] alert on [cluster name]（已解決：[原則名稱]警示、位於[叢集名稱]（[嚴重性]））」</block>
+  <block id="988e4fecbbb516a07ee027b7174a31c3" category="inline-image-macro">電子郵件範例</block>
+  <block id="39144423b896be1779d0593a1a694501" category="paragraph">通知電子郵件的內容類似於下列範例：<block ref="eaf8f47e3bf444c8f0ead8244ee8b427" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a6cd03fe10bc06624e6ac2604e9c8a96" category="summary">深入瞭SolidFire Active IQ 解所選叢集的報告選項。</block>
+  <block id="f62641b62c4f03be210cc98c4582f9b5" category="doc">所選叢集的報告選項</block>
+  <block id="e94f3787d75c331b2b5bfc84e1b618ea" category="paragraph">深入瞭解側邊面板中的「*報告*」下拉式功能表：</block>
+  <block id="e4cc71b4823b76c224a383262dc80aca" category="list-text"><block ref="7a9ac211092ddba1abc61bd090372f98" category="inline-xref-macro-rx"></block></block>
+  <block id="734eabe2addee5372e15b9c34555e5e0" category="list-text"><block ref="e703d8bc1423ab84438011151be894fa" category="inline-xref-macro-rx"></block></block>
+  <block id="5006859779c56a21edef19812da1ff66" category="list-text"><block ref="4066a512f7263c8cb8f08426d6cd1e53" category="inline-xref-macro-rx"></block></block>
+  <block id="6aad306ead558153abf0bbcd2c1c5786" category="list-text"><block ref="6dba2954762b3236d5a97f1dc92e8ec2" category="inline-xref-macro-rx"></block></block>
+  <block id="4afc0e02fe14d9f5780c02d80050747b" category="list-text"><block ref="779f08b1a90156e2c067eb073fcd3c37" category="inline-xref-macro-rx"></block></block>
+  <block id="4e55dab9a83f8ddfa70cb1e83169ce6e" category="list-text"><block ref="f1136520b649acd8432083736a1e7fff" category="inline-xref-macro-rx"></block></block>
+  <block id="a86610dccf7042b91145bd4dae9baacf" category="list-text"><block ref="646007c2405bb3de9e50295a0edb4bee" category="inline-xref-macro-rx"></block></block>
+  <block id="7f9f37cce764b64a678842637cfe4c8d" category="list-text"><block ref="d56104a92d4f7885d0b97dbdb402615e" category="inline-xref-macro-rx"></block></block>
+  <block id="204a0da377ece3169da52085421c35f5" category="list-text"><block ref="43819317763ad97984c6e96d81bcda86" category="inline-xref-macro-rx"></block></block>
+  <block id="1be941d7d5eb78d5646de8f4a72806b1" category="paragraph">在所選叢集*報告*下拉式功能表的*容量*頁面上、您可以檢視已配置至磁碟區的整體叢集空間詳細資料。容量資訊列提供叢集區塊和中繼資料儲存容量的目前狀態和預測。對應的圖表提供其他方法來分析叢集資料。</block>
+  <block id="ba8a383b077603243b768d827b59e74a" category="inline-link">Element軟體文件</block>
+  <block id="831f55c4ebf86fabbfe65b1aeab3c0f3" category="admonition">如需嚴重性層級和叢集完整度的詳細資訊、請參閱<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>。</block>
+  <block id="c459b463dfed796552b661a2acf1e01f" category="paragraph">下列說明詳細說明所選叢集上的區塊容量、中繼資料容量和已配置空間。</block>
+  <block id="076d5628bbb2b624feaac7958963d6a4" category="cell">區塊容量</block>
+  <block id="89c1265be62d3ba835a3d963db5956b0" category="cell">預測</block>
+  <block id="17e6ea7a0e6971e0d6e596fc425fbec2" category="cell">叢集區塊目前使用的容量。</block>
+  <block id="e681a3b45989b468533c4b90ee960bf9" category="cell">不適用</block>
+  <block id="4b2d2237bc8199363bef41f4b1592517" category="cell">警告臨界值</block>
+  <block id="7601cc71a96b4faa88eb43de3539533b" category="cell">目前的警告臨界值。</block>
+  <block id="a5bd959ea49e844aa528a035bdb23f14" category="cell">預測何時會達到警告臨界值。</block>
+  <block id="628d111a70d50f55a9f54b54bd8cdd72" category="cell">錯誤臨界值</block>
+  <block id="73a61e44e00389e04f5610578bcff031" category="cell">目前的錯誤臨界值。</block>
+  <block id="ded88eb65d9531a6143ef523ca37fb07" category="cell">預測何時會達到錯誤臨界值。</block>
+  <block id="207e174801113bba5afa048ccd3450bf" category="cell">總容量</block>
+  <block id="d12b42b3ce760c17b2733642a5341fde" category="cell">區塊的總容量。</block>
+  <block id="3955c979ae9ca17a5ac950cd90138b9d" category="cell">預測何時會達到臨界臨界值。</block>
+  <block id="c8c59626a85748cf1d7f517c25e57f01" category="cell">目前狀態</block>
+  <block id="79d98ffc87383da715b1862ccf672c01" category="cell">區塊的目前狀態。</block>
+  <block id="b261de40074ce75dce8bdd7aafc125b9" category="cell">如需嚴重性層級的詳細資訊、請參閱<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>。</block>
+  <block id="0d5bfbbc986ee0b2bb79df34b8858ac2" category="cell">中繼資料容量</block>
+  <block id="dda11758730c5f4d678197e0924f16eb" category="paragraph">用於此叢集的中繼資料叢集容量。</block>
+  <block id="5eed5bb7cb73fc53544a8c4cbe9b3053" category="paragraph">此叢集的可用中繼資料容量總計、以及臨界臨界臨界臨界臨界值預測。</block>
+  <block id="697ad46a46ba9a90691a921c684a573d" category="paragraph">此叢集中繼資料容量的目前狀態。</block>
+  <block id="045cbd8c6696c541fba552dc79d3bc0a" category="cell">已配置空間</block>
+  <block id="302aeda7ef07ebb46eb0a19b956ad5c5" category="cell">已配置空間</block>
+  <block id="efc7ef46ab403a2e755cbe40a44c3c06" category="paragraph">叢集上目前已配置的空間量。</block>
+  <block id="5f7c362dddb90171bb6047102783e583" category="cell">已配置空間上限</block>
+  <block id="21213f79378c09d19e1963fc195c8370" category="paragraph">叢集上可配置的最大空間。</block>
+  <block id="a6c7e85d51ae3b98197ceb3eafa3686a" category="section-title">效率</block>
+  <block id="88957c86cad58e39839a568865a785a1" category="paragraph">在所選叢集*報告*下拉式功能表的*效率*頁面上、當您將滑鼠指標移到圖表上的資料點上時、可以檢視叢集上的精簡配置、重複資料刪除和壓縮等詳細資料。</block>
+  <block id="1150fe2eef0b4c8dfd7fb4dc9f0d100d" category="admonition">所有的組合效率都是透過簡單地乘以所報告的係數值來計算。</block>
+  <block id="e53d4571afb5cd0d6de7605c1f98049b" category="paragraph">下列說明詳細說明所選叢集的效率計算方法。</block>
+  <block id="e0169ed836204b619a902e01e39666d0" category="cell">整體效率</block>
+  <block id="7da851bd0d4261b0aa7db00548d738e5" category="cell">精簡配置、重複資料刪除和壓縮的整體效率倍增。這些計算並未考慮系統內建的雙螺旋曲線功能。</block>
+  <block id="aa967c4d99e6345dc0be8194ede0b40c" category="cell">重複資料刪除與壓縮</block>
+  <block id="4b6a49908e976ffc2beabf09d5096d1c" category="cell">使用重複資料刪除與壓縮技術所節省空間的綜合效應。</block>
+  <block id="a65c22e6af9f696dc25755536ae95d1c" category="cell">精簡配置</block>
+  <block id="e34d5b17dacd5244fff97855e8bf8ae1" category="cell">使用此功能所節省的空間量。此數字反映為叢集分配的容量與實際儲存的資料量之間的差異。</block>
+  <block id="83f45cad5e6f535ff10e564a526baad0" category="cell">重複資料刪除</block>
+  <block id="e8a4df045c15ab836e136fe8c79e05e7" category="cell">不儲存叢集中重複資料所儲存空間量的比率倍增係數。</block>
+  <block id="82af841589057aa8922b1ac3bb4a28a4" category="cell">壓縮</block>
+  <block id="f1f189e77e9adb961b6f46a1b6391503" category="cell">資料壓縮對叢集中儲存資料的影響。不同的資料類型會以不同的速率壓縮。例如、文字資料和大多數文件都能輕鬆壓縮至較小的空間、但視訊和圖形影像通常不會壓縮。</block>
+  <block id="9446a98ad14416153cc4d45ab8b531bf" category="section-title">效能</block>
+  <block id="c57c8fec3cce16f2bb8fbc04182cf1da" category="paragraph">在所選叢集*報告*下拉式功能表的*效能*頁面上、您可以選取類別並根據時間段進行篩選、以檢視IOPS使用量、處理量及叢集使用率的詳細資料。</block>
+  <block id="2365f9d6614b9f34f41e33f1f46329b2" category="section-title">錯誤記錄</block>
+  <block id="34dca4cae1eb92f7ac0cc3fed62671e8" category="paragraph">在所選叢集之「*報告*」下拉式功能表的「*錯誤記錄*」頁面上、您可以檢視叢集報告的未解決或已解決錯誤的相關資訊。此資訊可篩選並匯出至以逗號分隔的值（CSV）檔案。如需嚴重性層級的詳細資訊、請參閱<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>。</block>
+  <block id="95c682d54021d66b0bb75a594cd6cd25" category="paragraph">系統會針對選取的叢集報告下列資訊。</block>
+  <block id="49c22828420491176562be75f22a3f05" category="cell">叢集故障的ID。</block>
+  <block id="44749712dbec183e983dcd78a7736c41" category="cell">日期</block>
+  <block id="5258bb9dfaa90fedeee1a30e68500a68" category="cell">記錄故障的日期和時間。</block>
+  <block id="103ba93432c73d6b7d6459e932afe78c" category="cell">這可能是警告、錯誤、關鍵或最佳實務做法。</block>
+  <block id="361ce9d3ced7d6d02a30fd630ac2500f" category="cell">這可以是節點、磁碟機、叢集、服務或磁碟區。</block>
+  <block id="d0b2c8fc3bcc6e20157cff17ef57800c" category="cell">此故障所指節點的節點ID。包括用於節點和磁碟機故障、否則設為-（破折號）。</block>
+  <block id="b42e7e9f43276548d600d26ad21cd252" category="cell">節點名稱</block>
+  <block id="e2eb85d11965bfb80a5c2cebe05d9c82" category="cell">此故障所指磁碟機的磁碟機ID。包括磁碟機故障、否則設為-（破折號）。</block>
+  <block id="367fe55a2e2220b8cd777603b624e489" category="cell">顯示錯誤原因是否已解決。</block>
+  <block id="63b31f4ed4d7663eb7eb91b8631e004f" category="cell">顯示解決問題的時間。</block>
+  <block id="6e51a1e3e56e177165ef898fcc87c854" category="cell">錯誤代碼</block>
+  <block id="6fa39b864d7c75955b6815cda59e5e38" category="cell">說明代碼、指出造成故障的原因。</block>
+  <block id="3ec365dd533ddb7ef3d1c111186ce872" category="cell">詳細資料</block>
+  <block id="b3d26412e5bd7f458a180d44450aaef7" category="cell">故障說明及其他詳細資料。</block>
+  <block id="87f9f735a1d36793ceaecd4e47124b63" category="section-title">活動</block>
+  <block id="3e7300982fd04a6b96ab485ce1439998" category="paragraph">在所選叢集*報告*下拉式功能表的*事件*頁面上、您可以檢視叢集上發生的重要事件相關資訊。此資訊可篩選並匯出至CSV檔案。</block>
+  <block id="1be7f4094822039b4634c93c23dd7efb" category="cell">事件ID</block>
+  <block id="152d2891395833d77c6475036e42b690" category="cell">與每個事件相關的唯一ID。</block>
+  <block id="565a343ef221845e92de20cbe1e7e1f1" category="cell">活動時間</block>
+  <block id="d7d243cdd4f9855c08d4d07446b1a498" category="cell">事件發生的時間。</block>
+  <block id="d6850e0c5bcba3e6b1fdd913143db620" category="cell">記錄的事件類型、例如API事件或複製事件。請參閱<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block> 以取得更多資訊。</block>
+  <block id="4c2a8fe7eaf24721cc7a9f0175115bd4" category="cell">訊息</block>
+  <block id="7fe2911af82fa5c0c94c5122f326e2ee" category="cell">與事件相關的訊息。</block>
+  <block id="e6bc3742b9adcf64569e2b8e6c4a3cfd" category="cell">報告事件的服務（若適用）。</block>
+  <block id="677ba5aa9e9fcb74b2cb9312ed3a977b" category="cell">報告事件的節點（如果適用）。</block>
+  <block id="398d3f4842780ca0538646ddd35c1ed6" category="cell">報告事件的磁碟機（若適用）。</block>
+  <block id="e8e23004d802cd4922aa0dd7c9a0b1bc" category="cell">協助識別事件發生原因的資訊。</block>
+  <block id="673227ee9c703ce2823b53881bb0518c" category="paragraph">在所選叢集*報告*下拉式功能表的*警示*頁面上、您可以檢視未解決或已解決的叢集警示。此資訊可篩選並匯出至CSV檔案。如需嚴重性層級的詳細資訊、請參閱<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>。</block>
+  <block id="feb5563fa01a9ebba6af4f9c920d5748" category="paragraph">在所選叢集*報告*下拉式功能表的「* iSCSI工作階段*」頁面上、您可以檢視叢集上作用中工作階段的數目、以及叢集上發生的iSCSI工作階段數目的詳細資料。</block>
+  <block id="a44207e415b5558c03942d9fcaff4904" category="example-title">展開iSCSI工作階段範例</block>
+  <block id="4f8c5e38821332ac37efd50ea0011f9e" category="paragraph"><block ref="4f8c5e38821332ac37efd50ea0011f9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae164ae6404985f2a931eeee38c6ab42" category="paragraph">您可以將滑鼠指標移到圖表上的資料點上、以找出已定義時間週期的工作階段數目：</block>
+  <block id="acac783cc41cfddb0f45c4b16451204d" category="list-text">作用中工作階段：叢集上附加及作用中的iSCSI工作階段數目。</block>
+  <block id="f3b0a8925d92201833b4d4c98dc00da7" category="list-text">尖峰作用中工作階段：過去24小時內、叢集上發生的iSCSI工作階段數目上限。</block>
+  <block id="1413c9f8974b093d8130ee7db39eb535" category="admonition">此資料包括由FC節點產生的iSCSI工作階段。</block>
+  <block id="6fd9fbb0b3472e4871ff81fe4ca95016" category="section-title">虛擬網路</block>
+  <block id="279658afe4ab0fad0ce2e3af18b9ab0a" category="paragraph">在所選叢集*報告*下拉式功能表的*虛擬網路*頁面上、您可以檢視下列有關叢集上所設定之虛擬網路的資訊。</block>
+  <block id="6e7dc70c9186831488745cb36a33bbef" category="cell">VLAN網路的唯一ID。這是由系統指派的。</block>
+  <block id="2956b6f0e7b5d8e2e3bd68512747d12d" category="cell">使用者為VLAN網路指派的唯一名稱。</block>
+  <block id="05808f0e86c04c2a062c2e041f9e0827" category="cell">VLAN ID</block>
+  <block id="ffd9afd86dda03305dbd98e960cb7be3" category="cell">建立虛擬網路時指派的VLAN標記。</block>
+  <block id="dcda39e13b00bf6bd40a507e1833a6f5" category="cell">SVIP</block>
+  <block id="ce196fd76f74410d726ae06f114cac1d" category="cell">指派給虛擬網路的儲存虛擬IP位址。</block>
+  <block id="536f68587c52377d3e98807b214c5de8" category="cell">網路遮罩</block>
+  <block id="d63d7dc2d790031eb7dfc6394aa46028" category="cell">此虛擬網路的網路遮罩。</block>
+  <block id="926dec9494209cb088b4962509df1a91" category="cell">閘道</block>
+  <block id="a84aa1a4b03503a52e55d62f556a5d6e" category="cell">虛擬網路閘道的唯一IP位址。必須啟用VRF。</block>
+  <block id="e8a3113c5386678f6775568095a9eddb" category="cell">VRF已啟用</block>
+  <block id="a279f84aebeb6b59fd33011eb1cae178" category="cell">顯示是否已啟用虛擬路由和轉送。</block>
+  <block id="0ae5435cfee8b6c05ab6528379211f5b" category="cell">已使用的IPS</block>
+  <block id="77430146921bd694ca9e79c23137365d" category="cell">用於虛擬網路的虛擬網路IP位址範圍。</block>
+  <block id="4d023f391eeb350e7e7cb48db31862cd" category="section-title">API集合</block>
+  <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element軟體API文件</block>
+  <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">在所選叢集*報告*下拉式功能表的「* API集合*」頁面上、您可以檢視NetApp SolidFire Active IQ 供應器使用的API方法。如需這些方法的詳細說明、請參閱 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>。</block>
+  <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">除了這些方法之外、Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
+  <block id="0c4d60a128e7714f565d66085537b6a9" category="summary">深入瞭SolidFire Active IQ 解中的節點頁面。</block>
+  <block id="efff5bf65c7253a9f13c3da6e316514f" category="paragraph">在節點頁面（可從所選叢集的側邊面板取得）上、您可以檢視叢集中節點的資訊。</block>
+  <block id="86d657b6d468a7d4b765611ea754e07d" category="paragraph">瞭解如何檢視作用中節點的資訊、以及所選節點的節點節流百分比：</block>
+  <block id="1fb1691d89c63b4c1b5243e04cd9f5b3" category="inline-link-macro">作用中節點</block>
+  <block id="6c663e2ebd3f817914a7f20e8dd5b0dd" category="list-text"><block ref="6c663e2ebd3f817914a7f20e8dd5b0dd" category="inline-link-macro-rx"></block></block>
+  <block id="72fb384431f6bdc515c1be4fddf3b93e" category="list-text"><block ref="72fb384431f6bdc515c1be4fddf3b93e" category="inline-link-macro-rx"></block></block>
+  <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">疑難排解SolidFire Active IQ 各項問題。</block>
+  <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">疑難排解與支援</block>
+  <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">如果您在使用SolidFire Active IQ 任何一NetApp Element 種或其他以軟體為基礎的產品時遇到問題、或遇到技術問題、您可以使用許多資源來協助您解決問題。</block>
+  <block id="9d6bc68df898deff926bd4b077e87b8e" category="inline-link">知識庫</block>
+  <block id="5850c1b883e33b60d870781e8115807c" category="list-text">搜尋<block ref="4857702706b4521f6529ed17831a74f4" category="inline-link-rx"></block> 以取得常見技術問題的解答。</block>
+  <block id="6f4e4d9fbe846fd8bf7decf7dcffbd63" category="inline-link">NetApp文件</block>
+  <block id="7a23c2bcdbc21bef24076f3be645e2ac" category="list-text">搜尋<block ref="e3ac08282893a05df82b44a3239d2483" category="inline-link-rx"></block> 以取得有關NetApp SolidFire 的答案。NetApp HCI</block>
+  <block id="0373910e51252c7b97dcbea9f4942604" category="inline-link">mysupport.netapp.com</block>
+  <block id="9e98f3448c136646870b07dd55aa9eb8" category="list-text">歡迎隨時與我們線上交談：<block ref="5b2696069bfb159b4da1b4fd63c90950" category="inline-link-rx"></block>。您可以隨時提交問題。如果支援服務離線、支援團隊將在營業日內回應。</block>
+  <block id="a733ad4eeac2130a365c398eef6ab4e1" category="list-text">請致電我們的支援團隊：888.4.NETAPP（888.463.8277）。</block>
+  <block id="4418c720110a4a61ef46395e5ca12251" category="list-text"><block ref="e2590814c1482e01f4d7bf7758b7b100" category="inline-link-macro-rx"></block>。</block>
+  <block id="e08d25d28f81e2e8f6aa3ba1cc3bdf0d" category="summary">深入瞭SolidFire Active IQ 解如何在畫面上檢視Volume詳細資料。</block>
+  <block id="f4ae560c60fc8bb0d0b6ab851ae1869e" category="doc">作用中磁碟區</block>
+  <block id="557b10f01522670a114659a8ae978c6a" category="paragraph">從* Volumes *（磁碟區*）頁面、您可以檢視有關作用中磁碟區、個別磁碟區和效能圖表的詳細資料：</block>
+  <block id="1016ff0c0a0a25fcb2703c537ddb1e6c" category="list-text"><block ref="2159a3d30b5a28e3601f66bf8bc43e89" category="inline-xref-macro-rx"></block></block>
+  <block id="88d327dc22b871bfeab499b388172e6c" category="list-text"><block ref="b33c17c502ed5103f0f2c7e22661f47f" category="inline-xref-macro-rx"></block></block>
+  <block id="d7e4226561da664078446368bf24e413" category="list-text"><block ref="2def3383d458d995413cf567e10cad54" category="inline-xref-macro-rx"></block></block>
+  <block id="324ef602c957b3ee013db702dc88ebbd" category="section-title">檢視作用中Volume詳細資料</block>
+  <block id="b8643e41c8b39a40508eae9ba5584382" category="paragraph">在所選叢集的「* Volume *&gt;* Active Volumes *」（*磁碟區*&gt;*作用中磁碟區*）頁面上、您可以在作用中磁碟區清單中檢視下列資訊。</block>
+  <block id="9ccebbdcf0c14dc2d7c124c8b6409e35" category="cell">主節點ID</block>
+  <block id="645b03b13bd4145138c3b57ccc3400a5" category="cell">此Volume的主要節點。</block>
+  <block id="2bc5a323ec4c5f81b720526e8aadd21e" category="cell">次要節點ID</block>
+  <block id="a8c5372cb84d7d3cefd81f7cca2508d1" category="cell">此磁碟區的次要節點清單。在過渡狀態期間可以是多個值、例如次要節點的變更、但通常只有一個值。</block>
+  <block id="e3fa9173825e8d72d3109748c25adb2b" category="cell">QoS節流</block>
+  <block id="b7704dec80bad8b4f8c5564e2d1d6f28" category="paragraph">識別主儲存節點上的高負載是否導致磁碟區被節流：</block>
+  <block id="40c1f7a2846a63dc74ce6b9dbc7933dc" category="list-text">綠色=高達20%</block>
+  <block id="89d6f6a6ae8c5ed89ceadff57f866134" category="list-text">黃色=高於20%</block>
+  <block id="a766a96a4550397e3be62686e9dba4bf" category="list-text">紅色=超過80%</block>
+  <block id="0cd85d6f0903a4228d0a1061a41e207b" category="cell">保證磁碟區IOPS的最低數量。</block>
+  <block id="b0f4034527d03957cc2cb1f551cd8137" category="cell">Volume允許的最大IOPS數。</block>
+  <block id="c4802961bcc44906090b75cc0c07e58d" category="cell">在短時間內允許的最大IOPS數。</block>
+  <block id="f741657b8a9c703b4f9ce9ff0c849acd" category="cell">平均延遲（微秒）持續30分鐘</block>
+  <block id="7aeb6780ec3c98b0f4eee23e1d0cac75" category="cell">過去30分鐘內、完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。</block>
+  <block id="8045d6e7a1be43321c6aacff3cd803a6" category="cell">為磁碟區建立的快照數量。</block>
+  <block id="83195ad3b0c05b1455b3fc233ba98d03" category="cell">選取垂直下拉式功能表以取得個別Volume的詳細資料。</block>
+  <block id="98d99278a2f04912ab18de8f6e866ed1" category="section-title">檢視個別Volume詳細資料</block>
+  <block id="98382f841ba4fc0c20e5af0041dedf8d" category="paragraph">從「* Volumes *」（*磁碟區*）頁面、您可以檢視個別磁碟區的詳細資訊。</block>
+  <block id="55f28afac50fa2f3764fe7335f1821db" category="list-text">選擇* Volumes（磁碟區）&gt;* Active Volumes（*作用中磁碟區</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="inline-image-macro">更多資訊</block>
+  <block id="97f72a45ca1e151175e31eaa8bde1d52" category="list-text">在「Actions（動作）」欄中、選取 <block ref="cdebc265529e000c5722a7028c8024ee" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*檢視詳細資料*。</block>
+  <block id="7d5a20f283f1f159bc8fca5cea5abdf2" category="paragraph">開啟作用中Volume的頁面之後、您可以從資訊列檢視最近的Volume資料。</block>
+  <block id="e5e232275261e481cb1332fe1e05f070" category="cell">系統產生的Volume ID。</block>
+  <block id="94a1800545581d04983407fd1d145e62" category="cell">Volume的總大小。</block>
+  <block id="7da55ffd0ff54b317006c52ea7f2c0e1" category="paragraph">顯示磁碟區的容量：</block>
+  <block id="abec01fb58480a49a084850b03ff2d7c" category="list-text">紅色=高於95%。</block>
+  <block id="42bbfc003515ffd17bbf2687a043f11d" category="cell">平均IOPS</block>
+  <block id="e3b8968fd9318f5d739250d54e769ff4" category="cell">過去30分鐘內針對磁碟區執行的平均IOPS數。</block>
+  <block id="edd5221a3f19c0c3519847deb797f926" category="cell">平均處理量</block>
+  <block id="9d8e7acc5e639c5d381f284b3a9e6bce" category="cell">過去30分鐘內針對磁碟區執行的平均處理量。</block>
+  <block id="4a3eb27a7f301e9be259f35e484b176e" category="cell">平均延遲</block>
+  <block id="0b580c0d1be4cfdf4da6f879cf00f88d" category="cell">過去30分鐘內完成磁碟區讀寫作業的平均時間（以微秒為單位）。</block>
+  <block id="67e36c1bc8a90a031bad32c1819deab1" category="cell">您可以從*顯示磁碟區詳細資料*下拉式功能表檢視其他詳細資料。</block>
+  <block id="9b2ec600406f1490117cd1550ae54c71" category="cell">指派給磁碟區的讀寫權限。</block>
+  <block id="e3ec7263fd93737a7c3599382db8ec4a" category="cell">存取群組</block>
+  <block id="167fb14a8a43814f4122abeff3b8827c" category="cell">相關的Volume存取群組。</block>
+  <block id="46c8458b542fa323f8704fe0785024b7" category="cell">非零區塊</block>
+  <block id="fa531db3c4b0fe067ae347fe61cca796" category="cell">上一輪垃圾回收作業完成後、含有資料的4KiB區塊總數。</block>
+  <block id="60b67cf928897f790fe38d6e60635f68" category="cell">零區塊</block>
+  <block id="98655971ffafc4d21baacb14823c4eb0" category="cell">在最後一輪垃圾回收作業完成後、沒有資料的4KiB區塊總數。</block>
+  <block id="e964f015143fe755e8288a14280010fd" category="cell">Snapshot計數</block>
+  <block id="cb0b3ac9b7a179d7ab7a6fca23f53ad7" category="cell">關聯的快照數量。</block>
+  <block id="8aa8c731cfe2c1c5fc7e8d8161be302a" category="cell">512e已啟用</block>
+  <block id="4b70e4e226aa2663d010aeae818edca9" category="cell">識別是否已在磁碟區上啟用512e。</block>
+  <block id="49040853732d48deb2df7eebcd95b127" category="cell">識別主儲存節點上的高負載是否導致磁碟區被節流。</block>
+  <block id="fe6f6567eb042d45b55b29aa9a29df5b" category="cell">Volume已配對</block>
+  <block id="3864a6411a8582c09e9f190a2d97c876" category="cell">指出某個Volume是否已配對。</block>
+  <block id="bb1bce6ceb9138a27ff4a45ffa2b6cc4" category="cell">磁碟區建立工作完成的時間。</block>
+  <block id="7336e8d668382e4fcc192f488c6d7388" category="cell">區塊大小</block>
+  <block id="9ee9ada271ccb1402b94ecea9c679af3" category="cell">磁碟區上區塊的大小。</block>
+  <block id="a017bf9c6a361a667e032823a6e40f10" category="cell">IQN</block>
+  <block id="a0b7e25b2864f5bf822f46c10f6d6d70" category="cell">磁碟區的iSCSI合格名稱（IQN）。</block>
+  <block id="5b20d3decdaa7d1ffa5dec3145341152" category="cell">scsiEUIDeviceID</block>
+  <block id="881e72cca1f47930233cfa5388bf8372" category="cell">磁碟區的全域唯一SCSI裝置識別碼、採用EUI-64型16位元組格式。</block>
+  <block id="4cb169ebb12659f7aa944d1f4d858180" category="cell">scsiAADeviceID</block>
+  <block id="0810b69cc64402bbe9330f886ca32076" category="cell">NAA IEEE註冊延伸格式之磁碟區的全域唯一SCSI裝置識別碼。</block>
+  <block id="287234a1ff35a314b5b6bc4e5828e745" category="cell">屬性</block>
+  <block id="542b7dd5cce482c91fbc9c4d58a7dd79" category="cell">Json物件格式的名稱/值配對清單。</block>
+  <block id="2aa151cde9559423a1344e78388a5ddc" category="section-title">檢視個別Volume效能圖表</block>
+  <block id="085fada455a41090c0b87a8111a28348" category="paragraph">從* Volumes *（磁碟區*）頁面、您可以以圖形格式檢視每個磁碟區的效能活動。此資訊提供處理量、IOPS、延遲、佇列深度、平均IO大小、 以及每個磁碟區的容量。</block>
+  <block id="18af9f90626aa8ebda9eba5cdb5383e2" category="list-text">在* Actions *（動作*）欄中、選取 <block ref="cdebc265529e000c5722a7028c8024ee" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*檢視詳細資料*。</block>
+  <block id="2cae8af7ba94a4af5b21955a8fc3f3a4" category="paragraph">另一個頁面隨即開啟、顯示可調整的時間表、並與效能圖表同步。</block>
+  <block id="7fd029bcdd4a41a83d2472169c5372a0" category="list-text">在左側、選取縮圖以檢視效能圖表的詳細資料。您可以檢視下列圖表：</block>
+  <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">處理量</block>
+  <block id="79073619fba8242703524f16870ff858" category="list-text">IOPS</block>
+  <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="list-text">延遲</block>
+  <block id="085adc16280aabef4b6fe2344f24ba5b" category="list-text">佇列深度</block>
+  <block id="ad76541a6e4b94763c23440a141cb87f" category="list-text">平均IO大小</block>
+  <block id="0c62d3c3703cc9cfe18da37951bf1957" category="list-text">（選用）您可以選取、將每個圖表匯出為CSV檔案 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
+  <block id="1d106124801228432411a3ec12f75276" category="summary">瞭SolidFire Active IQ 解如何在管理節點上啟用功能的功能。</block>
+  <block id="2608b149e5d7ac8d0fd12c6175bbe965" category="doc">啟用SolidFire Active IQ 資料彙報功能</block>
+  <block id="e78d077c08f454fe0bda46f85b4815fb" category="paragraph">如果您在安裝或升級期間尚未啟用管理節點上的功能、則必須在SolidFire Active IQ 管理節點上啟用此功能、Active IQ 才能從管理節點接收叢集的資料有效負載。成功設定連線後、叢集會將資訊傳送至Active IQ 該伺服器。然後、您可以在Active IQ 顯示叢集資訊的畫面UI中檢視叢集。</block>
+  <block id="b46ffcc9e6980359ceefabd56b5eff67" category="admonition">支援Google Chrome和Firefox瀏覽器搭配Active IQ 使用支援。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
+  <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">例如、某些功能的功能是服務品質（QoS）、需要元素11.3或更新版本才能正常運作。Active IQ為了確認您有能力使用Active IQ 所有的功能、NetApp建議您：</block>
+  <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">您的儲存叢集執行NetApp Element 的是不含更新版本的軟件。</block>
+  <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">您已部署執行11.3版或更新版本的管理節點。</block>
+  <block id="48999150d3601e85bd7d225657eb6811" category="list-text">您可以存取網際網路。您無法從Active IQ 沒有外部連線的黑暗站台使用「收集器」服務。</block>
+  <block id="82a2b40d5c47d3f7c952492cdb40edd6" category="list-text">取得安裝的基礎資產ID：</block>
+  <block id="2be2a7ca72e09c58cfb47c549453cdd1" category="list-text">在管理節點上開啟庫存服務REST API UI：</block>
+  <block id="03917624197381e26d93d8783477b3bf" category="list-text">選擇*授權*並完成下列項目：</block>
+  <block id="e70cbab1a499d9b8977a700c05be8d8b" category="list-text">輸入叢集使用者名稱和密碼。</block>
+  <block id="498dbe1fd0d4770ec7a8825a95fb73f3" category="list-text">輸入用戶端ID為「mnode-client」。</block>
+  <block id="618de31a7af637f5e228aa0b8c0614ba" category="list-text">選取*授權*以開始工作階段。</block>
+  <block id="dca88fc888afa88e757dfbda4102fd6c" category="list-text">關閉視窗。</block>
+  <block id="4e1983f58c81d12130ee2409db704d73" category="list-text">從REST API UI中、選取*「Get Rise/Installations」*。</block>
+  <block id="b1f85b610b71ac9db3be3c5efe00f9a4" category="list-text">選擇*試用*。</block>
+  <block id="c226d28399dfd8c127b616b86c9d4fea" category="list-text">選擇*執行*。</block>
+  <block id="53c2c27c3b3fb674bd0285146df5b77b" category="list-text">從代碼200回應本文中、複製「id」以供安裝之用。</block>
+  <block id="05c59d2489c111c7947e09976e2c1d9a" category="admonition">您的安裝具有在安裝或升級期間建立的基礎資產組態。</block>
+  <block id="092651f6be0e540a683ac1fc90004d5a" category="list-text">啟動遙測：</block>
+  <block id="58b7a2d986aefcee324485ed446a8349" category="list-text">在管理節點上輸入管理節點IP位址、然後輸入「/mnodes（mnodes）：</block>
+  <block id="1fca2b4a66eca3cc3857ef2cc620c7a4" category="list-text">選取*授權*或任何鎖定圖示、然後完成下列步驟：</block>
+  <block id="7d7525a997cbefb4dec8acd4be173a4c" category="list-text">設定基礎資產：</block>
+  <block id="cf6ee90fd7f4fb99d8f880e72cabceed" category="list-text">選取*「Pet /Assites/｛asset_id｝*」。</block>
+  <block id="d029bae3ea75a749fb092a781db91a57" category="list-text">在Json有效負載中輸入下列內容：</block>
+  <block id="f6dc362c9bea8a038a53d530dd18219f" category="list-text">在「* asse_ID*」中輸入前一個步驟的基礎ID。</block>
+  <block id="5ca0dbfdd4f905ba3125c694cd1f359f" category="paragraph">一旦資產發生變更、就會自動重新啟動此服務。Active IQ修改資產會在套用設定之前、造成短暫延遲。</block>
+  <block id="c9618f4b15d53501dee68300c1517890" category="inline-link-macro">SolidFire Active IQ</block>
+  <block id="d54aa041fbc60813d85a10116f19acba" category="list-text">登入 <block ref="4ebae971a9ad9014320b80bb2122d87f" category="inline-link-macro-rx"></block> 並確認您可以檢視叢集。</block>
+  <block id="efaf46da503dff8a534048e87cf05c05" category="summary">深入瞭SolidFire Active IQ 解《Active Node》（作用中節點）頁面。</block>
+  <block id="aa2722f0dd149fa426d354dcd17c882b" category="paragraph">在所選叢集的側邊面板上、您可以在「*節點*&gt;*作用中節點*」頁面上檢視叢集中節點的資訊。</block>
+  <block id="efa3af2000f434495156bd711f91876d" category="paragraph">可用的詳細資料會因系統而異：</block>
+  <block id="a896398c6d72bfcee974918d75f31685" category="list-text"><block ref="6b768338154a8197cc67e41af532b78b" category="inline-xref-macro-rx"></block></block>
+  <block id="f89f98ad3bf8dccd3b5dfa50eb3713e7" category="list-text"><block ref="5d3f50a6fbc21b3b38fa712473d01526" category="inline-xref-macro-rx"></block></block>
+  <block id="e19e77df266d9b912205d3a03d83af20" category="list-text">MVIP VLAN ID：MVIP的虛擬LAN ID</block>
+  <block id="e59ddee5a346c6438ae959fb2ffff0c6" category="cell">節點上執行的Element軟體版本。</block>
+  <block id="03fa629af0b583e1d9945542f825cd19" category="list-text">如果節點沒有角色、則該值會設為-（破折號）。</block>
+  <block id="8ec8dfb4d7be94e7859a33de61f8c29a" category="paragraph">深入瞭NetApp HCI 解如何檢視有關儲存節點和運算節點在一個叢集中的資訊：</block>
+  <block id="f829472f2b82b6aceb87ef0a8b5ba06d" category="list-text"><block ref="d959f89411a3301bd57e734714f7c48d" category="inline-xref-macro-rx"></block></block>
+  <block id="b260ea351a49954d42bfd30fa98cada1" category="list-text"><block ref="4c8790a7a252179a67d34ef563a45701" category="inline-xref-macro-rx"></block></block>
+  <block id="c2ca16d048ec66e04bca283eab048ec2" category="cell">主機</block>
+  <block id="a89b9974f7e79d6447036846d82a5630" category="cell">運算節點的VMware VMotion網路IP位址。</block>
+  <block id="92322619669e3ea67285191635e38ca0" category="summary">深入瞭SolidFire Active IQ 解。</block>
+  <block id="2ab359ffeac1725ecfaeb8d017747085" category="doc">深入瞭解SolidFire Active IQ</block>
+  <block id="2d24d754666d0b21fe6fc9c67d60634d" category="paragraph">開始使用SolidFire Active IQ 資訊技術之前、您應該先瞭SolidFire Active IQ 解到資訊技術的運作方式及收集的資訊。</block>
+  <block id="8dbbd87f01178639319815ba98d9d4bc" category="section-title">運作原理SolidFire Active IQ</block>
+  <block id="8296e5a5843626a7deba367ac0a6efed" category="paragraph">收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。</block>
+  <block id="b1026bd3d8abc4aec4981330dc62b906" category="inline-link-macro">存取SolidFire Active IQ 功能（需要登入）</block>
+  <block id="a6dc0a9f123b0664c5bb023e693bef51" category="paragraph"><block ref="a6dc0a9f123b0664c5bb023e693bef51" category="inline-link-macro-rx"></block></block>
+  <block id="b066c8b2c0d4cbbe120fcbe58e323812" category="section-title">資訊由SolidFire Active IQ 本網站所收集</block>
+  <block id="8e594354549dfe611311e389b7ad8354" category="paragraph">此功能可收集有關磁碟區、叢集、節點、效能和組態的資訊：SolidFire Active IQ</block>
+  <block id="94ac66c1bafc92f84c2417670a032f3c" category="list-text">資源ID、例如磁碟區、快照和帳戶節點ID</block>
+  <block id="f5d3ba6d4c5aca75d63fc35a6b7e59bf" category="list-text">叢集與磁碟區的效能與容量資料</block>
+  <block id="93797aa369d63924fdaf43fe23967074" category="list-text">錯誤與事件記錄</block>
+  <block id="8b50b4468a34cc50512a6c4215ae72cb" category="list-text">支援的元件軟體版本NetApp HCI</block>
+  <block id="19ac3e527aa447c4fa83e30c8610a613" category="list-text">服務品質（QoS）組態</block>
+  <block id="47b06577d695e2a5cc8748234f077aef" category="list-text">Volume詳細資料、例如大小、建立日期等</block>
+  <block id="f1a844136b0c4517e631ab1bd1e4be42" category="list-text">Volume存取群組和工作階段組態</block>
+  <block id="82b804eb5ad617b984087d39cd6edc80" category="list-text">節點和叢集網路組態</block>
+  <block id="d4f28ca55292af16243c26ed79320f59" category="paragraph">不收集下列客戶敏感資訊：SolidFire Active IQ</block>
+  <block id="9819c2ad11829f5fbf46461062e79aa1" category="list-text">實際終端使用者資料</block>
+  <block id="e18ee67232545172093ce053ae9d2c73" category="list-text">密碼</block>
+  <block id="9eb1156f4d1fd9e2532eb9afa84a62b3" category="list-text">挑戰握手驗證傳輸協定（CHAP）機密</block>
+  <block id="0d0cda84398958595522a3d083d1728a" category="list-text">叢集管理使用者資訊</block>
+  <block id="3212d3d522b251a7d0b3641c45a81573" category="summary">深入瞭SolidFire Active IQ 解如何開始使用NetApp。</block>
+  <block id="9200ebe2b4ab5b00a77d52efaf85a6de" category="doc">立即開始SolidFire Active IQ 使用</block>
+  <block id="b25037cf63d119a232994ab4f2b4bf2c" category="paragraph">此功能可讓您輕鬆從任何位置存取監控容量和效能、並掌握叢集健全狀況的相關資訊。SolidFire Active IQ無論您使用SolidFire Active IQ 什麼功能、開始使用之前都有幾件事需要注意：</block>
+  <block id="8cd7ccc6d38ee23b097ee26faf4c71c8" category="list-text"><block ref="ad1b90f44edaa6f6bcf1d6954c507065" category="inline-link-macro-rx"></block>：SolidFire Active IQ 您應該瞭解哪些功能可以運作、哪些資訊可以收集。</block>
+  <block id="19bda018dd14a0253ab90b899617cc17" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>：Active IQ 您必須在管理節點上啟用資料不整合功能、Active IQ 才能讓支援服務器連線至叢集並接收叢集資訊。</block>
+  <block id="9105bd82ad51c438cd590bde945827a7" category="inline-link-macro">使用SolidFire Active IQ 這個功能</block>
+  <block id="b88f946c2a4f0d4f82a08759e3744ea1" category="list-text"><block ref="3d10ba7dfbb53d51fde6e6e02a6608a9" category="inline-link-macro-rx"></block>：瞭解新增或增強的功能、例如篩選、排序、匯出資料及叢集選擇。</block>
+  <block id="dff97aa9c118deaf53b64587432eaa6a" category="summary">深入瞭SolidFire Active IQ 解《Replication》（複製）頁面。</block>
+  <block id="36b3b446a74e8c661084ac077df02e4e" category="paragraph">「*複寫*」頁面可從所選叢集的側邊面板取得、提供有關叢集配對和磁碟區配對的資訊。</block>
+  <block id="146bce7fc037908ea900e585e01888de" category="paragraph">深入瞭解叢集配對與磁碟區配對頁面：</block>
+  <block id="13e68c53de2e870d7b6bf48dadd38d86" category="inline-xref">叢集配對</block>
+  <block id="ba903dc7619ef9e0df34c837de8649ae" category="list-text"><block ref="e79dc9f248dfa60bbbdf5131074bd941" category="inline-xref-macro-rx"></block></block>
+  <block id="b4a20e3a6be7e6cd6f8e3dcdd45cb2a8" category="inline-xref">Volume配對</block>
+  <block id="b3bfae786e70112d669d90551b5c5eba" category="list-text"><block ref="3a50de34db8b7d843b2b3ad0f3c013cd" category="inline-xref-macro-rx"></block></block>
+  <block id="5864eb77049f5c5b166d2b392773ea3e" category="paragraph">在所選叢集的「*複寫*&gt;*叢集配對*」頁面上、您可以檢視下列有關叢集配對的資訊。</block>
+  <block id="15ce2362da4804063e2de46d1634caa2" category="cell">叢集配對ID</block>
+  <block id="035bea5e545a887bcc63d0ffb9fb8d2c" category="cell">建立叢集配對時提供的ID編號。</block>
+  <block id="d8916b50ac9bfbe9dea4f9dc1dd401f7" category="cell">遠端叢集名稱</block>
+  <block id="244bab27e8b7f4f7a9edc65e61a0d689" category="cell">配對的遠端叢集名稱。</block>
+  <block id="add29b59b554ed238e660a5cce974fbb" category="cell">遠端MVIP</block>
+  <block id="651eed3e767f3f9b660ec8e4052356c3" category="cell">管理遠端叢集的虛擬IP。</block>
+  <block id="afa615f561deb78e40afd2730845e262" category="cell">複寫磁碟區</block>
+  <block id="b6987714e9a90d0caa48013cb4d0e22f" category="cell">表示在配對叢集上複寫的磁碟區數目。</block>
+  <block id="ca640c07681b922f317812c6ff7cb6cc" category="cell">叢集配對狀態。</block>
+  <block id="912cace1d02a102438733f58249c0800" category="paragraph">在所選叢集的「*複寫*&gt;*磁碟區配對*」頁面上、您可以檢視下列有關磁碟區配對的資訊。</block>
+  <block id="f176814637761ab3c2b01691d384eb66" category="cell">建立磁碟區時提供的ID編號。</block>
+  <block id="9164ce359f4300d6bc66fb6d5226b6c9" category="cell">Volume狀態</block>
+  <block id="820dd44f68be3816aff07ef246c73157" category="cell">複寫Volume的狀態。</block>
+  <block id="1ef5d9900b3e3fc7a9cb0ffb7556c0a3" category="cell">複寫模式</block>
+  <block id="63abc4d8ad20d0becbcd1b03bfd85a1a" category="cell">為Volume配對選取的模式類型。</block>
+  <block id="02674a4ef33e11c879283629996c8ff8" category="cell">方向</block>
+  <block id="7637b98b8b68bf56cf3e21e0c524ec96" category="paragraph">指出Volume資料的方向：</block>
+  <block id="324c0596251bd1b8197b912e85ab09f9" category="list-text">資料來源：表示資料正在寫入叢集外部的目標。</block>
+  <block id="bc47d627a1c2ea42da7fe57343e96f24" category="list-text">目標：表示資料正從外部來源寫入本機磁碟區。</block>
+  <block id="384f458efba5d695355cf7a5c6e24381" category="cell">非同步延遲</block>
+  <block id="91b62bcb11ddfb783aa522627ed1e314" category="paragraph">自上次與遠端叢集同步磁碟區以來的時間長度。如果Volume未配對、則此為null。</block>
+  <block id="a39d1a7586a858f4653dc900aa1dfd74" category="admonition">處於作用中複寫狀態的目標Volume永遠會有0（零）的非同步延遲。在複寫期間、目標磁碟區可感知系統需求、並假設非同步延遲隨時都是準確的。</block>
+  <block id="b8f1dcb8ef923b6c9187cb4124cef8af" category="cell">遠端叢集</block>
+  <block id="744264ccb653f435c1152ecc358d3a40" category="cell">磁碟區所在的遠端叢集名稱。</block>
+  <block id="396f09f4dc265ada6fef962b3170e32a" category="cell">遠端Volume ID</block>
+  <block id="1d571a87e429de32d15e077fd11efa4c" category="cell">遠端叢集上磁碟區的Volume ID。</block>
+  <block id="44adb78cbb192de5e6a6c4bd6d8da174" category="summary">深入瞭SolidFire Active IQ 解《Volumes》（磁碟區）頁面。</block>
+  <block id="78ff19f8a597b0628577f1e3f71ac1c4" category="paragraph">在* Volumes（磁碟區）*頁面（可從所選叢集的側邊面板取得）上、您可以檢視叢集上已配置之磁碟區的相關資訊。每個磁碟區資訊類別都會以表格格式或圖形格式呈現。</block>
+  <block id="4b3882079dc61996a0dcb7c9b9c37ee5" category="paragraph">從* Volumes *（磁碟區*）頁面瞭解顯示內容：</block>
+  <block id="1150a0b884d0dd07c0a3bde268351f74" category="list-text"><block ref="1150a0b884d0dd07c0a3bde268351f74" category="inline-link-macro-rx"></block></block>
+  <block id="672a4320e1a78f0a36aecf676649f5e2" category="list-text"><block ref="672a4320e1a78f0a36aecf676649f5e2" category="inline-link-macro-rx"></block></block>
+  <block id="8778e72f2aa424cdad901e0a8908b46e" category="summary">NetApp SolidFire Active IQ 支援網頁式工具、可持續更新整個叢集統計資料的歷史檢視。此功能可讓您從任何地方輕鬆存取監控容量與效能。SolidFire Active IQ</block>
+  <block id="cd7ee3a7eb57fefdba5349f5a38d1d67" category="doc">NetApp SolidFire Active IQ</block>
+  <block id="679ac3cb12c1714537521f1e0ad3c546" category="summary">深入瞭SolidFire Active IQ 解《All ClustersView》儀表板。</block>
+  <block id="387397fa94879a4b5ee9efc8798efed4" category="paragraph">在*所有叢集檢視*的*儀表板*頁面上、您可以檢視與您帳戶相關之叢集的效能、容量和叢集統計資料詳細資料。</block>
+  <block id="6b81099aae7202b9cc93e38c9d441665" category="cell">在每個節點上執行的叢集主機版本。</block>
+  <block id="24586119508a57ed58d505dad14869c3" category="cell">叢集中的節點數。</block>
+  <block id="875cc10c5010f4de76184ecf640ede59" category="cell">叢集中的磁碟區數目。</block>
+  <block id="0c432aaa367370346aa38d0a6898f3b1" category="cell">系統因為壓縮、重複資料刪除和精簡配置而獲得的效率。</block>
+  <block id="e5c71a9b354de2daff44e5f79164922d" category="cell">已用區塊容量</block>
+  <block id="db27a0849df1c7221d827b77dbefa236" category="cell">故障</block>
+  <block id="c94784abb407afbc30328b1905f79829" category="cell">在叢集上偵測到目前未解決的故障數。</block>
+  <block id="7da3bc07d4fea7050e1ef95738ae7d64" category="cell">指派給叢集的儲存虛擬IP位址。</block>
+  <block id="7ded4ca42319833daf1e9577fc5c6ccc" category="cell">MVIP</block>
+  <block id="2ab66ed3d8055038e1ec8ca5a0e7ae65" category="cell">指派給叢集的管理虛擬IP位址。</block>
+  <block id="28b65ad4fb748f1996eafbe159d05998" category="cell">上次更新</block>
+  <block id="37a0f68565e76510eec398329494df81" category="cell">最新叢集更新的時間與日期。</block>
+  <block id="d5794d615e972d4bdfd38b2e41d32b69" category="paragraph">在「*所有叢集檢視*」的「*術語容量*」頁面上、您可以檢視NetApp術語容量模式的相關資訊。</block>
+  <block id="c6bce2a0c02ed4dc352779f8ecfdb3f5" category="cell">公司ID</block>
+  <block id="c5304b20d5c5cdaba5d5b23eb5e28d13" category="cell">與授權相關的公司ID。</block>
+  <block id="e7b47c58815acf1d3afa59a84b5db7fb" category="cell">公司名稱</block>
+  <block id="5240302f8d79254b01b76ca5f541ab28" category="cell">與授權相關聯的公司名稱。</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="cell">授權</block>
+  <block id="fbb45e763d52955617b6f7bf9aabf391" category="cell">客戶環境中的授權數。</block>
+  <block id="65b4bbc87526e01f50753c370ffce47b" category="cell">屬於客戶的叢集數量及其ID。</block>
+  <block id="5f576237a840d1af41718f5e4d14e1ff" category="cell">授權容量</block>
+  <block id="955664e257753ca576d7b0c82cf76d2f" category="cell">客戶環境中授權節點容量上的已分配容量量。</block>
+  <block id="c4ed6b7a93a993b1b380f32c53438c9d" category="cell">消耗容量</block>
+  <block id="231e178a523a4059cc5cd57dcea3d6a1" category="cell">屬於客戶的所有叢集目前已用容量。</block>
+  <block id="fe39ad85a0161490bd3de016e8b78715" category="summary">深入瞭解SolidFire Active IQ 所選叢集的儀表板頁面。</block>
+  <block id="6f62e89a8e7dade71af4a03b96ca6f70" category="doc">單一叢集檢視儀表板</block>
+  <block id="b65c21930213ff455568ac2a7793fdae" category="paragraph">在所選叢集的*儀表板*頁面上、您可以檢視高層級的叢集詳細資料、包括效能、容量和運算使用率。</block>
+  <block id="2b56b60f878922093facd42284848a0c" category="inline-image-macro">更多詳細資料</block>
+  <block id="322d18de68603bba1e7afd4ecddcacba" category="paragraph">選取*顯示詳細資料*下拉式功能表以檢視叢集的詳細資訊、或選取 <block ref="c32549a97e18cfcab584bd16f681f71f" category="inline-image-macro-rx" type="image"></block> 標題旁的圖示、提供更精細的報告資訊。您也可以將滑鼠指標移到圖表線上、並報告資料、以顯示其他詳細資料。</block>
+  <block id="c8f146c6e2242c2ebc3a9d095615d541" category="paragraph">可用的詳細資料會因您的系統而異：</block>
+  <block id="fde3715cb82189439c5bf63ecb683e6b" category="list-text"><block ref="86e9f15af2c379eb2bb8f284faa63160" category="inline-xref-macro-rx"></block></block>
+  <block id="0a241f94edf44b9add41d1a3ea9033b6" category="list-text"><block ref="a9d62dbaa5d09f2df1f30708819d96c4" category="inline-xref-macro-rx"></block></block>
+  <block id="206d78c8afb62198a69e6bf89022bb47" category="section-title">純儲存系統</block>
+  <block id="5ab5e4f44c7c9930101b303206d68beb" category="paragraph">若為SolidFire 以儲存為基礎的解決方案、您可以在*儀表板*頁面中選取*顯示詳細資料*、以檢視叢集特有的詳細資料與效能資訊。</block>
+  <block id="c1a54053e507c96d3a5fc18ad6be9092" category="cell">資訊列</block>
+  <block id="e5e93fd33d3997b477ba7bbfc393cb68" category="cell">此頂端列提供所選叢集目前狀態的快速概觀。此列顯示節點數、磁碟區數、故障詳細資料、效率即時統計資料、以及區塊和中繼資料容量的狀態。此列的連結會開啟UI中的對應資料。</block>
+  <block id="ba208095a4b9ae3911479c2f4e1eaef4" category="cell">叢集詳細資料</block>
+  <block id="7389f7c485c0cece9e7f3eb40f18676d" category="paragraph">選取*顯示詳細資料*以顯示下列值、以展開資訊列：</block>
+  <block id="bc900967f1944d62f33d1dff61323479" category="list-text">元素版本</block>
+  <block id="be637a8e5eae74e796f29c77dd7bf739" category="list-text">Fibre Channel工作階段</block>
+  <block id="588cc032e37390eb5e045bbe00ed0e70" category="list-text">設定的IOPS總計</block>
+  <block id="63ca65a5ae90f26f40e9ea7e52e782c3" category="list-text">IOPS總計</block>
+  <block id="2920efdd915e81690d1274fe4d3e6069" category="list-text">節點類型</block>
+  <block id="d3505ea6a298289a848db2319575a2c7" category="list-text">加密閒置</block>
+  <block id="6a4d46deeb21ef2b80060c11f49187e4" category="list-text">Vvols</block>
+  <block id="c592641da9cd2c9ce2d888fa760d4673" category="list-text">設定的IOPS總計下限</block>
+  <block id="00ef904a45554d6229d21523e7098172" category="cell">此圖表顯示IOPS與處理量使用量。</block>
+  <block id="860400941e2b302219a9f20bc0e97d4d" category="paragraph">這顯示安裝叢集的健全狀況和完整度：</block>
+  <block id="5d44d9d46b4e88a1d76fb80f6864ec0a" category="list-text">已配置：系統上所建立之所有磁碟區的總容量。</block>
+  <block id="7031a5179f1458f666ba075ddaccbaac" category="list-text">實體：系統上要儲存資料的實體容量（區塊資料總容量）總計（套用所有效率後）。</block>
+  <block id="14d524fab3f1cd81979bb13a11512350" category="list-text">區塊容量：目前使用的區塊資料容量。</block>
+  <block id="2de6b7929ed0395c11e68fe85a3c1d23" category="list-text">中繼資料容量：目前使用的中繼資料容量。</block>
+  <block id="639e0d3ff147fcd6d7d5f1f2c395ae27" category="list-text">效率：由於資料壓縮、重複資料刪除和資源隨需配置等因素、系統的效率也隨之提高。</block>
+  <block id="7897561133ee0e53b28ae3028d3cae82" category="section-title">系統概述NetApp HCI</block>
+  <block id="842212508fab10beba76dad23ac2287e" category="paragraph">對於NetApp HCI型解決方案、當您從*儀表板*頁面選取*顯示詳細資料*時、可以檢視叢集的特定詳細資料與效能資訊。</block>
+  <block id="bdbf539317b61ded9528ce004b1a51d4" category="cell">此頂端列提供所選叢集目前狀態的快速概觀。此列會顯示運算和儲存節點的數量、運算狀態、儲存狀態、虛擬機器數量、NetApp HCI 以及與您的VMware系統相關聯的磁碟區數量。此列的連結會開啟UI中的對應資料。</block>
+  <block id="9fd8780b202c8a3774a8dbea81b69278" category="cell">安裝詳細資料</block>
+  <block id="1b21b0d71706897b69f108572c444d40" category="list-text">Hypervisor</block>
+  <block id="114102f86f31810b2bc8c43ead2004d3" category="list-text">關聯的vCenter執行個體</block>
+  <block id="d3d44969b780bc9de6c0d6393f0f8aeb" category="list-text">相關資料中心</block>
+  <block id="8f7a3e7198606a204fd98670edd21cb5" category="list-text">運算節點類型</block>
+  <block id="54dd22073f00de5b91fa50d6c037f040" category="list-text">儲存節點類型</block>
+  <block id="ee781b435a6a5b7491fdae43d018d768" category="cell">運算使用率</block>
+  <block id="37a9043811991ca1dcfd85ee76c1b369" category="cell">此圖表顯示CPU與記憶體使用量。</block>
+  <block id="3f66ff9522ede52d62ea481c9e4990ed" category="cell">儲存容量</block>
+  <block id="845fd12e3c31b51563647c4572d65ac3" category="cell">儲存效能</block>
+  <block id="5106cb7ea917f7c22d63d5d6d8e17c02" category="cell">IOPS與處理量會顯示在此圖表中。</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
+  <block id="23de2a1ae75bcf2f4de17d30fe859a05" category="sidebar">所有叢集檢視儀表板</block>
+  <block id="c5562ce2e22a86c247849904ecef3dc8" category="sidebar">報告</block>
+  <block id="9949f61a3827392769230f94e185dd46" category="sidebar">使用SolidFire Active IQ 這個功能</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="be7fd157e3e9efece064903e66974656" category="sidebar">產品文件</block>
+  <block id="491094e0aaecba36b60cd7a5a211ccb5" category="sidebar">支援元件軟體SolidFire</block>
+  <block id="08edd2123939d5309dced149763a50ee" category="sidebar">NetApp HCI</block>
+  <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">疑難排解</block>
+  <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">聯絡技術支援</block>
+</blocks>

@@ -1,0 +1,113 @@
+---
+permalink: task-active-iq-enable-reporting.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, enable, reporting 
+summary: 瞭SolidFire Active IQ 解如何在管理節點上啟用功能的功能。 
+---
+= 啟用SolidFire Active IQ 資料彙報功能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您在安裝或升級期間尚未啟用管理節點上的功能、則必須在SolidFire Active IQ 管理節點上啟用此功能、Active IQ 才能從管理節點接收叢集的資料有效負載。成功設定連線後、叢集會將資訊傳送至Active IQ 該伺服器。然後、您可以在Active IQ 顯示叢集資訊的畫面UI中檢視叢集。
+
+
+NOTE: 支援Google Chrome和Firefox瀏覽器搭配Active IQ 使用支援。
+
+.開始之前
+* 例如、某些功能的功能是服務品質（QoS）、需要元素11.3或更新版本才能正常運作。Active IQ為了確認您有能力使用Active IQ 所有的功能、NetApp建議您：
++
+** 您的儲存叢集執行NetApp Element 的是不含更新版本的軟件。
+** 您已部署執行11.3版或更新版本的管理節點。
+
+
+* 您可以存取網際網路。您無法從Active IQ 沒有外部連線的黑暗站台使用「收集器」服務。
+
+
+.步驟
+. 取得安裝的基礎資產ID：
++
+.. 在管理節點上開啟庫存服務REST API UI：
++
+[listing]
+----
+https://<ManagementNodeIP>/inventory/1/
+----
+.. 選擇*授權*並完成下列項目：
++
+... 輸入叢集使用者名稱和密碼。
+... 輸入用戶端ID為「mnode-client」。
+... 選取*授權*以開始工作階段。
+... 關閉視窗。
+
+
+.. 從REST API UI中、選取*「Get Rise/Installations」*。
+.. 選擇*試用*。
+.. 選擇*執行*。
+.. 從代碼200回應本文中、複製「id」以供安裝之用。
++
+[listing, subs="+quotes"]
+----
+{
+  "installations": [
+    {
+      "_links": {
+        "collection": "https://10.111.211.111/inventory/1/installations",
+        "self": "https://10.111.217.111/inventory/1/installations/abcd01e2-ab00-1xxx-91ee-12f111xxc7x0x"
+      },
+      *"id": "abcd01e2-ab00-1xxx-91ee-12f111xxc7x0x",*
+----
++
+
+NOTE: 您的安裝具有在安裝或升級期間建立的基礎資產組態。
+
+
+
+. 啟動遙測：
++
+.. 在管理節點上輸入管理節點IP位址、然後輸入「/mnodes（mnodes）：
++
+[listing]
+----
+https://<ManagementNodeIP>/mnode
+----
+.. 選取*授權*或任何鎖定圖示、然後完成下列步驟：
++
+... 輸入叢集使用者名稱和密碼。
+... 輸入用戶端ID為「mnode-client」。
+... 選取*授權*以開始工作階段。
+... 關閉視窗。
+
+
+.. 設定基礎資產：
++
+... 選取*「Pet /Assites/｛asset_id｝*」。
+... 選擇*試用*。
+... 在Json有效負載中輸入下列內容：
++
+[listing]
+----
+{
+"telemetry_active": true
+"config": {}
+}
+----
+... 在「* asse_ID*」中輸入前一個步驟的基礎ID。
+... 選擇*執行*。
++
+一旦資產發生變更、就會自動重新啟動此服務。Active IQ修改資產會在套用設定之前、造成短暫延遲。
+
+
+
+
+
+. 登入 link:https://activeiq.solidfire.com/["SolidFire Active IQ"^] 並確認您可以檢視叢集。
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

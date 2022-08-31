@@ -1,0 +1,26 @@
+---
+permalink: task-active-iq-select-cluster-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, cluster, information, specific 
+summary: 深入瞭SolidFire Active IQ 解如何在功能介紹中檢視叢集資訊。 
+---
+= 選取叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+當您從*選取叢集*下拉式清單中選取叢集時、可以檢視特定叢集的叢集資訊。每個叢集資訊類別都會以表格格式或圖形格式呈現。
+
+從*儀表板*叢集總覽或側邊面板的*報告*下拉式功能表、瞭解各種可用的清單和篩選條件：
+
+* link:task-active-iq-single-cluster-view-dashboard.html["單一叢集檢視儀表板"]
+* link:task-active-iq-reporting-options.html["叢集的報告選項"]
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

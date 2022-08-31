@@ -1,0 +1,223 @@
+---
+permalink: task-active-iq-virtual-volumes.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, virtual, volumes 
+summary: 深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。 
+---
+= 虛擬磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+從所選叢集的側邊面板上提供的* VVols頁面*、您可以檢視有關虛擬磁碟區及其相關儲存容器、傳輸協定端點、繫結和主機的資訊。
+
+瞭解VVols相關工作：
+
+* <<Virtual Volumes Details>>
+* <<Storage Containers>>
+* <<Protocol Endpoints>>
+* <<Hosts>>
+* <<Bindings>>
+
+
+
+
+== 虛擬磁碟區詳細資料
+
+所選叢集的「* VVols *>*虛擬磁碟區*」頁面提供叢集上每個作用中虛擬磁碟區的相關資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| Volume ID | 基礎Volume的ID。 
+
+
+| Snapshot ID | 基礎Volume快照的ID。如果虛擬磁碟區不代表快照、則值為零。 
+
+
+| 父虛擬Volume ID | 父虛擬Volume的虛擬Volume ID。如果ID全部為零、則虛擬磁碟區是獨立的、沒有父磁碟區的連結。 
+
+
+| 虛擬Volume ID | 虛擬Volume的通用唯一識別碼。 
+
+
+| 名稱 | 指派給虛擬磁碟區的名稱。 
+
+
+| 客體作業系統類型 | 與虛擬磁碟區相關聯的作業系統。 
+
+
+| 類型 | 虛擬磁碟區類型：config、Data、Memory、Swap或其他。 
+
+
+| 存取 | 指派給虛擬磁碟區的讀寫權限。 
+
+
+| 尺寸 | 虛擬磁碟區的大小、單位為GB或Gbibytes（GiB）。 
+
+
+| 已用容量  a| 
+Volume目前使用的容量：
+
+* 綠色=高達80%
+* 黃色=高於80%
+* 紅色=高於95%
+
+
+
+
+| Snapshot | 關聯的快照數量。選取要連結至快照複本詳細資料的號碼。 
+
+
+| 最小IOPS | 虛擬磁碟區的最低IOPS QoS設定。 
+
+
+| 最大IOPS | 虛擬磁碟區的IOPS QoS上限設定。 
+
+
+| 暴增IOPS | 虛擬磁碟區的最大突發QoS設定。 
+
+
+| VMW_vmid | 在前面加上「VMW_」的欄位中、資訊由VMware定義。如需說明、請參閱VMware文件。 
+
+
+| 創造時間 | 虛擬磁碟區建立工作完成的時間。 
+
+
+| 行動 | 選取垂直下拉式功能表、以取得個別虛擬磁碟區的詳細資料。 
+|===
+
+
+== 儲存容器
+
+在所選叢集的「* VVols *>* Storage Containers*」頁面上、您可以檢視叢集上所有作用中儲存容器的下列資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 帳戶ID | 與儲存容器相關聯的帳戶ID。 
+
+
+| 名稱 | 儲存容器的名稱。 
+
+
+| 狀態  a| 
+儲存容器的狀態：
+
+* 作用中：儲存容器正在使用中。
+* 鎖定：儲存容器已鎖定。
+
+
+
+
+| PE類型 | 表示傳輸協定端點類型（SCSI是Element軟體唯一可用的傳輸協定）。 
+
+
+| 儲存Container ID | 虛擬Volume儲存容器的通用唯一識別碼（UUID）。 
+
+
+| 作用中虛擬磁碟區 | 與儲存容器相關聯的作用中虛擬磁碟區數目。 
+|===
+
+
+== 傳輸協定端點
+
+所選叢集的「* VVols *>*傳輸協定端點*」頁面提供傳輸協定端點資訊、例如主要供應商ID、次要供應商ID和傳輸協定端點ID。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 主要供應商ID | 主要傳輸協定端點供應商的ID。 
+
+
+| 次要供應商ID | 次要傳輸協定端點供應商的ID。 
+
+
+| 傳輸協定端點ID | 傳輸協定端點的UUID。 
+
+
+| 傳輸協定端點狀態  a| 
+傳輸協定端點的狀態：
+
+* 作用中：傳輸協定端點正在使用中。
+* 開始：傳輸協定端點正在啟動。
+* 容錯移轉：傳輸協定端點已容錯移轉。
+* 保留：保留傳輸協定端點。
+
+
+
+
+| 供應商類型 | 傳輸協定端點供應商的類型：主要或次要。 
+
+
+| SCSI NAA裝置ID | NAA IEEE註冊延伸格式之傳輸協定端點的全域唯一SCSI裝置識別碼。 
+|===
+
+
+== 主機
+
+所選叢集的「* VVols *>* hosts*」頁面提供有關裝載虛擬磁碟區的VMware ESXi主機的資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 主機ID | 託管虛擬磁碟區的ESXi主機UUID、已由叢集得知。 
+
+
+| 綁定 | ESXi主機所繫結的所有虛擬磁碟區之繫結ID。 
+
+
+| ESX叢集ID | vSphere主機叢集ID或vCenter Guid。 
+
+
+| 啟動器IQN | 虛擬Volume主機的啟動器IQN。 
+
+
+| 《S-傳輸協定端點ID》SolidFire | ESXi主機目前可見的傳輸協定端點。 
+|===
+
+
+== 綁定
+
+所選叢集的「* VVols *>* Bindings *」頁面提供有關每個虛擬磁碟區的繫結資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 主機ID | 託管虛擬磁碟區的ESXi主機UUID、已由叢集得知。 
+
+
+| 傳輸協定端點ID | 傳輸協定端點的UUID。 
+
+
+| 頻段ID中的傳輸協定端點 | 傳輸協定端點的SCSI NAA裝置ID。 
+
+
+| 傳輸協定端點類型 | 表示傳輸協定端點類型（SCSI是Element軟體唯一可用的傳輸協定）。 
+
+
+| VVOL繫結ID | 虛擬磁碟區的繫結UUID。 
+
+
+| VVOL ID | 虛擬磁碟區的UUID。 
+
+
+| VVOL次要ID | 虛擬磁碟區的次要ID、即SCSI第二層LUN ID。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

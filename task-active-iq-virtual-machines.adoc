@@ -1,0 +1,82 @@
+---
+permalink: task-active-iq-virtual-machines.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, virtual, machines, vm 
+summary: 深入瞭SolidFire Active IQ 解中的「虛擬機器」頁面。 
+---
+= 虛擬機器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+從*虛擬機器*頁面（可從所選NetApp HCI 的VMware叢集側邊面板取得）、您可以檢視有關虛擬機器（VM）的CPU和儲存設備相關狀態資訊。
+
+
+NOTE: 「*虛擬機器*」頁面僅適用於NetApp HCI 一個VMware叢集。
+
+深入瞭解篩選及瞭解UI中顯示的VM資料。
+
+
+
+== 檢視虛擬機器詳細資料
+
+「*虛擬機器*」頁面可從所選叢集的側邊面板取得、提供與叢集相關之每個作用中VM的相關資訊。
+
+除了所有Active IQ 的資訊頁面上都有傳統的篩選選項、*虛擬機器*頁面還有快速篩選按鈕、您可以選擇這些按鈕來判斷可用度的常見VM狀態。
+
+資訊列提供下列資料的快速概觀：
+
+* 虛擬機器：與儲存叢集相關之VM的數量和各種可用度狀態。
+* 狀態：VM的警告或錯誤數目。
+* 已配置資源：與儲存叢集相關之所有VM的總儲存和記憶體資源。
+
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 名稱 | VM的易記名稱。 
+
+
+| 狀態  a| 
+VM的可用度狀態：
+
+* 正常：虛擬機器如預期般回應。
+* 警告：已報告警告。如需詳細資料、請參閱vSphere。
+* 重大：已報告重大錯誤。如需詳細資料、請參閱vSphere。
+* 不明：無法存取VM。
+
+
+
+
+| 電源狀態 | 指出虛擬機器是開機、關機或暫停。 
+
+
+| vCenter IP | vCenter Server的IP位址。 
+
+
+| CPU數量 | 每個VM的CPU數量。 
+
+
+| 主機記憶體使用量 | 虛擬機器正在使用的ESXi主機記憶體量。 
+
+
+| CPU使用率 | 作用中虛擬CPU在VM中佔可用CPU總數百分比的百分比。 
+
+
+| 已用容量 | 使用中的VM儲存資源百分比。 
+
+
+| 尖峰磁碟延遲 | 偵測到的磁碟延遲上限（毫秒）。 
+
+
+| 警示 | 虛擬機器上觸發的vSphere警示數目。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

@@ -1,0 +1,52 @@
+---
+permalink: concept-active-iq-learn-about-active-iq.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, learn 
+summary: 深入瞭SolidFire Active IQ 解。 
+---
+= 深入瞭解SolidFire Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+開始使用SolidFire Active IQ 資訊技術之前、您應該先瞭SolidFire Active IQ 解到資訊技術的運作方式及收集的資訊。
+
+
+
+== 運作原理SolidFire Active IQ
+
+收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。
+
+link:https://activeiq.solidfire.com/["存取SolidFire Active IQ 功能（需要登入）"^]
+
+
+
+== 資訊由SolidFire Active IQ 本網站所收集
+
+此功能可收集有關磁碟區、叢集、節點、效能和組態的資訊：SolidFire Active IQ
+
+* 資源ID、例如磁碟區、快照和帳戶節點ID
+* 叢集與磁碟區的效能與容量資料
+* 錯誤與事件記錄
+* 支援的元件軟體版本NetApp HCI
+* 服務品質（QoS）組態
+* Volume詳細資料、例如大小、建立日期等
+* Volume存取群組和工作階段組態
+* 節點和叢集網路組態
+
+
+不收集下列客戶敏感資訊：SolidFire Active IQ
+
+* 實際終端使用者資料
+* 密碼
+* 挑戰握手驗證傳輸協定（CHAP）機密
+* 叢集管理使用者資訊
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

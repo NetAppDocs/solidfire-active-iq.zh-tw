@@ -1,0 +1,42 @@
+---
+permalink: task-active-iq-term-capacity.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, capacity, licensing 
+summary: 深入瞭SolidFire Active IQ 解《Capacity Licensing》（容量授權）頁面。 
+---
+= 術語容量
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+在「*所有叢集檢視*」的「*術語容量*」頁面上、您可以檢視NetApp術語容量模式的相關資訊。
+
+[cols="25,75"]
+|===
+| 標題 | 說明 
+
+
+| 公司ID | 與授權相關的公司ID。 
+
+
+| 公司名稱 | 與授權相關聯的公司名稱。 
+
+
+| 授權 | 客戶環境中的授權數。 
+
+
+| 叢集 | 屬於客戶的叢集數量及其ID。 
+
+
+| 授權容量 | 客戶環境中授權節點容量上的已分配容量量。 
+
+
+| 消耗容量 | 屬於客戶的所有叢集目前已用容量。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

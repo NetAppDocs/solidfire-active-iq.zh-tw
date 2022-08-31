@@ -1,0 +1,60 @@
+---
+permalink: task-active-iq-all-clusters-view-dashboard.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, dashboard, all, clusters, view 
+summary: 深入瞭SolidFire Active IQ 解《All ClustersView》儀表板。 
+---
+= 所有叢集檢視儀表板
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+在*所有叢集檢視*的*儀表板*頁面上、您可以檢視與您帳戶相關之叢集的效能、容量和叢集統計資料詳細資料。
+
+[cols="25,75"]
+|===
+| 標題 | 說明 
+
+
+| 公司 | 指派給叢集的公司名稱。 
+
+
+| 叢集 | 指派給叢集的名稱。 
+
+
+| 叢集ID | 建立叢集時指派的叢集編號。 
+
+
+| 版本 | 在每個節點上執行的叢集主機版本。 
+
+
+| 節點 | 叢集中的節點數。 
+
+
+| 磁碟區 | 叢集中的磁碟區數目。 
+
+
+| 效率 | 系統因為壓縮、重複資料刪除和精簡配置而獲得的效率。 
+
+
+| 已用區塊容量 | 叢集區塊目前使用的容量。 
+
+
+| 故障 | 在叢集上偵測到目前未解決的故障數。 
+
+
+| SVIP | 指派給叢集的儲存虛擬IP位址。 
+
+
+| MVIP | 指派給叢集的管理虛擬IP位址。 
+
+
+| 上次更新 | 最新叢集更新的時間與日期。 
+|===
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]
