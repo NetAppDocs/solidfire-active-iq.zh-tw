@@ -84,7 +84,6 @@
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">檢視圖表並選取日期範圍</block>
   <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。</block>
   <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。</block>
-  <block id="0461c4fc34e0832d93b7333b2c5410c3" category="paragraph">此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：</block>
   <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">綠色=高達39%</block>
   <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">黃色= 40至59%</block>
   <block id="77b4dabdac23af0111f4e3fffcb2f6e5" category="list-text">紅色=超過59%</block>
@@ -842,7 +841,6 @@
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">例如、某些功能的功能是服務品質（QoS）、需要元素11.3或更新版本才能正常運作。Active IQ為了確認您有能力使用Active IQ 所有的功能、NetApp建議您：</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">您的儲存叢集執行NetApp Element 的是不含更新版本的軟件。</block>
   <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">您已部署執行11.3版或更新版本的管理節點。</block>
-  <block id="48999150d3601e85bd7d225657eb6811" category="list-text">您可以存取網際網路。您無法從Active IQ 沒有外部連線的黑暗站台使用「收集器」服務。</block>
   <block id="82a2b40d5c47d3f7c952492cdb40edd6" category="list-text">取得安裝的基礎資產ID：</block>
   <block id="2be2a7ca72e09c58cfb47c549453cdd1" category="list-text">在管理節點上開啟庫存服務REST API UI：</block>
   <block id="03917624197381e26d93d8783477b3bf" category="list-text">選擇*授權*並完成下列項目：</block>
@@ -1027,4 +1025,6 @@
   <block id="08edd2123939d5309dced149763a50ee" category="sidebar">NetApp HCI</block>
   <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">疑難排解</block>
   <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">聯絡技術支援</block>
+  <block id="1b4febc902d7bf51135668545d151a14" category="paragraph">此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：</block>
+  <block id="b28e179f94097b207a2dc9172aa4b4d0" category="list-text">您可以存取網際網路。無法從沒有外部連線的黑暗站台使用此收集器服務。Active IQ</block>
 </blocks>
