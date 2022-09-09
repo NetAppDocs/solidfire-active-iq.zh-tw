@@ -1,5 +1,5 @@
 ---
-permalink: task-active-iq-node-throttling.html 
+permalink: task-active-iq-throttling.html 
 sidebar: sidebar 
 keywords: solidfire, active, iq, nodes, throttling 
 summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。 
@@ -11,7 +11,7 @@ summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。
 
 
 [role="lead"]
-在所選叢集的「*節點*>*節點節流*」頁面（可從側邊面板取得）上、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。
+從所選叢集的側邊面板所提供的「* QoS管理*>*節點節流*」頁面、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。
 
 深入瞭解檢視節點節流資訊：
 

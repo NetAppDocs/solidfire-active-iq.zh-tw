@@ -15,7 +15,7 @@ summary: 深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。
 
 瞭解VVols相關工作：
 
-* <<Virtual Volumes Details>>
+* <<Virtual Volumes>>
 * <<Storage Containers>>
 * <<Protocol Endpoints>>
 * <<Hosts>>
@@ -24,7 +24,7 @@ summary: 深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。
 
 
 
-== 虛擬磁碟區詳細資料
+== 虛擬磁碟區
 
 所選叢集的「* VVols *>*虛擬磁碟區*」頁面提供叢集上每個作用中虛擬磁碟區的相關資訊。
 

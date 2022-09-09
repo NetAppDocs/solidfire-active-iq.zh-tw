@@ -71,13 +71,10 @@
   <block id="b22459c42fa05b62fcf6efae76d217e0" category="list-text"><block ref="b22459c42fa05b62fcf6efae76d217e0" category="inline-link-macro-rx"></block></block>
   <block id="df583ae7ba964fd4806b55904da81813" category="inline-link-macro">警示</block>
   <block id="24065c72b6183812a2182740e9714ac5" category="list-text"><block ref="24065c72b6183812a2182740e9714ac5" category="inline-link-macro-rx"></block></block>
-  <block id="799a3fe6cff876fa3027852cc5707a2e" category="inline-link-macro">容量授權</block>
-  <block id="d670b82fe0337950f878b889f6933104" category="list-text"><block ref="d670b82fe0337950f878b889f6933104" category="inline-link-macro-rx"></block></block>
   <block id="d7d8c18bcc1cc8a4b125abd8f5edd2b9" category="inline-link-macro">術語容量</block>
   <block id="4eca902cc4ae3f106780131e01e88f4b" category="list-text"><block ref="4eca902cc4ae3f106780131e01e88f4b" category="inline-link-macro-rx"></block></block>
   <block id="0cefee73bdb85b3d4d3c8c689e1f1c0a" category="summary">深入瞭解SolidFire Active IQ 《節點節流》頁面。</block>
   <block id="25a0046a8717b473571a227501cd74e2" category="doc">節點節流</block>
-  <block id="59fcde6598b4ab87af49810271746190" category="paragraph">在所選叢集的「*節點*&gt;*節點節流*」頁面（可從側邊面板取得）上、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。</block>
   <block id="0df9a444c778c6506f58f43cc0edd434" category="paragraph">深入瞭解檢視節點節流資訊：</block>
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
@@ -118,8 +115,6 @@
   <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">選取叢集</block>
   <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">當您從*選取叢集*下拉式清單中選取叢集時、可以檢視特定叢集的叢集資訊。每個叢集資訊類別都會以表格格式或圖形格式呈現。</block>
   <block id="bf4336b6c177b0eea8653853a0f152fc" category="paragraph">從*儀表板*叢集總覽或側邊面板的*報告*下拉式功能表、瞭解各種可用的清單和篩選條件：</block>
-  <block id="8dbfa38b833867442634cdf2a6756bca" category="inline-link-macro">單一叢集檢視儀表板</block>
-  <block id="394c111301227a2139f9444cb09edb3f" category="list-text"><block ref="394c111301227a2139f9444cb09edb3f" category="inline-link-macro-rx"></block></block>
   <block id="bbb006833f01ec561077704bef27cb73" category="inline-link-macro">叢集的報告選項</block>
   <block id="e8451b80e6ac689caa1caf052ce73f12" category="list-text"><block ref="e8451b80e6ac689caa1caf052ce73f12" category="inline-link-macro-rx"></block></block>
   <block id="f6fb41cae39c67dddfa257340be0abea" category="summary">深入瞭SolidFire Active IQ 解此功能。</block>
@@ -204,7 +199,6 @@
   <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">叢集</block>
   <block id="331491aa4118975b5d832b3bf73155ca" category="cell">叢集數及其ID、構成授權的叢集集集區。</block>
   <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">深入瞭解SolidFire Active IQ 中的QoS建議頁面。</block>
-  <block id="4bcb78be7a1595a1156ae7e0b3ed4052" category="paragraph">「* QoS建議*」頁面可從所選叢集的側邊面板取得、根據最近的效能資料、針對叢集提供每日服務品質（QoS）建議。QoS建議僅支援Element軟體11.x或更新版本上的叢集。</block>
   <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">根據近期活動的Volume統計資料、提出效能建議。Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。</block>
   <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">效能與QoS、適用於SolidFire 整個儲存叢集</block>
   <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
@@ -325,12 +319,10 @@
   <block id="273520ae2b0e4a202c36942359c00981" category="summary">深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。</block>
   <block id="aca90d0397c9490780bfa614d3eda075" category="paragraph">從所選叢集的側邊面板上提供的* VVols頁面*、您可以檢視有關虛擬磁碟區及其相關儲存容器、傳輸協定端點、繫結和主機的資訊。</block>
   <block id="6fa75a2879ede33bb8dcbe609ed93225" category="paragraph">瞭解VVols相關工作：</block>
-  <block id="8ee38da65565b437e30df8b4fc2120c6" category="list-text"><block ref="cc3a190077155e9f11e55893a04126b0" category="inline-xref-macro-rx"></block></block>
   <block id="20a800131c78b90a5f3cfe114f23578f" category="list-text"><block ref="5ded2a046dc5ca86637f3ae24cd70a11" category="inline-xref-macro-rx"></block></block>
   <block id="427c47678b1253b05de4cc969a1e69a1" category="list-text"><block ref="0438ed7546a9ccca6ea31cb94f48bb41" category="inline-xref-macro-rx"></block></block>
   <block id="3a711397217e10d79c4f76137db4c3fa" category="list-text"><block ref="9d7a5a13ad72f63838a097b34692bfd2" category="inline-xref-macro-rx"></block></block>
   <block id="330ab730707379ab7dd6073af2af7a37" category="list-text"><block ref="842b4663dd531fbec8e79946bdde515b" category="inline-xref-macro-rx"></block></block>
-  <block id="1cd4dd4eff6bc90708a6a05c5d116a57" category="section-title">虛擬磁碟區詳細資料</block>
   <block id="0b286bd72571d699ece37ec34b85f379" category="paragraph">所選叢集的「* VVols *&gt;*虛擬磁碟區*」頁面提供叢集上每個作用中虛擬磁碟區的相關資訊。</block>
   <block id="fd6bac109d479ec3660fd4daeeded3a1" category="cell">基礎Volume的ID。</block>
   <block id="72d6eb7733941a274a474f7cc4d97973" category="cell">Snapshot ID</block>
@@ -739,12 +731,6 @@
   <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element軟體API文件</block>
   <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">在所選叢集*報告*下拉式功能表的「* API集合*」頁面上、您可以檢視NetApp SolidFire Active IQ 供應器使用的API方法。如需這些方法的詳細說明、請參閱 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>。</block>
   <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">除了這些方法之外、Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
-  <block id="0c4d60a128e7714f565d66085537b6a9" category="summary">深入瞭SolidFire Active IQ 解中的節點頁面。</block>
-  <block id="efff5bf65c7253a9f13c3da6e316514f" category="paragraph">在節點頁面（可從所選叢集的側邊面板取得）上、您可以檢視叢集中節點的資訊。</block>
-  <block id="86d657b6d468a7d4b765611ea754e07d" category="paragraph">瞭解如何檢視作用中節點的資訊、以及所選節點的節點節流百分比：</block>
-  <block id="1fb1691d89c63b4c1b5243e04cd9f5b3" category="inline-link-macro">作用中節點</block>
-  <block id="6c663e2ebd3f817914a7f20e8dd5b0dd" category="list-text"><block ref="6c663e2ebd3f817914a7f20e8dd5b0dd" category="inline-link-macro-rx"></block></block>
-  <block id="72fb384431f6bdc515c1be4fddf3b93e" category="list-text"><block ref="72fb384431f6bdc515c1be4fddf3b93e" category="inline-link-macro-rx"></block></block>
   <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">疑難排解SolidFire Active IQ 各項問題。</block>
   <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">疑難排解與支援</block>
   <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">如果您在使用SolidFire Active IQ 任何一NetApp Element 種或其他以軟體為基礎的產品時遇到問題、或遇到技術問題、您可以使用許多資源來協助您解決問題。</block>
@@ -864,7 +850,6 @@
   <block id="c9618f4b15d53501dee68300c1517890" category="inline-link-macro">SolidFire Active IQ</block>
   <block id="d54aa041fbc60813d85a10116f19acba" category="list-text">登入 <block ref="4ebae971a9ad9014320b80bb2122d87f" category="inline-link-macro-rx"></block> 並確認您可以檢視叢集。</block>
   <block id="efaf46da503dff8a534048e87cf05c05" category="summary">深入瞭SolidFire Active IQ 解《Active Node》（作用中節點）頁面。</block>
-  <block id="aa2722f0dd149fa426d354dcd17c882b" category="paragraph">在所選叢集的側邊面板上、您可以在「*節點*&gt;*作用中節點*」頁面上檢視叢集中節點的資訊。</block>
   <block id="efa3af2000f434495156bd711f91876d" category="paragraph">可用的詳細資料會因系統而異：</block>
   <block id="a896398c6d72bfcee974918d75f31685" category="list-text"><block ref="6b768338154a8197cc67e41af532b78b" category="inline-xref-macro-rx"></block></block>
   <block id="f89f98ad3bf8dccd3b5dfa50eb3713e7" category="list-text"><block ref="5d3f50a6fbc21b3b38fa712473d01526" category="inline-xref-macro-rx"></block></block>
@@ -973,7 +958,6 @@
   <block id="c4ed6b7a93a993b1b380f32c53438c9d" category="cell">消耗容量</block>
   <block id="231e178a523a4059cc5cd57dcea3d6a1" category="cell">屬於客戶的所有叢集目前已用容量。</block>
   <block id="fe39ad85a0161490bd3de016e8b78715" category="summary">深入瞭解SolidFire Active IQ 所選叢集的儀表板頁面。</block>
-  <block id="6f62e89a8e7dade71af4a03b96ca6f70" category="doc">單一叢集檢視儀表板</block>
   <block id="b65c21930213ff455568ac2a7793fdae" category="paragraph">在所選叢集的*儀表板*頁面上、您可以檢視高層級的叢集詳細資料、包括效能、容量和運算使用率。</block>
   <block id="2b56b60f878922093facd42284848a0c" category="inline-image-macro">更多詳細資料</block>
   <block id="322d18de68603bba1e7afd4ecddcacba" category="paragraph">選取*顯示詳細資料*下拉式功能表以檢視叢集的詳細資訊、或選取 <block ref="c32549a97e18cfcab584bd16f681f71f" category="inline-image-macro-rx" type="image"></block> 標題旁的圖示、提供更精細的報告資訊。您也可以將滑鼠指標移到圖表線上、並報告資料、以顯示其他詳細資料。</block>
@@ -1016,7 +1000,6 @@
   <block id="845fd12e3c31b51563647c4572d65ac3" category="cell">儲存效能</block>
   <block id="5106cb7ea917f7c22d63d5d6d8e17c02" category="cell">IOPS與處理量會顯示在此圖表中。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
-  <block id="23de2a1ae75bcf2f4de17d30fe859a05" category="sidebar">所有叢集檢視儀表板</block>
   <block id="c5562ce2e22a86c247849904ecef3dc8" category="sidebar">報告</block>
   <block id="9949f61a3827392769230f94e185dd46" category="sidebar">使用SolidFire Active IQ 這個功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -1027,4 +1010,18 @@
   <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">聯絡技術支援</block>
   <block id="1b4febc902d7bf51135668545d151a14" category="paragraph">此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：</block>
   <block id="b28e179f94097b207a2dc9172aa4b4d0" category="list-text">您可以存取網際網路。無法從沒有外部連線的黑暗站台使用此收集器服務。Active IQ</block>
+  <block id="c357af7a99b77ac25c548aef6df0d1a8" category="list-text"><block ref="c357af7a99b77ac25c548aef6df0d1a8" category="inline-link-macro-rx"></block></block>
+  <block id="16beb139f89865caa5bdd51a5b9fadcd" category="summary">深入瞭SolidFire Active IQ 解功能介紹中的QoS管理頁面。</block>
+  <block id="d57c256b226c8f444c1c9b3956085ad8" category="doc">QoS管理</block>
+  <block id="5085a6d22e1a79b7b82997ea97e58d72" category="paragraph">從所選叢集的側邊面板所提供的「* QoS管理*」頁面、您可以檢視叢集中節點的QoS建議和節流資訊。</block>
+  <block id="be4ba82940f402388451f5cc834ece73" category="paragraph">瞭解如何檢視所選節點的QoS建議和節流相關資訊：</block>
+  <block id="5259ae4afb5996ff48788b2fa720114c" category="inline-link-macro">建議</block>
+  <block id="a360a35f96153959d5b43412ede22440" category="list-text"><block ref="a360a35f96153959d5b43412ede22440" category="inline-link-macro-rx"></block></block>
+  <block id="74372e2fdee501a3a9fa25f6ef28ec0a" category="list-text"><block ref="74372e2fdee501a3a9fa25f6ef28ec0a" category="inline-link-macro-rx"></block></block>
+  <block id="00c4d35e3b52aa64cb1fc6084c8a6b2e" category="inline-link-macro">單一叢集檢視儀表板</block>
+  <block id="926bcde67df442aed657539d0f151a77" category="list-text"><block ref="926bcde67df442aed657539d0f151a77" category="inline-link-macro-rx"></block></block>
+  <block id="36d2e075918140efadafcbd5672eb0ad" category="paragraph">「* QoS管理*&gt;*建議*」頁面可從選取叢集的側邊面板取得、根據最近的效能資料、針對叢集提供每日服務品質（QoS）建議。QoS建議僅支援Element軟體11.x或更新版本上的叢集。</block>
+  <block id="4408a36df9e9ed5aa8dd852943967324" category="list-text"><block ref="370537d09346032450865c36be0b772b" category="inline-xref-macro-rx"></block></block>
+  <block id="b01d0fd0e15cd69ca0c99c35e0db5116" category="paragraph">從所選叢集的側邊面板上的*節點*頁面、您可以檢視叢集中節點的資訊。</block>
+  <block id="9b549dfa7e57d3b25fa9e46fe3685b2b" category="paragraph">從所選叢集的側邊面板所提供的「* QoS管理*&gt;*節點節流*」頁面、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。</block>
 </blocks>

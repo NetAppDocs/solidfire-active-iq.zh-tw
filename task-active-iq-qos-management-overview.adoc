@@ -1,0 +1,26 @@
+---
+permalink: task-active-iq-qos-management-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes 
+summary: 深入瞭SolidFire Active IQ 解功能介紹中的QoS管理頁面。 
+---
+= QoS管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+從所選叢集的側邊面板所提供的「* QoS管理*」頁面、您可以檢視叢集中節點的QoS建議和節流資訊。
+
+瞭解如何檢視所選節點的QoS建議和節流相關資訊：
+
+* link:task-active-iq-recommendations.html["建議"]
+* link:task-active-iq-throttling.html["節點節流"]
+
+
+
+
+== 如需詳細資訊、請參閱
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]

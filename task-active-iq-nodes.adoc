@@ -1,17 +1,17 @@
 ---
-permalink: task-active-iq-active-nodes.html 
+permalink: task-active-iq-nodes.html 
 sidebar: sidebar 
 keywords: solidfire, active, iq, nodes 
 summary: 深入瞭SolidFire Active IQ 解《Active Node》（作用中節點）頁面。 
 ---
-= 作用中節點
+= 節點
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-在所選叢集的側邊面板上、您可以在「*節點*>*作用中節點*」頁面上檢視叢集中節點的資訊。
+從所選叢集的側邊面板上的*節點*頁面、您可以檢視叢集中節點的資訊。
 
 可用的詳細資料會因系統而異：
 

@@ -47,13 +47,7 @@ sidebar:
         - title: 報告
           url: "/task-active-iq-reporting-options.html"
       - title: 節點
-        entries:
-        - title: 總覽
-          url: "/task-active-iq-nodes-overview.html"
-        - title: 作用中節點
-          url: "/task-active-iq-active-nodes.html"
-        - title: 節點節流
-          url: "/task-active-iq-node-throttling.html"
+        url: "/task-active-iq-nodes.html"
       - title: 磁碟機
         url: "/task_active_iq_drives.html"
       - title: 磁碟區
@@ -68,8 +62,14 @@ sidebar:
         url: "/task_active_iq_replication.html"
       - title: 虛擬磁碟區
         url: "/task-active-iq-virtual-volumes.html"
-      - title: QoS建議
-        url: "/task-active-iq-qos-recommendations.html"
+      - title: QoS管理
+        entries:
+        - title: 總覽
+          url: "/task-active-iq-qos-management-overview.html"
+        - title: 建議
+          url: "/task-active-iq-recommendations.html"
+        - title: 節點節流
+          url: "/task-active-iq-throttling.html"
       - title: 虛擬機器
         url: "/task-active-iq-virtual-machines.html"
       - title: VMware警示
