@@ -29,14 +29,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq//search.html</loc>
       
-      <lastmod>2022-09-01T11:53:20+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:16+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-active-nodes.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/volumes/task-active-iq-active-nodes.html</loc>
       
-      <lastmod>2022-08-31T17:39:36+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
       
     </url>
   
@@ -106,21 +106,42 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-node-throttling.html</loc>
       
-      <lastmod>2022-08-31T17:39:36+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-nodes-overview.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/volumes/task-active-iq-nodes-overview.html</loc>
       
-      <lastmod>2022-08-31T17:39:36+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-nodes.html</loc>
+      
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-qos-management-overview.html</loc>
+      
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-qos-recommendations.html</loc>
       
-      <lastmod>2022-08-31T17:39:36+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-recommendations.html</loc>
+      
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
       
     </url>
   
@@ -167,6 +188,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-throttling.html</loc>
+      
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-troubleshoot-support.html</loc>
       
       <lastmod>2022-08-31T17:39:36+00:00</lastmod>
@@ -204,7 +232,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/solidfire-active-iq/task-active-iq-virtual-volumes.html</loc>
       
-      <lastmod>2022-08-31T17:39:36+00:00</lastmod>
+      <lastmod>2022-09-09T18:09:03+00:00</lastmod>
       
     </url>
   
