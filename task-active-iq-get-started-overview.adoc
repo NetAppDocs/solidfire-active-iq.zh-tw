@@ -14,7 +14,7 @@ summary: 深入瞭SolidFire Active IQ 解如何開始使用NetApp。
 此功能可讓您輕鬆從任何位置存取監控容量和效能、並掌握叢集健全狀況的相關資訊。SolidFire Active IQ無論您使用SolidFire Active IQ 什麼功能、開始使用之前都有幾件事需要注意：
 
 * link:concept-active-iq-learn-about-active-iq.html["深入瞭解SolidFire Active IQ"]：SolidFire Active IQ 您應該瞭解哪些功能可以運作、哪些資訊可以收集。
-* link:task-active-iq-enable-reporting.html["啟用SolidFire Active IQ 資料彙報功能"]：Active IQ 您必須在管理節點上啟用資料不整合功能、Active IQ 才能讓支援服務器連線至叢集並接收叢集資訊。
+* link:task-active-iq-enable-reporting.html["啟用SolidFire Active IQ 資料彙報功能"]：SolidFire Active IQ 您必須在管理節點上啟用資料不整合功能、Active IQ 才能讓支援服務器連線至叢集並接收叢集資訊。
 * link:task-active-iq-use-the-user-interface.html["使用SolidFire Active IQ 這個功能"]：瞭解新增或增強的功能、例如篩選、排序、匯出資料及叢集選擇。
 
 

@@ -15,8 +15,8 @@ summary: 深入瞭SolidFire Active IQ 解《Replication》（複製）頁面。
 
 深入瞭解叢集配對與磁碟區配對頁面：
 
-* <<cluster_pairs,叢集配對>>
-* <<volume_pairs,Volume配對>>
+* ,叢集配對
+* ,Volume配對
 
 
 

@@ -13,9 +13,9 @@ summary: 深入瞭SolidFire Active IQ 解如何在畫面上檢視Volume詳細資
 [role="lead"]
 從* Volumes *（磁碟區*）頁面、您可以檢視有關作用中磁碟區、個別磁碟區和效能圖表的詳細資料：
 
-* <<View active volume details>>
-* <<View individual volume details>>
-* <<View individual volume performance graphs>>
+*  active volume details
+*  individual volume details
+*  individual volume performance graphs
 
 
 
@@ -73,13 +73,13 @@ Volume目前使用的容量：
 | 暴增IOPS | 在短時間內允許的最大IOPS數。 
 
 
-| 平均IOPS持續30分鐘 | 在過去30分鐘內、針對以此節點為主要節點的所有磁碟區執行的IOPS平均總和。 
+| 平均IOPS持續30分鐘 | 所有以此節點為主要節點的磁碟區執行的平均IOPS數。IOPS會在叢集端收集超過500毫秒的時間間隔。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均IOPS是根據SolidFire Active IQ 過去30分鐘內收集到的各種值來計算。 
 
 
-| 過去30分鐘的平均處理量 | 過去30分鐘內針對以此節點為主要節點的所有磁碟區執行的平均處理量總和。 
+| 過去30分鐘的平均處理量 | 所有以此節點為主要節點的磁碟區執行的平均處理量。叢集端的處理量會收集超過500毫秒的時間間隔。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均處理量是根據SolidFire Active IQ 過去30分鐘收集到的各種值來計算。 
 
 
-| 平均延遲（微秒）持續30分鐘 | 過去30分鐘內、完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。 
+| 平均延遲（微秒）持續30分鐘 | 完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。在叢集端、延遲的測量時間間隔超過500毫秒。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均延遲是根據SolidFire Active IQ 過去30分鐘收集到的各種值來計算。如需詳細資訊、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F["知識庫文章"^]。 
 
 
 | 快照 | 為磁碟區建立的快照數量。 
@@ -127,7 +127,7 @@ Volume目前使用的容量：
 | 平均處理量 | 過去30分鐘內針對磁碟區執行的平均處理量。 
 
 
-| 平均延遲 | 過去30分鐘內完成磁碟區讀寫作業的平均時間（以微秒為單位）。 
+| 平均延遲 | 過去30分鐘內完成磁碟區讀寫作業的平均時間（以微秒為單位）。如需詳細資訊、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F["知識庫文章"^]。 
 
 
 2+| 您可以從*顯示磁碟區詳細資料*下拉式功能表檢視其他詳細資料。 

@@ -38,7 +38,7 @@ NOTE: 「* VMware警報*」頁面僅適用於NetApp HCI 某個VMware叢集。
 | 說明 | VMware警示說明。 
 
 
-| 觸發時間 | 警示在Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。 
+| 觸發時間 | 警示在SolidFire Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。 
 |===
 
 

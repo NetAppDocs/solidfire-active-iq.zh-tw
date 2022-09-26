@@ -15,15 +15,15 @@ summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。
 
 深入瞭解檢視節點節流資訊：
 
-* <<View graphs and select date ranges>>
-* <<Export node throttling data>>
+*  graphs and select date ranges
+*  node throttling data
 
 
 
 
 == 檢視圖表並選取日期範圍
 
-在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。
+在整個過程中、圖表和日期範圍SolidFire Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。
 
 您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。
 

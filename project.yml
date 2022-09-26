@@ -11,71 +11,70 @@ sidebar:
   entries:
   - title: NetApp SolidFire Active IQ
     url: "/index.html"
+  - title: 立即開始SolidFire Active IQ 使用
     entries:
-    - title: 立即開始SolidFire Active IQ 使用
+    - title: 總覽
+      url: "/task-active-iq-get-started-overview.html"
+    - title: 深入瞭解SolidFire Active IQ
+      url: "/concept-active-iq-learn-about-active-iq.html"
+    - title: 啟用SolidFire Active IQ 資料彙報功能
+      url: "/task-active-iq-enable-reporting.html"
+    - title: 使用SolidFire Active IQ 這個功能
+      url: "/task-active-iq-use-the-user-interface.html"
+  - title: 管理SolidFire Active IQ
+    entries:
+    - title: 總覽
+      url: "/task-active-iq-manage-overview.html"
+    - title: 所有叢集檢視
       entries:
       - title: 總覽
-        url: "/task-active-iq-get-started-overview.html"
-      - title: 深入瞭解SolidFire Active IQ
-        url: "/concept-active-iq-learn-about-active-iq.html"
-      - title: 啟用SolidFire Active IQ 資料彙報功能
-        url: "/task-active-iq-enable-reporting.html"
-      - title: 使用Active IQ 這個功能
-        url: "/task-active-iq-use-the-user-interface.html"
-    - title: 管理SolidFire Active IQ
+        url: "/task-active-iq-all-clusters-view-overview.html"
+      - title: 所有叢集檢視儀表板
+        url: "/task-active-iq-all-clusters-view-dashboard.html"
+      - title: 警示
+        url: "/task-active-iq-alerts.html"
+      - title: 容量授權
+        url: "/task-active-iq-capacity-licensing.html"
+      - title: 術語容量
+        url: "/task-active-iq-term-capacity.html"
+    - title: 選取叢集
       entries:
       - title: 總覽
-        url: "/task-active-iq-manage-overview.html"
-      - title: 所有叢集檢視
-        entries:
-        - title: 總覽
-          url: "/task-active-iq-all-clusters-view-overview.html"
-        - title: 所有叢集檢視儀表板
-          url: "/task-active-iq-all-clusters-view-dashboard.html"
-        - title: 警示
-          url: "/task-active-iq-alerts.html"
-        - title: 容量授權
-          url: "/task-active-iq-capacity-licensing.html"
-        - title: 術語容量
-          url: "/task-active-iq-term-capacity.html"
-      - title: 選取叢集
-        entries:
-        - title: 總覽
-          url: "/task-active-iq-select-cluster-overview.html"
-        - title: 單一叢集檢視儀表板
-          url: "/task-active-iq-single-cluster-view-dashboard.html"
-        - title: 報告
-          url: "/task-active-iq-reporting-options.html"
-      - title: 節點
-        url: "/task-active-iq-nodes.html"
-      - title: 磁碟機
-        url: "/task_active_iq_drives.html"
-      - title: 磁碟區
-        entries:
-        - title: 總覽
-          url: "/task_active_iq_volumes_overview.html"
-        - title: 作用中磁碟區
-          url: "/task-active-iq-active-volumes.html"
-        - title: 快照與Snapshot排程
-          url: "/task-active-iq-snapshots-and-schedules.html"
-      - title: 複寫
-        url: "/task_active_iq_replication.html"
-      - title: 虛擬磁碟區
-        url: "/task-active-iq-virtual-volumes.html"
-      - title: QoS管理
-        entries:
-        - title: 總覽
-          url: "/task-active-iq-qos-management-overview.html"
-        - title: 建議
-          url: "/task-active-iq-recommendations.html"
-        - title: 節點節流
-          url: "/task-active-iq-throttling.html"
-      - title: 虛擬機器
-        url: "/task-active-iq-virtual-machines.html"
-      - title: VMware警示
-        url: "/task-active-iq-vmware-alarms.html"
-    - title: 疑難排解與支援
-      url: "/task-active-iq-troubleshoot-support.html"
+        url: "/task-active-iq-select-cluster-overview.html"
+      - title: 單一叢集檢視儀表板
+        url: "/task-active-iq-single-cluster-view-dashboard.html"
+      - title: 報告
+        url: "/task-active-iq-reporting-options.html"
+    - title: 節點
+      url: "/task-active-iq-nodes.html"
+    - title: 磁碟機
+      url: "/task_active_iq_drives.html"
+    - title: 磁碟區
+      entries:
+      - title: 總覽
+        url: "/task_active_iq_volumes_overview.html"
+      - title: 作用中磁碟區
+        url: "/task-active-iq-active-volumes.html"
+      - title: 快照與Snapshot排程
+        url: "/task-active-iq-snapshots-and-schedules.html"
+    - title: 複寫
+      url: "/task_active_iq_replication.html"
+    - title: 虛擬磁碟區
+      url: "/task-active-iq-virtual-volumes.html"
+    - title: QoS管理
+      entries:
+      - title: 總覽
+        url: "/task-active-iq-qos-management-overview.html"
+      - title: 建議
+        url: "/task-active-iq-recommendations.html"
+      - title: 節點節流
+        url: "/task-active-iq-throttling.html"
+    - title: 虛擬機器
+      url: "/task-active-iq-virtual-machines.html"
+    - title: VMware警示
+      url: "/task-active-iq-vmware-alarms.html"
+  - title: 疑難排解與支援
+    url: "/task-active-iq-troubleshoot-support.html"
 homepage:
   tiles:
   - title: 使用SolidFire Active IQ 這個功能

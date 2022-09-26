@@ -13,7 +13,7 @@ summary: 深入瞭解SolidFire Active IQ 中的QoS建議頁面。
 [role="lead"]
 「* QoS管理*>*建議*」頁面可從選取叢集的側邊面板取得、根據最近的效能資料、針對叢集提供每日服務品質（QoS）建議。QoS建議僅支援Element軟體11.x或更新版本上的叢集。
 
-根據近期活動的Volume統計資料、提出效能建議。Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。
+根據近期活動的Volume統計資料、提出效能建議。SolidFire Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。
 
 
 

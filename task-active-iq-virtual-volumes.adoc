@@ -15,11 +15,11 @@ summary: 深入瞭SolidFire Active IQ 解中的「虛擬Volume」頁面。
 
 瞭解VVols相關工作：
 
-* <<Virtual Volumes>>
-* <<Storage Containers>>
-* <<Protocol Endpoints>>
-* <<Hosts>>
-* <<Bindings>>
+*  Volumes
+*  Containers
+*  Endpoints
+* 
+* 
 
 
 

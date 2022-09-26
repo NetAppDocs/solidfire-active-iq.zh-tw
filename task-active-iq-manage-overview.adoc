@@ -15,12 +15,12 @@ summary: 深入瞭SolidFire Active IQ 解此功能。
 
 * link:task-active-iq-all-clusters-view-overview.html["所有叢集檢視"]
 * link:task-active-iq-select-cluster-overview.html["選取叢集"]
-* link:task-active-iq-nodes-overview.html["節點"]
+* link:task-active-iq-nodes.html["節點"]
 * link:task_active_iq_drives.html["磁碟機"]
 * link:task_active_iq_volumes_overview.html["磁碟區"]
 * link:task_active_iq_replication.html["複寫"]
 * link:task-active-iq-virtual-volumes.html["虛擬磁碟區"]
-* link:task-active-iq-qos-recommendations.html["QoS建議"]
+* link:task-active-iq-qos-management-overview.html["QoS管理"]
 * link:task-active-iq-virtual-machines.html["虛擬機器（NetApp HCI 僅限VMware叢集）"]
 * link:task-active-iq-vmware-alarms.html["VMware警示（NetApp HCI 僅限VMware叢集）"]
 

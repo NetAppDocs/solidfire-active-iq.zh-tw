@@ -17,8 +17,8 @@ summary: 深入瞭解SolidFire Active IQ 所選叢集的儀表板頁面。
 
 可用的詳細資料會因您的系統而異：
 
-* <<Storage-only system>>
-* <<NetApp HCI system overview>>
+*  system
+*  HCI system overview
 
 
 

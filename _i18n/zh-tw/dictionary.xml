@@ -79,7 +79,6 @@
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">檢視圖表並選取日期範圍</block>
-  <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。</block>
   <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。</block>
   <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">綠色=高達39%</block>
   <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">黃色= 40至59%</block>
@@ -110,7 +109,6 @@
   <block id="99678f7a117bc8aabf09db380162078b" category="cell">VMware警示的名稱。</block>
   <block id="a27b6647124cd63c0c6175743b633c3e" category="cell">VMware警示說明。</block>
   <block id="598b092e27986b9b865df094fe4948b9" category="cell">觸發時間</block>
-  <block id="677b17da2c12cb51b4885efd8fc8d12e" category="cell">警示在Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。</block>
   <block id="3e029ce2c3d8433b34f693041956192d" category="summary">深入瞭SolidFire Active IQ 解如何在功能介紹中檢視叢集資訊。</block>
   <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">選取叢集</block>
   <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">當您從*選取叢集*下拉式清單中選取叢集時、可以檢視特定叢集的叢集資訊。每個叢集資訊類別都會以表格格式或圖形格式呈現。</block>
@@ -124,7 +122,6 @@
   <block id="d8ca343535696fc3bc6e295975432a7c" category="list-text"><block ref="d8ca343535696fc3bc6e295975432a7c" category="inline-link-macro-rx"></block></block>
   <block id="15ac47d735d2abb9f151cb6f3bd87f56" category="list-text"><block ref="15ac47d735d2abb9f151cb6f3bd87f56" category="inline-link-macro-rx"></block></block>
   <block id="187c6ad3a74cc93ac6c2229d398e383e" category="inline-link-macro">節點</block>
-  <block id="81da7f2200669b74dbe1d84983bfe4dc" category="list-text"><block ref="81da7f2200669b74dbe1d84983bfe4dc" category="inline-link-macro-rx"></block></block>
   <block id="63a6b9b3b5de50d32228700cfe042610" category="inline-link-macro">磁碟機</block>
   <block id="1c968709a3462ab0df1449c2d11bde23" category="list-text"><block ref="1c968709a3462ab0df1449c2d11bde23" category="inline-link-macro-rx"></block></block>
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="inline-link-macro">磁碟區</block>
@@ -133,8 +130,6 @@
   <block id="c0ce04e9e4abab6be41f5db5258d5c42" category="list-text"><block ref="c0ce04e9e4abab6be41f5db5258d5c42" category="inline-link-macro-rx"></block></block>
   <block id="86a60eaa1d2754d3ef920fff5bdf0e91" category="inline-link-macro">虛擬磁碟區</block>
   <block id="44273fb1c66e463d49a94f9db5f32122" category="list-text"><block ref="44273fb1c66e463d49a94f9db5f32122" category="inline-link-macro-rx"></block></block>
-  <block id="cfadbebab98b6929c6f6db3fddfc6860" category="inline-link-macro">QoS建議</block>
-  <block id="3220a3924ad848bdfae6c4beb49a4df0" category="list-text"><block ref="3220a3924ad848bdfae6c4beb49a4df0" category="inline-link-macro-rx"></block></block>
   <block id="1b031407a74cfe3989b3fe7b4a7d1a12" category="inline-link-macro">虛擬機器（NetApp HCI 僅限VMware叢集）</block>
   <block id="f00a95482a80a821b5463f824bd414ef" category="list-text"><block ref="f00a95482a80a821b5463f824bd414ef" category="inline-link-macro-rx"></block></block>
   <block id="a9ddb5f12cc652ccb3d0e88c6a1c5a53" category="inline-link-macro">VMware警示（NetApp HCI 僅限VMware叢集）</block>
@@ -199,13 +194,11 @@
   <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">叢集</block>
   <block id="331491aa4118975b5d832b3bf73155ca" category="cell">叢集數及其ID、構成授權的叢集集集區。</block>
   <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">深入瞭解SolidFire Active IQ 中的QoS建議頁面。</block>
-  <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">根據近期活動的Volume統計資料、提出效能建議。Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。</block>
   <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">效能與QoS、適用於SolidFire 整個儲存叢集</block>
   <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
   <block id="50ee1f895e7e284e9dd0f8f045bc11a2" category="inline-link">建立及管理Volume QoS原則</block>
   <block id="47c1cc14a918686ff80203d8d1e3607c" category="list-text"><block ref="47c1cc14a918686ff80203d8d1e3607c" category="inline-link-rx"></block></block>
   <block id="c1611363cb08bee418a62fbfb67269a0" category="summary">深入瞭解SolidFire Active IQ UI功能與功能。</block>
-  <block id="be16873972b6107404555247ffe64f79" category="doc">使用Active IQ 這個功能</block>
   <block id="f1a747b1e6d6c145fc34a1bf342de1e5" category="paragraph">深入瞭解中的UI功能 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block>：</block>
   <block id="75b5f200ff2e07a1cd3c280094c30efa" category="list-text"><block ref="f0659da1107154bd84c9b38aff0b247a" category="inline-xref-macro-rx"></block></block>
   <block id="0c1d112f9709394d300cbeaa66450a9a" category="list-text"><block ref="7fe5ed762c45abe7d0470e2a89b1a892" category="inline-xref-macro-rx"></block></block>
@@ -214,7 +207,6 @@
   <block id="16df60c28b1f6e1a615a049c6108358e" category="list-text"><block ref="bfbbec3472fd971f56fdb3fbab3e87d8" category="inline-xref-macro-rx"></block></block>
   <block id="1a6488574db4303b10848152736e8e55" category="list-text"><block ref="1f6092bfe2d74192af9ae009324aa099" category="inline-xref-macro-rx"></block></block>
   <block id="aa01e24e60b9724b9b233b2a1e85f950" category="section-title">使用篩選條件</block>
-  <block id="5d26e76a9cf020fc45752e6bd4299da5" category="paragraph">您可以排序及篩選Active IQ 有關頁面的清單資訊。檢視清單（例如節點、磁碟機、磁碟區等）時、您可以使用篩選功能來聚焦資訊、使其更容易放入螢幕。</block>
   <block id="07090d1b9cebf025d6cde2aae5e03df7" category="list-text">檢視清單資訊時、請選取*篩選*。</block>
   <block id="cdbd324b57aa494a017f6e074e75201f" category="list-text">從下拉式功能表中選擇要篩選的欄名稱。</block>
   <block id="f63739fda10056be3da6baf6e8dd41e2" category="list-text">為欄選取限制。</block>
@@ -226,7 +218,6 @@
   <block id="fa5e680730153cba5aa2eea9fe92df91" category="list-text">（選用）選取（* x*）以移除篩選條件、並顯示未篩選的清單資訊。</block>
   <block id="d8f25e98301a184a517a02a45e877668" category="admonition">有些表格包含從檢視中排除欄的選項。若要獲得最佳結果、請選取*「欄」*、確認設定篩選時顯示所有必要的欄。</block>
   <block id="0afcb3a7292642b6ea0c8552bcdda4b4" category="section-title">排序清單</block>
-  <block id="6feb28d1635888c4fa07a4bae13d10e0" category="paragraph">您可以在Active IQ 某些頁面上、根據一或多個欄來排序清單資訊、這些欄位位於UI的特定頁面上。這有助於您在螢幕上安排所需的資訊。</block>
   <block id="b2fe74238164b5710d7de83add293f15" category="list-text">若要依單一欄排序、請選取欄標題、直到資訊依照所需順序排序為止。</block>
   <block id="8966a96d9cb66f42b54a27af655b2dde" category="list-text">若要依多欄排序、請執行下列步驟：</block>
   <block id="5086a34fd2d544eff43f823c0abb1a5e" category="list-text">選取您要排序的第一欄的欄標題、直到資訊依照所需的順序排序為止。</block>
@@ -240,13 +231,10 @@
   <block id="9dc1a16b99af819147fc3f744fc8a213" category="paragraph">您可以將整個清單檢視或圖表資料匯出成以逗號分隔的值（CSV）格式。對於某些清單、例如叢集或節點、您可以選取要匯出的欄位；預設會選取顯示的欄位。如果有特定的排序順序、或是使用篩選器來限制顯示的項目、則會將該排序順序和篩選器保留在匯出的檔案中。</block>
   <block id="b09eaa1277bfee2694f0a182ed0f097b" category="list-text">在清單檢視或圖表中、選取 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
   <block id="979c617c7763705237acbbc078c557d0" category="section-title">選取叢集</block>
-  <block id="e5fad98e0daae45b4573102e78e1e75c" category="paragraph">在本指南中、您可以檢視環境中個別叢集的相關資訊。Active IQ</block>
-  <block id="106cd3aec5e4e5fa0e87d54a10970b5a" category="list-text">從「Se儀表板」選取*「Select a Cluster"（選擇叢集）*。Active IQ</block>
   <block id="3227b9c5b489035bbfe108ec539744f8" category="list-text">下拉式功能表會列出您可用的任何叢集。</block>
   <block id="5849fbc4cd9d8ff6190306213ca2cd61" category="list-text">使用搜尋欄位來尋找所需的叢集或最近檢視的叢集。</block>
   <block id="86a2da85271fc1113b1bf591705f342e" category="list-text">選取名稱以選取叢集。</block>
   <block id="6c2fc87d25afe10c773420717eeb2df8" category="section-title">圖示參考</block>
-  <block id="2af69473b0142d749e9f31cb03d74915" category="paragraph">您可能會在檢視UI Active IQ 以供參考時看到下列圖示。</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">圖示</block>
   <block id="9e36976cde9f2ece8b67172092ddc794" category="inline-image-macro">重新整理圖示</block>
   <block id="6044018059a6046033f39c1dce734735" category="paragraph"><block ref="6044018059a6046033f39c1dce734735" category="inline-image-macro-rx" type="image"></block></block>
@@ -273,7 +261,6 @@
   <block id="45ebbd5bdb9477285076cbc10c602f1d" category="paragraph"><block ref="45ebbd5bdb9477285076cbc10c602f1d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea2e81a1b728b000d0a80f1b7adb8d39" category="cell">請選取以取得更多詳細資料。</block>
   <block id="1ae8a55f317d3b2570e79a0b4a668040" category="section-title">提供意見回饋</block>
-  <block id="7ad9169e449c48f53920205d4212004e" category="paragraph">您Active IQ 可以使用整個UI都可存取的電子郵件意見反應選項、協助改善此功能並解決任何UI問題。</block>
   <block id="0c6ab2fbcdd7cedaa7510d6167c60089" category="list-text">從UI的任何頁面中、選取 <block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*意見反應*。</block>
   <block id="e392fa2dbe4893eaf358507add7c6068" category="list-text">在電子郵件的訊息本文中輸入相關資訊。</block>
   <block id="ed6e35e068e0c344e24d1f96c26dbafd" category="list-text">附上任何實用的螢幕擷取畫面。</block>
@@ -415,7 +402,6 @@
   <block id="21069985229913cfdaf583d12e439f5c" category="paragraph">深入瞭解篩選及瞭解UI中顯示的VM資料。</block>
   <block id="12e08d602c4e243c7e7f50806c91254f" category="section-title">檢視虛擬機器詳細資料</block>
   <block id="8ea1b2897da42a4661881c12f4c2e0d5" category="paragraph">「*虛擬機器*」頁面可從所選叢集的側邊面板取得、提供與叢集相關之每個作用中VM的相關資訊。</block>
-  <block id="d1a4d22bcbd84f65a5e8493bd0648a37" category="paragraph">除了所有Active IQ 的資訊頁面上都有傳統的篩選選項、*虛擬機器*頁面還有快速篩選按鈕、您可以選擇這些按鈕來判斷可用度的常見VM狀態。</block>
   <block id="3977b1efa79b62267b5296bdda767f96" category="paragraph">資訊列提供下列資料的快速概觀：</block>
   <block id="8fc013cf555a5949086eb32f3d1c8477" category="list-text">虛擬機器：與儲存叢集相關之VM的數量和各種可用度狀態。</block>
   <block id="5c5bc2732adae8204719332c2130b4ea" category="list-text">狀態：VM的警告或錯誤數目。</block>
@@ -503,7 +489,6 @@
   <block id="12466c75ab546c4ddbc461e4de8e07db" category="list-text">*網路*：抑制與網路組態和健全狀況相關的警示。</block>
   <block id="0db1cce788620df7a4c7d689ff100e01" category="list-text">*電源*：電源備援警示會被抑制。它並不會抑制當電力完全中斷時會發生的_node離 線_警示。</block>
   <block id="8afa45cebae7b4d6b5e5612895162c7f" category="cell">選取垂直下拉式功能表、以編輯和刪除所選原則的選項。</block>
-  <block id="49d358016a7837e9dc8880930fffab76" category="paragraph">您可以建立警示原則、以監控Active IQ 來自*《所有叢集檢視》*的資訊（英文）。警示原則可讓您在整個安裝中、透過一個或多個叢集收到狀態或效能事件的通知、以便在更嚴重的事件發生之前或在回應之前採取行動。</block>
   <block id="36ed984fd18203c62c9a269a95420a4e" category="list-text">選取*警示*&gt;*原則*。</block>
   <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">選取*建立原則*。</block>
   <block id="7ed81deb3a22d8d97542963bd55c0baf" category="list-text">從*原則類型*清單中選取警示類型。請參閱 <block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block>。</block>
@@ -536,7 +521,6 @@
   <block id="164ad6bd1a9ceba54f457dfe0ce85008" category="cell">可配置空間</block>
   <block id="596ec0bf4bea008d7bd36761f1e0cae3" category="cell">當資源配置式叢集空間低於指定百分比時、會傳送通知。</block>
   <block id="4dab6622470bb0314e94cb50bbe0cc21" category="cell">收集器未報告</block>
-  <block id="d4172f749d3caf851de49361bf395028" category="cell">在管理節點上執行的支援Active IQ 功能收集器無法在Active IQ 指定的期間內將資料傳送至支援中心時、會傳送通知。</block>
   <block id="12d4e8c195d420a94eb66a6817679969" category="cell">磁碟機耗損</block>
   <block id="93cd8a60fc9b91519dd8d2d115514856" category="cell">當叢集中的磁碟機有低於指定的耗損百分比或保留空間剩餘時、便會傳送通知。</block>
   <block id="c5b0aacb61d57bd9ceefa1b1c235fbfb" category="cell">iSCSI工作階段</block>
@@ -544,7 +528,6 @@
   <block id="a810f7ffd8b3ba7fc2959a7fd14c6ec1" category="cell">機箱恢復能力</block>
   <block id="77842a19e3e2ead223bcccb4cd8836c1" category="cell">當叢集的已用空間大於使用者指定的百分比時、會傳送通知。您應該選取一個百分比、以便在達到叢集恢復臨界值之前及早通知。達到此臨界值之後、叢集便無法再從機箱層級的故障中自動修復。</block>
   <block id="779eeaf551ed09558987b7ac98255734" category="cell">VMware警報</block>
-  <block id="c9184508136db9cf47dc30aa2804ded2" category="cell">當VMware警示觸發並回報Active IQ 至VMware時、會傳送通知。</block>
   <block id="702a419d8a0eab07e38ee09f58a29bbe" category="cell">自訂保護網域恢復能力</block>
   <block id="9fae5454809c4b11e59aed2ffb0787ed" category="cell">當使用空間增加到超過指定的自訂保護網域恢復臨界值百分比時、系統會傳送通知。如果此百分比達到100、表示儲存叢集在自訂保護網域故障發生後、沒有足夠的可用容量可自行修復。</block>
   <block id="cc775eb9d20d6f35d83ef2b8af721a64" category="cell">節點核心/損毀傾印檔案</block>
@@ -600,7 +583,6 @@
   <block id="54337ee0f200dfcaa388f569168f76f4" category="list-text">對於單一叢集、請選取叢集的「動作」功能表、然後選取*「結束抑制」*。</block>
   <block id="9ef78003c570ffd4cf0f0340af7c6c32" category="list-text">對於多個叢集、請選取叢集、然後選取*結束選取的抑制*。</block>
   <block id="ccc56a6622f5dccc8b39bf717c5273e9" category="section-title">警示通知電子郵件</block>
-  <block id="c06a2fcebc732d180073389e143e156a" category="paragraph">訂閱者若收到系統上觸發的每個警示、將會收到不同的狀態電子郵件。Active IQ與警示相關的狀態電子郵件有三種類型：</block>
   <block id="bcbb59ba38b8d8a53386ea9e5e619fa2" category="cell">新警示電子郵件</block>
   <block id="df4912f6cebf8a31418b4aeb4d73f330" category="cell">這類電子郵件會在觸發警示時傳送。</block>
   <block id="ce547e1ced608d92b9c86ba4168ed5b6" category="cell">提醒警示電子郵件</block>
@@ -730,7 +712,6 @@
   <block id="4d023f391eeb350e7e7cb48db31862cd" category="section-title">API集合</block>
   <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element軟體API文件</block>
   <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">在所選叢集*報告*下拉式功能表的「* API集合*」頁面上、您可以檢視NetApp SolidFire Active IQ 供應器使用的API方法。如需這些方法的詳細說明、請參閱 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>。</block>
-  <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">除了這些方法之外、Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
   <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">疑難排解SolidFire Active IQ 各項問題。</block>
   <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">疑難排解與支援</block>
   <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">如果您在使用SolidFire Active IQ 任何一NetApp Element 種或其他以軟體為基礎的產品時遇到問題、或遇到技術問題、您可以使用許多資源來協助您解決問題。</block>
@@ -763,7 +744,6 @@
   <block id="b0f4034527d03957cc2cb1f551cd8137" category="cell">Volume允許的最大IOPS數。</block>
   <block id="c4802961bcc44906090b75cc0c07e58d" category="cell">在短時間內允許的最大IOPS數。</block>
   <block id="f741657b8a9c703b4f9ce9ff0c849acd" category="cell">平均延遲（微秒）持續30分鐘</block>
-  <block id="7aeb6780ec3c98b0f4eee23e1d0cac75" category="cell">過去30分鐘內、完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。</block>
   <block id="8045d6e7a1be43321c6aacff3cd803a6" category="cell">為磁碟區建立的快照數量。</block>
   <block id="83195ad3b0c05b1455b3fc233ba98d03" category="cell">選取垂直下拉式功能表以取得個別Volume的詳細資料。</block>
   <block id="98d99278a2f04912ab18de8f6e866ed1" category="section-title">檢視個別Volume詳細資料</block>
@@ -781,7 +761,6 @@
   <block id="edd5221a3f19c0c3519847deb797f926" category="cell">平均處理量</block>
   <block id="9d8e7acc5e639c5d381f284b3a9e6bce" category="cell">過去30分鐘內針對磁碟區執行的平均處理量。</block>
   <block id="4a3eb27a7f301e9be259f35e484b176e" category="cell">平均延遲</block>
-  <block id="0b580c0d1be4cfdf4da6f879cf00f88d" category="cell">過去30分鐘內完成磁碟區讀寫作業的平均時間（以微秒為單位）。</block>
   <block id="67e36c1bc8a90a031bad32c1819deab1" category="cell">您可以從*顯示磁碟區詳細資料*下拉式功能表檢視其他詳細資料。</block>
   <block id="9b2ec600406f1490117cd1550ae54c71" category="cell">指派給磁碟區的讀寫權限。</block>
   <block id="e3ec7263fd93737a7c3599382db8ec4a" category="cell">存取群組</block>
@@ -821,8 +800,6 @@
   <block id="0c62d3c3703cc9cfe18da37951bf1957" category="list-text">（選用）您可以選取、將每個圖表匯出為CSV檔案 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
   <block id="1d106124801228432411a3ec12f75276" category="summary">瞭SolidFire Active IQ 解如何在管理節點上啟用功能的功能。</block>
   <block id="2608b149e5d7ac8d0fd12c6175bbe965" category="doc">啟用SolidFire Active IQ 資料彙報功能</block>
-  <block id="e78d077c08f454fe0bda46f85b4815fb" category="paragraph">如果您在安裝或升級期間尚未啟用管理節點上的功能、則必須在SolidFire Active IQ 管理節點上啟用此功能、Active IQ 才能從管理節點接收叢集的資料有效負載。成功設定連線後、叢集會將資訊傳送至Active IQ 該伺服器。然後、您可以在Active IQ 顯示叢集資訊的畫面UI中檢視叢集。</block>
-  <block id="b46ffcc9e6980359ceefabd56b5eff67" category="admonition">支援Google Chrome和Firefox瀏覽器搭配Active IQ 使用支援。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">例如、某些功能的功能是服務品質（QoS）、需要元素11.3或更新版本才能正常運作。Active IQ為了確認您有能力使用Active IQ 所有的功能、NetApp建議您：</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">您的儲存叢集執行NetApp Element 的是不含更新版本的軟件。</block>
@@ -865,7 +842,6 @@
   <block id="2ab359ffeac1725ecfaeb8d017747085" category="doc">深入瞭解SolidFire Active IQ</block>
   <block id="2d24d754666d0b21fe6fc9c67d60634d" category="paragraph">開始使用SolidFire Active IQ 資訊技術之前、您應該先瞭SolidFire Active IQ 解到資訊技術的運作方式及收集的資訊。</block>
   <block id="8dbbd87f01178639319815ba98d9d4bc" category="section-title">運作原理SolidFire Active IQ</block>
-  <block id="8296e5a5843626a7deba367ac0a6efed" category="paragraph">收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。</block>
   <block id="b1026bd3d8abc4aec4981330dc62b906" category="inline-link-macro">存取SolidFire Active IQ 功能（需要登入）</block>
   <block id="a6dc0a9f123b0664c5bb023e693bef51" category="paragraph"><block ref="a6dc0a9f123b0664c5bb023e693bef51" category="inline-link-macro-rx"></block></block>
   <block id="b066c8b2c0d4cbbe120fcbe58e323812" category="section-title">資訊由SolidFire Active IQ 本網站所收集</block>
@@ -887,7 +863,6 @@
   <block id="9200ebe2b4ab5b00a77d52efaf85a6de" category="doc">立即開始SolidFire Active IQ 使用</block>
   <block id="b25037cf63d119a232994ab4f2b4bf2c" category="paragraph">此功能可讓您輕鬆從任何位置存取監控容量和效能、並掌握叢集健全狀況的相關資訊。SolidFire Active IQ無論您使用SolidFire Active IQ 什麼功能、開始使用之前都有幾件事需要注意：</block>
   <block id="8cd7ccc6d38ee23b097ee26faf4c71c8" category="list-text"><block ref="ad1b90f44edaa6f6bcf1d6954c507065" category="inline-link-macro-rx"></block>：SolidFire Active IQ 您應該瞭解哪些功能可以運作、哪些資訊可以收集。</block>
-  <block id="19bda018dd14a0253ab90b899617cc17" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>：Active IQ 您必須在管理節點上啟用資料不整合功能、Active IQ 才能讓支援服務器連線至叢集並接收叢集資訊。</block>
   <block id="9105bd82ad51c438cd590bde945827a7" category="inline-link-macro">使用SolidFire Active IQ 這個功能</block>
   <block id="b88f946c2a4f0d4f82a08759e3744ea1" category="list-text"><block ref="3d10ba7dfbb53d51fde6e6e02a6608a9" category="inline-link-macro-rx"></block>：瞭解新增或增強的功能、例如篩選、排序、匯出資料及叢集選擇。</block>
   <block id="dff97aa9c118deaf53b64587432eaa6a" category="summary">深入瞭SolidFire Active IQ 解《Replication》（複製）頁面。</block>
@@ -1024,4 +999,29 @@
   <block id="4408a36df9e9ed5aa8dd852943967324" category="list-text"><block ref="370537d09346032450865c36be0b772b" category="inline-xref-macro-rx"></block></block>
   <block id="b01d0fd0e15cd69ca0c99c35e0db5116" category="paragraph">從所選叢集的側邊面板上的*節點*頁面、您可以檢視叢集中節點的資訊。</block>
   <block id="9b549dfa7e57d3b25fa9e46fe3685b2b" category="paragraph">從所選叢集的側邊面板所提供的「* QoS管理*&gt;*節點節流*」頁面、您可以檢視叢集中節點的節流百分比。節點會在顯示幕左側以縮圖版面列出、並視所選時間範圍的節流程度而定。</block>
+  <block id="7ff6daa1a681385f423e95a7f18161fa" category="list-text"><block ref="7ff6daa1a681385f423e95a7f18161fa" category="inline-link-macro-rx"></block></block>
+  <block id="6b83be76b9c570a2cddff82aed1845cd" category="list-text"><block ref="6b83be76b9c570a2cddff82aed1845cd" category="inline-link-macro-rx"></block></block>
+  <block id="b31933dd9383963840626a69d4b34c47" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>：SolidFire Active IQ 您必須在管理節點上啟用資料不整合功能、Active IQ 才能讓支援服務器連線至叢集並接收叢集資訊。</block>
+  <block id="9927f2404de0472632f204c4fa98e1c6" category="paragraph">收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會SolidFire Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過SolidFire Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用SolidFire Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。</block>
+  <block id="96e3c5a892e3537b54d00dc35ccf9f36" category="paragraph">如果您在安裝或升級期間尚未啟用管理節點上的功能、則必須在SolidFire Active IQ 管理節點上啟用此功能、SolidFire Active IQ 才能從管理節點接收叢集的資料有效負載。成功設定連線後、叢集會將資訊傳送至SolidFire Active IQ 該伺服器。然後、您可以在SolidFire Active IQ 顯示叢集資訊的畫面UI中檢視叢集。</block>
+  <block id="510895b97c10d0e3aa35ddf13764e621" category="admonition">支援Google Chrome和Firefox瀏覽器搭配SolidFire Active IQ 使用支援。</block>
+  <block id="4a943f8cd4281990b05677e29cb8ac56" category="cell">所有以此節點為主要節點的磁碟區執行的平均IOPS數。IOPS會在叢集端收集超過500毫秒的時間間隔。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均IOPS是根據SolidFire Active IQ 過去30分鐘內收集到的各種值來計算。</block>
+  <block id="c12000028afc91ba3df9d7d246fce948" category="cell">所有以此節點為主要節點的磁碟區執行的平均處理量。叢集端的處理量會收集超過500毫秒的時間間隔。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均處理量是根據SolidFire Active IQ 過去30分鐘收集到的各種值來計算。</block>
+  <block id="4eadebc24c89d02ea356d0e01e739bdf" category="cell">完成所有以此節點為主要節點之磁碟區的讀取和寫入作業的平均時間（以微秒為單位）。在叢集端、延遲的測量時間間隔超過500毫秒。以60秒為間隔收集這些值。SolidFire Active IQ對於每個Volume、平均延遲是根據SolidFire Active IQ 過去30分鐘收集到的各種值來計算。如需詳細資訊、請參閱<block ref="996f08614653af80b4f318332cbb79cc" category="inline-link-rx"></block>。</block>
+  <block id="2fff8a29ac28db690456bd3a5624d15d" category="cell">過去30分鐘內完成磁碟區讀寫作業的平均時間（以微秒為單位）。如需詳細資訊、請參閱<block ref="996f08614653af80b4f318332cbb79cc" category="inline-link-rx"></block>。</block>
+  <block id="eaa54d3494e5debfd810d9a11bb0c208" category="paragraph">根據近期活動的Volume統計資料、提出效能建議。SolidFire Active IQ建議著重於某個磁碟區的QoS最大和最低保證IOPS、而且只有在需要改善叢集時、才會顯示在UI中。</block>
+  <block id="f680ee7ec525111dba2df560203d7f7e" category="paragraph">在整個過程中、圖表和日期範圍SolidFire Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。</block>
+  <block id="4d82c829067dd90d1d495f167668baa1" category="cell">警示在SolidFire Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。</block>
+  <block id="ea696fd82bced602de4f7d7cab2ceadf" category="paragraph">除了所有SolidFire Active IQ 的資訊頁面上都有傳統的篩選選項、*虛擬機器*頁面還有快速篩選按鈕、您可以選擇這些按鈕來判斷可用度的常見VM狀態。</block>
+  <block id="c676c8802ba92ea3f0735d38f6ecb857" category="paragraph">您可以排序及篩選SolidFire Active IQ 有關頁面的清單資訊。檢視清單（例如節點、磁碟機、磁碟區等）時、您可以使用篩選功能來聚焦資訊、使其更容易放入螢幕。</block>
+  <block id="dfc44552ee42df05632a5555bd3c5d10" category="paragraph">您可以在SolidFire Active IQ 某些頁面上、根據一或多個欄來排序清單資訊、這些欄位位於UI的特定頁面上。這有助於您在螢幕上安排所需的資訊。</block>
+  <block id="7f8c0d79a70f15c2c91c34f1a62ac499" category="paragraph">在本指南中、您可以檢視環境中個別叢集的相關資訊。SolidFire Active IQ</block>
+  <block id="c7644ea56581948d4b3d3e118f969dd3" category="list-text">從「Se儀表板」選取*「Select a Cluster"（選擇叢集）*。SolidFire Active IQ</block>
+  <block id="2fb83e16aa1b173cb1dd65766e0d7e3b" category="paragraph">您可能會看到下列圖示、以供檢視SolidFire Active IQ 畫面的功能。</block>
+  <block id="d6670ea8650dcb3671cb6d4eeba43553" category="paragraph">您SolidFire Active IQ 可以使用整個UI都可存取的電子郵件意見反應選項、協助改善此功能並解決任何UI問題。</block>
+  <block id="bc61065501380ecc6cd9d1f861a48461" category="paragraph">您可以建立警示原則、以監控SolidFire Active IQ 來自*《所有叢集檢視》*的資訊（英文）。警示原則可讓您在整個安裝中、透過一個或多個叢集收到狀態或效能事件的通知、以便在更嚴重的事件發生之前或在回應之前採取行動。</block>
+  <block id="474d7c9eb19859668726a36e86e68540" category="cell">在管理節點上執行的支援SolidFire Active IQ 功能收集器無法在SolidFire Active IQ 指定的期間內將資料傳送至支援中心時、會傳送通知。</block>
+  <block id="1283e547f2c97bde5254234dd71e8920" category="cell">當VMware警示觸發並回報SolidFire Active IQ 至VMware時、會傳送通知。</block>
+  <block id="8f7bdd75076dbc076948c8a43fa2529c" category="paragraph">訂閱者若收到系統上觸發的每個警示、將會收到不同的狀態電子郵件。SolidFire Active IQ與警示相關的狀態電子郵件有三種類型：</block>
+  <block id="472062bb6f5f96a2db31c5e5b3da2b6e" category="admonition">除了這些方法之外、SolidFire Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要SolidFire Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
 </blocks>

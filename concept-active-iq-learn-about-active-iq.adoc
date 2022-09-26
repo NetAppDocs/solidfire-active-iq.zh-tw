@@ -17,7 +17,7 @@ summary: 深入瞭SolidFire Active IQ 解。
 
 == 運作原理SolidFire Active IQ
 
-收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。
+收集器和遙測等服務會在管理節點上執行。這些服務設定為只讀存取叢集、並在排程的基礎上呼叫叢集API、以收集關鍵效能、容量和健全狀況指標。此資訊會SolidFire Active IQ 使用HTTPS上傳至《不實雲資料庫（英文）」、並透過SolidFire Active IQ 《不實時資料介面（英文）（英文）（英文）：「您」和「NetApp支援中心」（NetApp Support）。您可以使用SolidFire Active IQ SSO認證登入、然後從* Reporting*下拉式功能表中選取* API Collection*、以檢視在支援使用者介面中、針對叢集所接收的最新API有效負載和收集時間間隔。
 
 link:https://activeiq.solidfire.com/["存取SolidFire Active IQ 功能（需要登入）"^]
 

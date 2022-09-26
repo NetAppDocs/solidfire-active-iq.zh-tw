@@ -13,15 +13,15 @@ summary: 深入瞭SolidFire Active IQ 解所選叢集的報告選項。
 [role="lead"]
 深入瞭解側邊面板中的「*報告*」下拉式功能表：
 
-* <<Capacity>>
-* <<Efficiency>>
-* <<Performance>>
-* <<Error log>>
-* <<Events>>
-* <<Alerts>>
-* <<iSCSI Sessions>>
-* <<Virtual Networks>>
-* <<API Collection>>
+* 
+* 
+* 
+*  log
+* 
+* 
+*  Sessions
+*  Networks
+*  Collection
 
 
 
@@ -224,7 +224,7 @@ NOTE: 所有的組合效率都是透過簡單地乘以所報告的係數值來�
 | 標題 | 說明 
 
 
-| 已觸發 | 警示在Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。 
+| 已觸發 | 警示在SolidFire Active IQ 不屬於叢集本身的情況下、於整個過程中觸發的時間。 
 
 
 | 上次通知 | 最近一封警示電子郵件的傳送時間。 
@@ -305,7 +305,7 @@ NOTE: 此資料包括由FC節點產生的iSCSI工作階段。
 在所選叢集*報告*下拉式功能表的「* API集合*」頁面上、您可以檢視NetApp SolidFire Active IQ 供應器使用的API方法。如需這些方法的詳細說明、請參閱 link:https://docs.netapp.com/us-en/element-software/api/index.html["Element軟體API文件"^]。
 
 
-NOTE: 除了這些方法之外、Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。
+NOTE: 除了這些方法之外、SolidFire Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要SolidFire Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。
 
 
 

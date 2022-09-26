@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting 
 summary: 深入瞭解SolidFire Active IQ UI功能與功能。 
 ---
-= 使用Active IQ 這個功能
+= 使用SolidFire Active IQ 這個功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -13,20 +13,20 @@ summary: 深入瞭解SolidFire Active IQ UI功能與功能。
 [role="lead"]
 深入瞭解中的UI功能 link:https://activeiq.solidfire.com/["（需要登入）SolidFire Active IQ"^]：
 
-* <<Use filters>>
-* <<Sort lists>>
-* <<View graphs and select date ranges>>
-* <<Export list views and report data>>
-* <<Select a cluster>>
-* <<Icon reference>>
-* <<Provide feedback>>
+*  filters
+*  lists
+*  graphs and select date ranges
+*  list views and report data
+*  a cluster
+*  reference
+*  feedback
 
 
 
 
 == 使用篩選條件
 
-您可以排序及篩選Active IQ 有關頁面的清單資訊。檢視清單（例如節點、磁碟機、磁碟區等）時、您可以使用篩選功能來聚焦資訊、使其更容易放入螢幕。
+您可以排序及篩選SolidFire Active IQ 有關頁面的清單資訊。檢視清單（例如節點、磁碟機、磁碟區等）時、您可以使用篩選功能來聚焦資訊、使其更容易放入螢幕。
 
 .步驟
 . 檢視清單資訊時、請選取*篩選*。
@@ -53,7 +53,7 @@ NOTE: 有些表格包含從檢視中排除欄的選項。若要獲得最佳結�
 
 == 排序清單
 
-您可以在Active IQ 某些頁面上、根據一或多個欄來排序清單資訊、這些欄位位於UI的特定頁面上。這有助於您在螢幕上安排所需的資訊。
+您可以在SolidFire Active IQ 某些頁面上、根據一或多個欄來排序清單資訊、這些欄位位於UI的特定頁面上。這有助於您在螢幕上安排所需的資訊。
 
 .步驟
 . 若要依單一欄排序、請選取欄標題、直到資訊依照所需順序排序為止。
@@ -72,7 +72,7 @@ NOTE: 有些表格包含從檢視中排除欄的選項。若要獲得最佳結�
 
 == 檢視圖表並選取日期範圍
 
-在整個過程中、圖表和日期範圍Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。
+在整個過程中、圖表和日期範圍SolidFire Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的所有圖表都會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。
 
 您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。如果可用、請選取左側的縮圖配置、在圖表之間切換。這些配置也可以隱藏。
 
@@ -97,10 +97,10 @@ image:graphs_and_date_ranges.PNG["圖表與日期範圍"]
 
 == 選取叢集
 
-在本指南中、您可以檢視環境中個別叢集的相關資訊。Active IQ
+在本指南中、您可以檢視環境中個別叢集的相關資訊。SolidFire Active IQ
 
 .步驟
-. 從「Se儀表板」選取*「Select a Cluster"（選擇叢集）*。Active IQ
+. 從「Se儀表板」選取*「Select a Cluster"（選擇叢集）*。SolidFire Active IQ
 . 下拉式功能表會列出您可用的任何叢集。
 . 使用搜尋欄位來尋找所需的叢集或最近檢視的叢集。
 . 選取名稱以選取叢集。
@@ -110,7 +110,7 @@ image:graphs_and_date_ranges.PNG["圖表與日期範圍"]
 
 == 圖示參考
 
-您可能會在檢視UI Active IQ 以供參考時看到下列圖示。
+您可能會看到下列圖示、以供檢視SolidFire Active IQ 畫面的功能。
 
 [cols="25,75"]
 |===
@@ -161,7 +161,7 @@ image:more_details.PNG["更多詳細資料圖示"]
 
 == 提供意見回饋
 
-您Active IQ 可以使用整個UI都可存取的電子郵件意見反應選項、協助改善此功能並解決任何UI問題。
+您SolidFire Active IQ 可以使用整個UI都可存取的電子郵件意見反應選項、協助改善此功能並解決任何UI問題。
 
 .步驟
 . 從UI的任何頁面中、選取 image:menu.PNG["功能表圖示"] 圖示、然後選取*意見反應*。
