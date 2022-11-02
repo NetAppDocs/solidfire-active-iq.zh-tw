@@ -80,9 +80,6 @@
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">檢視圖表並選取日期範圍</block>
   <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。</block>
-  <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">綠色=高達39%</block>
-  <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">黃色= 40至59%</block>
-  <block id="77b4dabdac23af0111f4e3fffcb2f6e5" category="list-text">紅色=超過59%</block>
   <block id="f8feac3680b404eb25b3b1fea6aa6e70" category="inline-link-macro">瞭解叢集的QoS建議</block>
   <block id="ea716f1a51591b923cd83aaa8faa830c" category="paragraph"><block ref="4334742ebeca91bbb52799a64e982fde" category="inline-link-macro-rx"></block>。</block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">知識庫文章</block>
@@ -983,7 +980,6 @@
   <block id="08edd2123939d5309dced149763a50ee" category="sidebar">NetApp HCI</block>
   <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">疑難排解</block>
   <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">聯絡技術支援</block>
-  <block id="1b4febc902d7bf51135668545d151a14" category="paragraph">此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：</block>
   <block id="b28e179f94097b207a2dc9172aa4b4d0" category="list-text">您可以存取網際網路。無法從沒有外部連線的黑暗站台使用此收集器服務。Active IQ</block>
   <block id="c357af7a99b77ac25c548aef6df0d1a8" category="list-text"><block ref="c357af7a99b77ac25c548aef6df0d1a8" category="inline-link-macro-rx"></block></block>
   <block id="16beb139f89865caa5bdd51a5b9fadcd" category="summary">深入瞭SolidFire Active IQ 解功能介紹中的QoS管理頁面。</block>
@@ -1024,4 +1020,5 @@
   <block id="1283e547f2c97bde5254234dd71e8920" category="cell">當VMware警示觸發並回報SolidFire Active IQ 至VMware時、會傳送通知。</block>
   <block id="8f7bdd75076dbc076948c8a43fa2529c" category="paragraph">訂閱者若收到系統上觸發的每個警示、將會收到不同的狀態電子郵件。SolidFire Active IQ與警示相關的狀態電子郵件有三種類型：</block>
   <block id="472062bb6f5f96a2db31c5e5b3da2b6e" category="admonition">除了這些方法之外、SolidFire Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要SolidFire Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
+  <block id="f107820fc2ea40af48df224b45278cae" category="paragraph">這些圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示所選期間內的節點節流。色彩代表節流量：綠色（無）、黃色（有限）或紅色（高）。如需詳細資訊、請參閱下列圖表範例：</block>
 </blocks>

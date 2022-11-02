@@ -27,25 +27,20 @@ summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。
 
 您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。
 
-此圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示節點的節流百分比：
-
-* 綠色=高達39%
-* 黃色= 40至59%
-* 紅色=超過59%
-
-
-link:task-active-iq-qos-recommendations.html["瞭解叢集的QoS建議"]。
-
-
-NOTE: 從「節點節流」頁面、您可以判斷儲存叢集中是否有QoS推送、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software["知識庫文章"^] 以取得資訊。
-
-將滑鼠指標放在圖表的任一點、以查看時間點詳細資料。
+這些圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示所選期間內的節點節流。色彩代表節流量：綠色（無）、黃色（有限）或紅色（高）。如需詳細資訊、請參閱下列圖表範例：
 
 .展開圖表範例
 ====
 image:node_throttling_range.PNG["節點節流圖表"]
 
 ====
+將滑鼠指標放在圖表的任一點、以查看時間點詳細資料。
+
+link:task-active-iq-qos-recommendations.html["瞭解叢集的QoS建議"]。
+
+
+NOTE: 從「節點節流」頁面、您可以判斷儲存叢集中是否有QoS推送、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software["知識庫文章"^] 以取得資訊。
+
 
 
 == 匯出節點節流資料
