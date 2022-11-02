@@ -143,6 +143,17 @@
               $("#mysidebar").navgoco('toggle', true);
           });
 
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/solidfire-active-iq"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
       });
 
   </script>
@@ -565,7 +576,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 立即開始SolidFire Active IQ 使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -602,7 +613,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 管理SolidFire Active IQ</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -618,7 +629,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 所有叢集檢視</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -662,7 +673,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 選取叢集</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -706,7 +717,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 磁碟區</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -750,7 +761,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> QoS管理</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="總覽"
@@ -804,6 +815,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -910,11 +922,7 @@
         <div class="n-footer__copyright">
           <ul class="n-footer__copyright-list">
             <li class="n-footer__copyright-link">
-              <span class="n-footer__fine-print">對我們的網站有任何意見或要求？</span>
-              <a target="_self" href="javascript:netapp_mailto()">請與我們聯絡</a>
-            </li>
-            <li class="n-footer__copyright-link">
-              <a href="https://docs.netapp.com/zh-tw/announcements/">公告</a>
+              <a target="_self" href="javascript:netapp_mailto()">傳送有關本網頁的意見反應</a>
             </li>
           </ul>
         </div>
