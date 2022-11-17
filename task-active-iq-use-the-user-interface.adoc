@@ -155,7 +155,7 @@ image:more_information.PNG["更多資訊圖示"]
 
  a| 
 image:more_details.PNG["更多詳細資料圖示"]
-| 請選取以取得更多詳細資料。 
+| 請選取以取得更多詳細資料。image:description.PNG["說明"] 
 |===
 
 

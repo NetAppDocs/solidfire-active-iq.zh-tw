@@ -73,6 +73,8 @@ sidebar:
       url: "/task-active-iq-virtual-machines.html"
     - title: VMware警示
       url: "/task-active-iq-vmware-alarms.html"
+    - title: 所有節點檢視
+      url: "/task-active-iq-all-nodes-view.html"
   - title: 疑難排解與支援
     url: "/task-active-iq-troubleshoot-support.html"
 homepage:

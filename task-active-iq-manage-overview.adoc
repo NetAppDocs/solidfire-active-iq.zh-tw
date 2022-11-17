@@ -23,6 +23,7 @@ summary: 深入瞭SolidFire Active IQ 解此功能。
 * link:task-active-iq-qos-management-overview.html["QoS管理"]
 * link:task-active-iq-virtual-machines.html["虛擬機器（NetApp HCI 僅限VMware叢集）"]
 * link:task-active-iq-vmware-alarms.html["VMware警示（NetApp HCI 僅限VMware叢集）"]
+* link:task-active-iq-all-nodes-view.html["所有節點檢視"]
 
 
 

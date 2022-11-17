@@ -256,7 +256,6 @@
   <block id="5f9d43bb88c35632903d5eb16decc380" category="cell">更多資訊：選取以取得其他選項。</block>
   <block id="e44b6e341cd265f3c2894bc90107e6cb" category="inline-image-macro">更多詳細資料圖示</block>
   <block id="45ebbd5bdb9477285076cbc10c602f1d" category="paragraph"><block ref="45ebbd5bdb9477285076cbc10c602f1d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ea2e81a1b728b000d0a80f1b7adb8d39" category="cell">請選取以取得更多詳細資料。</block>
   <block id="1ae8a55f317d3b2570e79a0b4a668040" category="section-title">提供意見回饋</block>
   <block id="0c6ab2fbcdd7cedaa7510d6167c60089" category="list-text">從UI的任何頁面中、選取 <block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block> 圖示、然後選取*意見反應*。</block>
   <block id="e392fa2dbe4893eaf358507add7c6068" category="list-text">在電子郵件的訊息本文中輸入相關資訊。</block>
@@ -1021,4 +1020,50 @@
   <block id="8f7bdd75076dbc076948c8a43fa2529c" category="paragraph">訂閱者若收到系統上觸發的每個警示、將會收到不同的狀態電子郵件。SolidFire Active IQ與警示相關的狀態電子郵件有三種類型：</block>
   <block id="472062bb6f5f96a2db31c5e5b3da2b6e" category="admonition">除了這些方法之外、SolidFire Active IQ NetApp支援與工程部門也會撥打一些內部API電話來監控叢集健全狀況。這些呼叫不會記錄下來、因為如果使用不當、可能會對叢集功能造成破壞。如果您需要SolidFire Active IQ 完整的一份完整的列舉之一、請聯絡NetApp支援部門。</block>
   <block id="f107820fc2ea40af48df224b45278cae" category="paragraph">這些圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示所選期間內的節點節流。色彩代表節流量：綠色（無）、黃色（有限）或紅色（高）。如需詳細資訊、請參閱下列圖表範例：</block>
+  <block id="1f8599a5bc6899eb5bf58ed4e4161fee" category="summary">深入瞭SolidFire Active IQ 解《All Node View》（All Node檢視）頁面。</block>
+  <block id="0975b9d0e95957f2f96d932db082c1ac" category="doc">所有節點檢視</block>
+  <block id="433600042717615fb07744743de63c31" category="paragraph">當您從「*所有節點檢視*」下拉式清單中選取公司名稱時、可以檢視公司所有節點的相關資訊、包括節流節點。選取公司名稱之後、它會取代頂端導覽列中的* All Node View*。</block>
+  <block id="e5a76b51fb2c64713124ea9105762e59" category="admonition">如果SolidFire Active IQ 您的這個帳戶只有一個公司名稱與其相關聯、則「*所有節點*」和「*節流節點*」頁面（可從側邊面板取得）預設為該公司名稱。</block>
+  <block id="d38dc317c03da92e20a4b04b5bc3d0bb" category="paragraph">深入瞭解All Node和Throttled Node頁面：</block>
+  <block id="cef6e5e02f93e64082971483abce5410" category="list-text"><block ref="4a6921278f1195bd29f94675e88563bf" category="inline-xref-macro-rx"></block></block>
+  <block id="a612d4889a4b987a98be508fa9b72514" category="list-text"><block ref="fc138af61db82eb110cc73e50bacbc58" category="inline-xref-macro-rx"></block></block>
+  <block id="c10bb4a02280372986102fdf75316770" category="section-title">檢視所有節點的相關資訊</block>
+  <block id="b1f4982719491c265d820d829838d744" category="paragraph">在「*所有節點*」頁面（可從側邊面板取得）上、您可以檢視所選公司的所有節點相關資訊。</block>
+  <block id="adbcdb5d92797a4f02ac6baa443d9eea" category="list-text">叢集主機：執行叢集範圍管理工作、並包含管理虛擬IP位址和儲存虛擬IP位址的節點。</block>
+  <block id="b13826bda37dd4294975eddb82110cdc" category="section-title">檢視節流節點的相關資訊</block>
+  <block id="9cc0e77dc371f1221f703c1017def718" category="paragraph">在「*節流節點*」頁面（可從側邊面板取得）上、您可以檢視所選公司過去30天內節流超過1%的所有節點資訊。</block>
+  <block id="67daf92c833c41c95db874e18fcb2786" category="inline-image-macro">說明</block>
+  <block id="f1e1bd41e60ac6f95abc16508950c3b8" category="paragraph">您可以選擇檢視具有*高*、*限制*或*組合*（高和限制）節流時間的節點。您也可以選取、以檢視節點節流表的說明、以及高、限制和組合節流選項 <block ref="cc03efa5053a59aadd57723f4094ebf4" category="inline-image-macro-rx" type="image"></block> 圖示、如下列範例所示：</block>
+  <block id="7437c96090b9e7622a8cc8b0ea7e9463" category="inline-image-macro">節流節點頁面和節流時間說明</block>
+  <block id="937684e3d3653f5c975333de09fb9330" category="paragraph"><block ref="937684e3d3653f5c975333de09fb9330" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="06bd3adb75f54eaaef79051e0bedce7e" category="paragraph">深入瞭解節流節點的可用資訊。</block>
+  <block id="177bd0b3a4f8a7108b090f6a65391a6a" category="paragraph">*高節流時間檢視*</block>
+  <block id="6f2138dc82fdb66cf2acb0c7a0e6640c" category="cell">高節流持續24小時</block>
+  <block id="c4081b9c016ea439674e01e58feaf507" category="cell">過去24小時內高節點節流的百分比。</block>
+  <block id="c8bb2951a4d22e6ba7b173f104171af0" category="cell">過去7天的大油門</block>
+  <block id="5f91560b20aab2c566a016eff6fdc9fb" category="cell">過去7天內節點節流的百分比。</block>
+  <block id="6160ff0b59753dc9675cca3d81dce928" category="cell">高節流持續14天</block>
+  <block id="eabe719c92fe0e07378cca0e6da0294c" category="cell">過去14天內高節點節流的百分比。</block>
+  <block id="978d3c96489cfee1c52e7a438120c1e1" category="cell">高節流持續30天</block>
+  <block id="c3cf47e48bfcfb747df7b41081aa5431" category="cell">過去30天內高節點節流的百分比。</block>
+  <block id="445c634faae3fd954f036248de3446b2" category="paragraph">*限制節流時間檢視*</block>
+  <block id="c5fbcd58619b808515d831e93bd3dc8e" category="cell">限制節流持續24小時</block>
+  <block id="bb22c7f1ca024aa2fc061f651863b053" category="cell">過去24小時內有限節點節流的百分比。</block>
+  <block id="f80a309868884e96851af006bfd17096" category="cell">限制節流持續7天</block>
+  <block id="fcd7d476a1e02aa2b4be38a9a213c347" category="cell">過去7天內有限節點節流的百分比。</block>
+  <block id="0e2a479c84ac5e3a2b1baf5457e34d42" category="cell">限制節流持續14天</block>
+  <block id="2701012f9f67519d3afe54c041032a9a" category="cell">過去14天內有限節點節流的百分比。</block>
+  <block id="55c2b0ebc9cd6868c5776d24447d1c7b" category="cell">有限節流持續30天</block>
+  <block id="0eda97161d145e2be25d9af5da88d209" category="cell">過去30天內有限節點節流的百分比。</block>
+  <block id="cc7144e5422d5b9b480bfd8a86661966" category="paragraph">*合併節流時間檢視*</block>
+  <block id="5d234f16125b296396c9d5a106f7f65e" category="cell">綜合節流持續24小時</block>
+  <block id="357d46b83e525d1425914a6b9034833e" category="cell">過去24小時內的組合節點節流百分比。</block>
+  <block id="92fb43b31cc7256efc88d23a3660a5f8" category="cell">合併節流持續7天</block>
+  <block id="027887594afcf01399d731fb558b7f4d" category="cell">過去7天內的組合節點節流百分比。</block>
+  <block id="eb0e388651cfe1fecf1ba996c05f482c" category="cell">合併節流持續14天</block>
+  <block id="2b93182c4ea5557ec259c61e340719aa" category="cell">過去14天內、合併節點節流的百分比。</block>
+  <block id="83569553655040d1b128eb95f65db596" category="cell">合併節流持續30天</block>
+  <block id="f15e45347229ad94158fcbd6d2423fb7" category="cell">過去30天內、合併節點節流的百分比。</block>
+  <block id="13b17ea50aa3270a0eb1ac21882cd1b6" category="cell">請選取以取得更多詳細資料。<block ref="b88c7530ca9d8b23f1e4691f94e3f70b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="db2e76d805debcb4c30511df6e0aecf1" category="list-text"><block ref="db2e76d805debcb4c30511df6e0aecf1" category="inline-link-macro-rx"></block></block>
 </blocks>
