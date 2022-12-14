@@ -18,8 +18,8 @@ NOTE: 如果SolidFire Active IQ 您的這個帳戶只有一個公司名稱與其
 
 深入瞭解All Node和Throttled Node頁面：
 
-*  information about all nodes
-*  information about throttled nodes
+* <<檢視所有節點的相關資訊>>
+* <<檢視節流節點的相關資訊>>
 
 
 

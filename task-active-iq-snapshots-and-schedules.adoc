@@ -13,8 +13,8 @@ summary: 深入瞭SolidFire Active IQ 解如何檢視Snapshot詳細資料和Snap
 [role="lead"]
 深入瞭解如何檢視快照與快照排程的相關資訊：
 
-* 
-*  Schedules
+* <<快照>>
+* <<Snapshot排程>>
 
 
 

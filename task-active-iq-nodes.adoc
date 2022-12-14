@@ -15,8 +15,8 @@ summary: 深入瞭SolidFire Active IQ 解《Active Node》（作用中節點）�
 
 可用的詳細資料會因系統而異：
 
-*  SolidFire storage node details
-*  NetApp HCI storage and compute node details
+* <<檢視SolidFire 功能區儲存節點詳細資料>>
+* <<檢視NetApp HCI 儲存與運算節點的詳細資料>>
 
 
 
@@ -111,8 +111,8 @@ NetApp H系列節點組成NetApp HCI 了一套功能完善的系統、其中有�
 
 深入瞭NetApp HCI 解如何檢視有關儲存節點和運算節點在一個叢集中的資訊：
 
-*  information about storage nodes
-*  information about compute nodes
+* <<檢視儲存節點的相關資訊>>
+* <<檢視運算節點的相關資訊>>
 
 
 

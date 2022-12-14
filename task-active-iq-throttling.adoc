@@ -15,8 +15,8 @@ summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。
 
 深入瞭解檢視節點節流資訊：
 
-*  graphs and select date ranges
-*  node throttling data
+* <<檢視圖表並選取日期範圍>>
+* <<匯出節點節流資料>>
 
 
 
@@ -30,6 +30,7 @@ summary: 深入瞭解SolidFire Active IQ 《節點節流》頁面。
 這些圖表會根據所選節點上裝載之磁碟區的最小和最大IOPS設定、顯示所選期間內的節點節流。色彩代表節流量：綠色（無）、黃色（有限）或紅色（高）。如需詳細資訊、請參閱下列圖表範例：
 
 .展開圖表範例
+[%collapsible]
 ====
 image:node_throttling_range.PNG["節點節流圖表"]
 

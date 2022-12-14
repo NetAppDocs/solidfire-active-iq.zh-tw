@@ -13,9 +13,9 @@ summary: 深入瞭SolidFire Active IQ 解如何在畫面上檢視Volume詳細資
 [role="lead"]
 從* Volumes *（磁碟區*）頁面、您可以檢視有關作用中磁碟區、個別磁碟區和效能圖表的詳細資料：
 
-*  active volume details
-*  individual volume details
-*  individual volume performance graphs
+* <<檢視作用中Volume詳細資料>>
+* <<檢視個別Volume詳細資料>>
+* <<檢視個別Volume效能圖表>>
 
 
 
