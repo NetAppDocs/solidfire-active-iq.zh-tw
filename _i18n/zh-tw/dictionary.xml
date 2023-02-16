@@ -548,7 +548,6 @@
   <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">原則會從系統中永久移除。</block>
   <block id="685a82571a4b315892d300d3410d13b9" category="section-title">檢視抑制的叢集</block>
   <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">在「*所有叢集檢視*」*內*「警示*」下拉式功能表的「*受支援的叢集*」頁面上、您可以檢視已抑制警示通知的叢集清單。</block>
-  <block id="d8d9aa68c453cb9b41b4de4fced325c7" category="paragraph">NetApp支援或客戶可在執行維護時、抑制叢集的警示通知。如果使用升級抑制功能來抑制叢集的通知、則不會傳送在升級期間發生的一般警示。此外、也有一個完整警示抑制選項、可在指定的期間內停止叢集的警示通知。您可以在「*警示*」功能表的「*歷程記錄*」頁面上、檢視任何在通知被抑制時未傳送的電子郵件警示。受抑制的通知會在定義的持續時間過後自動恢復。</block>
   <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">下列資訊可在*受支援的叢集*頁面上找到。</block>
   <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">指派給叢集的公司名稱。</block>
   <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">叢集ID</block>
@@ -556,12 +555,10 @@
   <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="cell">叢集名稱</block>
   <block id="e3d5f2a7512ede9e52a01c31493bfb81" category="cell">指派給叢集的名稱。</block>
   <block id="2bbc845892f400626baab5af687527c5" category="cell">開始時間</block>
-  <block id="4820b9ef9bd7442acc6ccdf08f9614d3" category="cell">啟動抑制通知的確切時間。</block>
   <block id="c91a577b72313356fad611c55f43c10f" category="cell">結束時間</block>
   <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">通知抑制排定結束的確切時間</block>
   <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">選取選項以隱藏或恢復叢集的通知。</block>
   <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">隱藏叢集通知</block>
-  <block id="9858acb2dd14a30e26cf805c6de0730a" category="paragraph">您可以針對單一叢集或多個叢集、隱藏叢集層級的警示通知。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項：</block>
   <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">從*儀表板*總覽中、選取您要隱藏之叢集的「動作」功能表。</block>
   <block id="36dbb4ac73c2a1146dafa537aa33167b" category="list-text">從*警示*&gt;*叢集抑制*選取*抑制叢集*。</block>
@@ -569,7 +566,6 @@
   <block id="3faf81240a474d1bab3caae427a0b972" category="list-text">如果您從「*抑制叢集*」頁面選取「*抑制叢集*」按鈕、請選取叢集。</block>
   <block id="d9eec58efcbfdf3d4c1babd111ed996c" category="inline-xref">深入瞭解抑制類型</block>
   <block id="cb886f47c22a31667b6be5251d178c52" category="list-text">選取警示抑制類型為*完整*、*升級*、*運算*、*節點硬體*、*磁碟機*、 *網路*或*電源*。 <block ref="a879a530d2e9cfbfff346e782418a668" category="inline-xref-macro-rx"></block>。</block>
-  <block id="dbb77a21634d63a653c797feb9464c44" category="admonition">叢集可以有多種抑制類型、但無法共用抑制類型。例如、叢集可以有*完整*、*運算*和*磁碟機*抑制、但不能有兩個*完整*抑制。當叢集上已存在抑制功能時、它會呈現灰色。若要取代現有的抑制、請選取*置換現有的*、然後選取新的抑制類型。</block>
   <block id="d2f9ee75eef16569d25256f62c3285af" category="list-text">選取一般持續時間、或輸入應抑制通知的自訂結束日期和時間。</block>
   <block id="399e38cad3fefa8ffc7773b5e82ba0a4" category="list-text">選取* Suppress *。</block>
   <block id="55c71a545e88a736b0fd984ef1cf9011" category="admonition">此動作也會禁止向NetApp支援部門發出特定或所有通知。在叢集抑制生效之後、NetApp支援或任何有權檢視叢集的使用者都可以更新抑制狀態。</block>
@@ -1066,4 +1062,12 @@
   <block id="f15e45347229ad94158fcbd6d2423fb7" category="cell">過去30天內、合併節點節流的百分比。</block>
   <block id="13b17ea50aa3270a0eb1ac21882cd1b6" category="cell">請選取以取得更多詳細資料。<block ref="b88c7530ca9d8b23f1e4691f94e3f70b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="db2e76d805debcb4c30511df6e0aecf1" category="list-text"><block ref="db2e76d805debcb4c30511df6e0aecf1" category="inline-link-macro-rx"></block></block>
+  <block id="0e3b63363a35e9f7a5dee72963106a92" category="paragraph">NetApp支援或客戶可在執行維護時、抑制叢集的警示通知。如果使用升級抑制功能來抑制叢集的通知、則不會傳送在升級期間發生的一般警示。此外、也有一個完整警示抑制選項、可在指定的期間內停止叢集的警示通知。您可以在「*警示*」功能表的「*歷程記錄*」頁面上、檢視任何在通知被抑制時未傳送的電子郵件警示。受抑制的通知會在定義的持續時間過後自動恢復。您可以在下拉式功能表中選取「恢復通知」、提早結束通知的抑制。</block>
+  <block id="1b1b4ed1e5c3651d0098e519d90608f1" category="cell">啟動或排定開始抑制通知的確切時間。</block>
+  <block id="57347427d54a8b3062a13502efbb0b39" category="paragraph">指出警示通知的狀態：</block>
+  <block id="4e5f06cf705243a2cf7308548afc1545" category="list-text">*作用中*：警示通知的抑制作用中。</block>
+  <block id="50530d3f54881ad7130c640aaca2dbae" category="list-text">*未來*：排定在未來日期和時間內隱藏警示通知。</block>
+  <block id="57829e1c527aadb9862b10c223954f81" category="paragraph">您可以針對單一叢集或多個叢集、在目前日期和時間內隱藏叢集層級的警示通知、或排程在未來日期和時間開始。</block>
+  <block id="fb0d7f8aefdf99cea1fcfde269bee06a" category="admonition">叢集可以有多種抑制類型、其中可以包含相同抑制類型的多個選擇。當排定的抑制視窗期間已存在抑制類型時、該類型會呈現灰色。若要再次選取此抑制類型、請選取*重疊現有*。同一抑制類型的多個選擇可能會有重疊時間、或者如果排程未來的抑制、則可能會在不同的時間。當兩個抑制有重疊的時間週期時、此功能與單一抑制相同、其開始時間是從抑制的最早時間開始、而結束時間則是最晚結束的時間。</block>
+  <block id="8c585eacf0d12977061621d6833ec987" category="list-text">選取您要啟動抑制通知的開始日期和時間。</block>
 </blocks>
