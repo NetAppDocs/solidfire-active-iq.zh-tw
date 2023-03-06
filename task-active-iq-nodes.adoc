@@ -69,7 +69,7 @@ summary: 深入瞭SolidFire Active IQ 解《Active Node》（作用中節點）�
 | 序號 | 指派給節點的唯一序號。 
 
 
-| 管理IP | 指派給節點的管理IP MIP位址、用於1GbE或10GbE網路管理工作。 
+| 管理IP | 指派給節點的管理IP位址、用於1GbE或10GbE網路管理工作。 
 
 
 | 叢集IP | 指派給節點的叢集IP位址、用於同一叢集中節點之間的通訊。 

@@ -17,6 +17,8 @@ summary: 深入瞭SolidFire Active IQ 解《Replication》（複製）頁面。
 
 * <<cluster_pairs,叢集配對>>
 * <<volume_pairs,Volume配對>>
+* <<snapmirror_endpoints,SnapMirror端點>>
+* <<snapmirror_relationships,SnapMirror關係>>
 
 
 
@@ -94,6 +96,97 @@ NOTE: 處於作用中複寫狀態的目標Volume永遠會有0（零）的非同�
 |===
 
 
+== SnapMirror端點
+
+在所選叢集的「*複寫*>* SnapMirror端點*」頁面上、您可以檢視下列SnapMirror端點的相關資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 端點ID | 端點識別碼。 
+
+
+| 遠端叢集名稱 | 配對的遠端叢集名稱。 
+
+
+| 叢集管理IP | 叢集管理IP位址。 
+
+
+| IPS | 用於虛擬網路的虛擬網路IP位址範圍。 
+
+
+| 關係 | 為端點設定的關係數。 
+
+
+| 狀態 | 這是指端點目前是否已連線。其值為*已連線*或*已中斷連線*。 
+|===
+
+
+== SnapMirror關係
+
+在所選叢集的「*複寫*>* SnapMirror關係*」頁面上、您可以檢視下列SnapMirror關係的相關資訊。
+
+[cols="30,70"]
+|===
+| 標題 | 說明 
+
+
+| 端點ID | 端點識別碼。 
+
+
+| 來源Volume | 來源的Volume ID。 
+
+
+| 目的地叢集 | SnapMirror關係中的目的地叢集名稱。 
+
+
+| 目的地Volume | SnapMirror關係中的目的地Volume名稱。 
+
+
+| 州/省  a| 
+鏡射關係的狀態。它可以有三種可能的值：
+
+* 未初始化：目的地Volume未初始化。
+* SnapMirror:目的地Volume已初始化、準備好接收SnapMirror更新。
+* 中斷：目的地磁碟區處於讀寫狀態、且存在快照。
+
+
+
+
+| 狀態  a| 
+如果關係目前健全、其價值可能是*健全*或*不健全*。
+
+
+NOTE: 當手動或排程的更新失敗或中止、或上次排程的更新延遲時、可能會導致*不正常*值。狀態後面的*詳細資料*欄位會顯示*不健全*狀態的原因。
+
+
+
+| 關係類型  a| 
+SnapMirror關係的類型。
+
+
+NOTE: 在支援的系統上SolidFire 、此設定永遠設定為 `extended_data_protection`。NetApp系統有其他類型的有效關係、SolidFire 不適用於哪些系統。
+
+
+
+| 州/省  a| 
+叢集狀態：
+
+* 健全狀況：叢集沒有相關的重大錯誤。
+* 離線：無法存取叢集。選取連結以檢視錯誤記錄。
+* 故障：此叢集有相關錯誤。選取連結以檢視錯誤記錄。
+
+
+
+
+| 詳細資料 | 有助於識別SnapMirror關係的資訊。 
+|===
+
+
 == 如需詳細資訊、請參閱
 
-https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]
+* https://www.netapp.com/support-and-training/documentation/["NetApp 產品文件"^]
+* https://docs.netapp.com/us-en/ontap/element-replication/index.html["在不同時複寫NetApp Element 功能的情況下ONTAP"^]
+

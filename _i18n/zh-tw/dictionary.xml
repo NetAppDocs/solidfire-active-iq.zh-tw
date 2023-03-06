@@ -292,7 +292,6 @@
   <block id="6ecb056d430ebf109cb53b71b4e3bbf6" category="cell">顯示節點的模型類型。</block>
   <block id="21dffd11e52f3b29376f4508b2ad0b1a" category="cell">服務標籤</block>
   <block id="c85128056ac648977b9e0da5daf91c2d" category="cell">指派給節點的唯一服務標籤號碼。</block>
-  <block id="0b78ef57d4dacade728a829821159de3" category="cell">指派給節點的管理IP MIP位址、用於1GbE或10GbE網路管理工作。</block>
   <block id="70087224b93e8179deda7438fae8e843" category="cell">叢集IP</block>
   <block id="4d08639c19d21e8b1b2dd93fd1ecb110" category="cell">指派給節點的叢集IP位址、用於同一叢集中節點之間的通訊。</block>
   <block id="9f4766e9e0e83d660691c78a09d23354" category="cell">複寫連接埠</block>
@@ -1070,4 +1069,41 @@
   <block id="57829e1c527aadb9862b10c223954f81" category="paragraph">您可以針對單一叢集或多個叢集、在目前日期和時間內隱藏叢集層級的警示通知、或排程在未來日期和時間開始。</block>
   <block id="fb0d7f8aefdf99cea1fcfde269bee06a" category="admonition">叢集可以有多種抑制類型、其中可以包含相同抑制類型的多個選擇。當排定的抑制視窗期間已存在抑制類型時、該類型會呈現灰色。若要再次選取此抑制類型、請選取*重疊現有*。同一抑制類型的多個選擇可能會有重疊時間、或者如果排程未來的抑制、則可能會在不同的時間。當兩個抑制有重疊的時間週期時、此功能與單一抑制相同、其開始時間是從抑制的最早時間開始、而結束時間則是最晚結束的時間。</block>
   <block id="8c585eacf0d12977061621d6833ec987" category="list-text">選取您要啟動抑制通知的開始日期和時間。</block>
+  <block id="28b4baca1ac41f0c9cbe42a9ec42628e" category="inline-xref">SnapMirror端點</block>
+  <block id="ac1101609fb27790d21f3e5682730a46" category="list-text"><block ref="6106c5f20c38abc927c216f441b22257" category="inline-xref-macro-rx"></block></block>
+  <block id="b7bae3475f98c5511fcd900e6b4c8f8c" category="inline-xref">SnapMirror關係</block>
+  <block id="ad2c46e1bdf00bc2c2373e711d1d2954" category="list-text"><block ref="c593ef727a82bdc9f5c1b753b116f514" category="inline-xref-macro-rx"></block></block>
+  <block id="f17f50f30412e2177a16f9b4da89f874" category="paragraph">在所選叢集的「*複寫*&gt;* SnapMirror端點*」頁面上、您可以檢視下列SnapMirror端點的相關資訊。</block>
+  <block id="6bb4d406451e3685e40319c445ae0352" category="cell">端點ID</block>
+  <block id="32246b37b740b49b6825d9f37e2ee6c5" category="cell">端點識別碼。</block>
+  <block id="0e948943e8277507eeeec08bbb91d3b4" category="cell">叢集管理IP</block>
+  <block id="6e24b6e3023bd7d9208c26111ae95b8d" category="cell">叢集管理IP位址。</block>
+  <block id="fef48b3b39a9c7cdf35ffca8bf736a75" category="cell">IPS</block>
+  <block id="ea96be9e75d8d3d690aedae5040edf2f" category="cell">關係</block>
+  <block id="8f8605419f690965c300901a20d62391" category="cell">為端點設定的關係數。</block>
+  <block id="718d288064e78f83f1ba4c375c26c029" category="cell">這是指端點目前是否已連線。其值為*已連線*或*已中斷連線*。</block>
+  <block id="028ac3812784d5be0fd01695fc043cff" category="paragraph">在所選叢集的「*複寫*&gt;* SnapMirror關係*」頁面上、您可以檢視下列SnapMirror關係的相關資訊。</block>
+  <block id="6b381cadf674c5e31b229c76f56806c5" category="cell">來源Volume</block>
+  <block id="5fc8efaf812ad6d749473c5b1e7a1d08" category="cell">來源的Volume ID。</block>
+  <block id="3b63d6a8b8cc0fb1c86125151f2eca0a" category="cell">目的地叢集</block>
+  <block id="64afd1e289d3d4ac65cd7bae034156d3" category="cell">SnapMirror關係中的目的地叢集名稱。</block>
+  <block id="61bf1d352b9b723607cb778169e813a0" category="cell">目的地Volume</block>
+  <block id="0ebc9eebbe2a97262f813b92e1f22992" category="cell">SnapMirror關係中的目的地Volume名稱。</block>
+  <block id="46a2a41cc6e552044816a2d04634545d" category="cell">州/省</block>
+  <block id="1fdf08bae98f520da3e0d1b2000eabac" category="paragraph">鏡射關係的狀態。它可以有三種可能的值：</block>
+  <block id="8881a06cabd3e842b7977e9044018e5d" category="list-text">未初始化：目的地Volume未初始化。</block>
+  <block id="baaef4c79409be356afa390f0a267777" category="list-text">SnapMirror:目的地Volume已初始化、準備好接收SnapMirror更新。</block>
+  <block id="8ea0f60fec4bd7852564eff6914e37e5" category="list-text">中斷：目的地磁碟區處於讀寫狀態、且存在快照。</block>
+  <block id="2177b3ffa647aac85952207f57133f55" category="paragraph">如果關係目前健全、其價值可能是*健全*或*不健全*。</block>
+  <block id="163c9089cced4c196e834ce87a1ec90e" category="admonition">當手動或排程的更新失敗或中止、或上次排程的更新延遲時、可能會導致*不正常*值。狀態後面的*詳細資料*欄位會顯示*不健全*狀態的原因。</block>
+  <block id="2029c90a49e8add716fcc3051a0c01ff" category="cell">關係類型</block>
+  <block id="b2896d0a757d4adea7b0bf1946d16ab9" category="paragraph">SnapMirror關係的類型。</block>
+  <block id="2e5e6f53be4c64301d71ec17f9666006" category="admonition">在支援的系統上SolidFire 、此設定永遠設定為<block ref="a6c02c92cdc6c7fe213f68be0ab9ee11" prefix=" " category="inline-code"></block>。NetApp系統有其他類型的有效關係、SolidFire 不適用於哪些系統。</block>
+  <block id="ddf35be1d25ba7857330965fdbcd63ec" category="paragraph">叢集狀態：</block>
+  <block id="6c1691f6c440f43922bce2a3183b9614" category="list-text">健全狀況：叢集沒有相關的重大錯誤。</block>
+  <block id="353d8a4aaa6f9c840d2d0330d5cb9610" category="list-text">離線：無法存取叢集。選取連結以檢視錯誤記錄。</block>
+  <block id="9810bf56aaa37a450fe2ace2a59a888f" category="list-text">故障：此叢集有相關錯誤。選取連結以檢視錯誤記錄。</block>
+  <block id="9f360968c28895acf09b091f83e3603f" category="cell">有助於識別SnapMirror關係的資訊。</block>
+  <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">在不同時複寫NetApp Element 功能的情況下ONTAP</block>
+  <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
 </blocks>
