@@ -1106,4 +1106,5 @@
   <block id="9f360968c28895acf09b091f83e3603f" category="cell">有助於識別SnapMirror關係的資訊。</block>
   <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">在不同時複寫NetApp Element 功能的情況下ONTAP</block>
   <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
+  <block id="f5f48e4a05f564b44c9541295334dd2e" category="paragraph">若要檢視特定容量授權資源池、您必須擁有檢視該資源池中所有叢集的權限。如果涉及母公司與子公司關係、請與您的客戶經理合作、確認是否正確記錄。否則可能導致容量授權資源池無法使用。</block>
 </blocks>
