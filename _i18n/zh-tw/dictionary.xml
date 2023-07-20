@@ -764,7 +764,6 @@
   <block id="cb0b3ac9b7a179d7ab7a6fca23f53ad7" category="cell">關聯的快照數量。</block>
   <block id="8aa8c731cfe2c1c5fc7e8d8161be302a" category="cell">512e已啟用</block>
   <block id="4b70e4e226aa2663d010aeae818edca9" category="cell">識別是否已在磁碟區上啟用512e。</block>
-  <block id="49040853732d48deb2df7eebcd95b127" category="cell">識別主儲存節點上的高負載是否導致磁碟區被節流。</block>
   <block id="fe6f6567eb042d45b55b29aa9a29df5b" category="cell">Volume已配對</block>
   <block id="3864a6411a8582c09e9f190a2d97c876" category="cell">指出某個Volume是否已配對。</block>
   <block id="bb1bce6ceb9138a27ff4a45ffa2b6cc4" category="cell">磁碟區建立工作完成的時間。</block>
@@ -1112,4 +1111,5 @@
   <block id="dc8427aa0b7126878455064a038e5809" category="list-text">黃色：節點的節流限制有限。磁碟區會從其最大 IOPs 設定中調降、但仍會維持在或高於其最小 IOPS 設定的效能。</block>
   <block id="960834da3ed67c2325c72e0370fc8205" category="list-text">紅色：節點正在經歷高節流。當調低更嚴重的容量時、效能可能會低於最低 IOPs 設定。</block>
   <block id="504a73ee059265d2d8bb14a8164db243" category="paragraph">「 * 總體 Volume 輸送量 * 」圖形會顯示所選節點之主要磁碟區的處理量總和。此圖表顯示磁碟區讀取和寫入處理量的總和。它不包含中繼資料或其他節點流量。當磁碟區存在於節點上時、也會納入考量、當磁碟區從節點傳輸時、處理量會降低。</block>
+  <block id="f1fa7b7cc46f8f0571dab3e8216c76eb" category="cell">代表目前的 Volume 節流。該值不包括捲上的歷史節流。</block>
 </blocks>
