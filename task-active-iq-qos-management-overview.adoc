@@ -11,12 +11,13 @@ summary: 深入瞭SolidFire Active IQ 解功能介紹中的QoS管理頁面。
 
 
 [role="lead"]
-從所選叢集的側邊面板所提供的「* QoS管理*」頁面、您可以檢視叢集中節點的QoS建議和節流資訊。
+您可以從所選叢集的側邊面板上的 *QoS 管理 * 頁面、檢視叢集中節點的 QoS 建議、節流和磁碟區資訊。
 
-瞭解如何檢視所選節點的QoS建議和節流相關資訊：
+瞭解如何檢視所選節點的 QoS 建議、節流和磁碟區資訊：
 
 * link:task-active-iq-recommendations.html["建議"]
 * link:task-active-iq-throttling.html["節點節流"]
+* link:task-active-iq-busiest-volumes.html["最繁忙的 Volume"]
 
 
 

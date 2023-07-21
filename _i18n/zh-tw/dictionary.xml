@@ -79,15 +79,12 @@
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">檢視圖表並選取日期範圍</block>
-  <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。此外、您也可以直接在底部的長條圖上塗抹、以選取所需的時間間隔。您可以選取左側的縮圖配置、在圖表之間切換。</block>
   <block id="f8feac3680b404eb25b3b1fea6aa6e70" category="inline-link-macro">瞭解叢集的QoS建議</block>
   <block id="ea716f1a51591b923cd83aaa8faa830c" category="paragraph"><block ref="4334742ebeca91bbb52799a64e982fde" category="inline-link-macro-rx"></block>。</block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">知識庫文章</block>
   <block id="847e4940ea24aaa4424f3c4a37535b12" category="admonition">從「節點節流」頁面、您可以判斷儲存叢集中是否有QoS推送、請參閱<block ref="6de779e3b42a864ec2ff941281a0ceca" category="inline-link-rx"></block> 以取得資訊。</block>
   <block id="f5a7af379fa1ac15911d3b781873b129" category="paragraph">將滑鼠指標放在圖表的任一點、以查看時間點詳細資料。</block>
   <block id="19eb44463cdadfc868f1a40170c2492a" category="example-title">展開圖表範例</block>
-  <block id="f49cb77ff5ce537f4ee301d1be0be1c1" category="inline-image-macro">節點節流圖表</block>
-  <block id="201fcedd51648e6d2c3fb5c04a6413ce" category="paragraph"><block ref="201fcedd51648e6d2c3fb5c04a6413ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c82fc13660c1f7b9e81fb05a1b3dc1a0" category="section-title">匯出節點節流資料</block>
   <block id="b94aaf1b6153416c8fbec130b4b4572c" category="paragraph">您可以將圖表資料匯出成以逗號分隔的值（CSV）格式。只會匯出圖表中顯示的資訊。</block>
   <block id="e6e76398fa578c847ffbf12cf9020f0d" category="list-text">在清單檢視或圖表中、選取 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 圖示。</block>
@@ -977,8 +974,6 @@
   <block id="c357af7a99b77ac25c548aef6df0d1a8" category="list-text"><block ref="c357af7a99b77ac25c548aef6df0d1a8" category="inline-link-macro-rx"></block></block>
   <block id="16beb139f89865caa5bdd51a5b9fadcd" category="summary">深入瞭SolidFire Active IQ 解功能介紹中的QoS管理頁面。</block>
   <block id="d57c256b226c8f444c1c9b3956085ad8" category="doc">QoS管理</block>
-  <block id="5085a6d22e1a79b7b82997ea97e58d72" category="paragraph">從所選叢集的側邊面板所提供的「* QoS管理*」頁面、您可以檢視叢集中節點的QoS建議和節流資訊。</block>
-  <block id="be4ba82940f402388451f5cc834ece73" category="paragraph">瞭解如何檢視所選節點的QoS建議和節流相關資訊：</block>
   <block id="5259ae4afb5996ff48788b2fa720114c" category="inline-link-macro">建議</block>
   <block id="a360a35f96153959d5b43412ede22440" category="list-text"><block ref="a360a35f96153959d5b43412ede22440" category="inline-link-macro-rx"></block></block>
   <block id="74372e2fdee501a3a9fa25f6ef28ec0a" category="list-text"><block ref="74372e2fdee501a3a9fa25f6ef28ec0a" category="inline-link-macro-rx"></block></block>
@@ -1112,4 +1107,21 @@
   <block id="960834da3ed67c2325c72e0370fc8205" category="list-text">紅色：節點正在經歷高節流。當調低更嚴重的容量時、效能可能會低於最低 IOPs 設定。</block>
   <block id="504a73ee059265d2d8bb14a8164db243" category="paragraph">「 * 總體 Volume 輸送量 * 」圖形會顯示所選節點之主要磁碟區的處理量總和。此圖表顯示磁碟區讀取和寫入處理量的總和。它不包含中繼資料或其他節點流量。當磁碟區存在於節點上時、也會納入考量、當磁碟區從節點傳輸時、處理量會降低。</block>
   <block id="f1fa7b7cc46f8f0571dab3e8216c76eb" category="cell">代表目前的 Volume 節流。該值不包括捲上的歷史節流。</block>
+  <block id="0e29f48d3983c8e02d304a4cac5c4b39" category="paragraph">您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。您也可以直接在底部的長條圖上刷來選取所需的時間間隔。若要在圖表之間切換、請選取左側的縮圖版面配置。</block>
+  <block id="830a523dffdb990ef18afc5e719f36d9" category="inline-image-macro">節點節流的圖形顯示</block>
+  <block id="e525bbc1d36799217924d288809f6bbd" category="paragraph"><block ref="e525bbc1d36799217924d288809f6bbd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="565385f51685ec81fc852c21b6a6595c" category="paragraph">您可以從所選叢集的側邊面板上的 *QoS 管理 * 頁面、檢視叢集中節點的 QoS 建議、節流和磁碟區資訊。</block>
+  <block id="4475d8223b8ad54b8ed0c88354991245" category="paragraph">瞭解如何檢視所選節點的 QoS 建議、節流和磁碟區資訊：</block>
+  <block id="df1a757dadf29768cabd7dd071d34553" category="inline-link-macro">最繁忙的 Volume</block>
+  <block id="9282c0120e4759635a165877188af924" category="list-text"><block ref="9282c0120e4759635a165877188af924" category="inline-link-macro-rx"></block></block>
+  <block id="b39cd5a009703173a7576ddb25127672" category="summary">瞭解 SolidFire Active IQ 中最繁忙的 Volume 頁面。</block>
+  <block id="9d66ad5ac0496596e43a93158c2549a8" category="paragraph">從所選叢集的側邊面板提供的「 *QoS 管理 * &gt; * 最繁忙的 Volume * 」頁面、您可以檢視叢集中所選節點和時間範圍的十個具有最高處理量的磁碟區。</block>
+  <block id="4959da29611db8530fdc3b313088d055" category="paragraph">瞭解如何檢視最繁忙的 Volume 資訊：</block>
+  <block id="ec4f6c0503d5207ab58bcfcc1d5b6f44" category="list-text"><block ref="782d4ec4d80bd12b3d5f35e6cf05ffaa" category="inline-xref-macro-rx"></block></block>
+  <block id="ba0a51263a10baa088516b8979c41341" category="paragraph">從下拉式清單中選取節點之後、會顯示該節點上處理量最高的十個磁碟區。對於每個 Volume 、您可以檢視 * 輸送量 * 、 * 平均 IO 大小 * 、 * IOPS * 和 * 延遲 * 圖形；若要查看最後一個圖形、您可能需要向下捲動頁面。若要在不同的體積之間切換、請選取左側的縮圖版面配置。當您選取不同的節點時、這些圖表會變更為新選取的節點。</block>
+  <block id="3759118133efcd19324889b25f3074e2" category="paragraph">在整個過程中、圖表和日期範圍SolidFire Active IQ 彼此無縫整合。選取日期範圍時、該頁面上的圖形會調整至所選範圍。每個圖表顯示的預設日期範圍為七天。您可以從行事曆下拉式方塊或一組預先定義的範圍中選取日期範圍。您也可以直接在底部的長條圖上刷來選取所需的時間間隔。日期範圍是使用目前瀏覽器時間（選取時間）和設定的時間量來計算。當您變更節點的選取日期範圍時、顯示的十個最忙碌的磁碟區也可能會變更。</block>
+  <block id="b14c80c6e1e5c930b7c2df0d107d2227" category="inline-image-macro">最繁忙的磁碟區圖形化顯示</block>
+  <block id="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="paragraph"><block ref="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4cdebd141dff1c095e06cf5208c27b2b" category="paragraph">將滑鼠指標放在圖形的任何點上、即可查看讀取、寫入和總作業的時間點詳細資料。如果所選時間範圍的一部分節點上沒有容量、則會以虛線表示</block>
+  <block id="20b3b5b27ff183797189ac06f1b32a54" category="section-title">匯出最忙碌的節點資料</block>
 </blocks>
