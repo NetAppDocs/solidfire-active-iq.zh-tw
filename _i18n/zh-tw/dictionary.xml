@@ -724,7 +724,6 @@
   <block id="2bc5a323ec4c5f81b720526e8aadd21e" category="cell">次要節點ID</block>
   <block id="a8c5372cb84d7d3cefd81f7cca2508d1" category="cell">此磁碟區的次要節點清單。在過渡狀態期間可以是多個值、例如次要節點的變更、但通常只有一個值。</block>
   <block id="e3fa9173825e8d72d3109748c25adb2b" category="cell">QoS節流</block>
-  <block id="b7704dec80bad8b4f8c5564e2d1d6f28" category="paragraph">識別主儲存節點上的高負載是否導致磁碟區被節流：</block>
   <block id="40c1f7a2846a63dc74ce6b9dbc7933dc" category="list-text">綠色=高達20%</block>
   <block id="89d6f6a6ae8c5ed89ceadff57f866134" category="list-text">黃色=高於20%</block>
   <block id="a766a96a4550397e3be62686e9dba4bf" category="list-text">紅色=超過80%</block>
@@ -742,8 +741,6 @@
   <block id="7d5a20f283f1f159bc8fca5cea5abdf2" category="paragraph">開啟作用中Volume的頁面之後、您可以從資訊列檢視最近的Volume資料。</block>
   <block id="e5e232275261e481cb1332fe1e05f070" category="cell">系統產生的Volume ID。</block>
   <block id="94a1800545581d04983407fd1d145e62" category="cell">Volume的總大小。</block>
-  <block id="7da55ffd0ff54b317006c52ea7f2c0e1" category="paragraph">顯示磁碟區的容量：</block>
-  <block id="abec01fb58480a49a084850b03ff2d7c" category="list-text">紅色=高於95%。</block>
   <block id="42bbfc003515ffd17bbf2687a043f11d" category="cell">平均IOPS</block>
   <block id="e3b8968fd9318f5d739250d54e769ff4" category="cell">過去30分鐘內針對磁碟區執行的平均IOPS數。</block>
   <block id="edd5221a3f19c0c3519847deb797f926" category="cell">平均處理量</block>
@@ -1124,4 +1121,7 @@
   <block id="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="paragraph"><block ref="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4cdebd141dff1c095e06cf5208c27b2b" category="paragraph">將滑鼠指標放在圖形的任何點上、即可查看讀取、寫入和總作業的時間點詳細資料。如果所選時間範圍的一部分節點上沒有容量、則會以虛線表示</block>
   <block id="20b3b5b27ff183797189ac06f1b32a54" category="section-title">匯出最忙碌的節點資料</block>
+  <block id="86d684bea1d4ec8e7ab5dd525434db07" category="paragraph">代表目前的 Volume 節流。</block>
+  <block id="8affec94c4ca90859e2feacff861a492" category="paragraph">該值不包括捲上的歷史節流。</block>
+  <block id="b58d6152d74cfc9445a90c470e4070bc" category="paragraph">顯示磁碟區的完整容量。</block>
 </blocks>
