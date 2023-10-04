@@ -463,7 +463,6 @@
   <block id="f698f67f5666aff10729d8a1cb1c14d2" category="cell">觸發</block>
   <block id="601196b963688a67f39766583574efdb" category="cell">觸發警示的使用者定義設定。</block>
   <block id="4d1c0d628f7187afcd0dbf03553e9365" category="section-title">檢視警示原則</block>
-  <block id="36056ade5aa16b4101c0f4cf7927c138" category="paragraph">「*所有叢集檢視*」中「*警示*」下拉式功能表中的「*原則*」頁面會顯示所有叢集的下列原則資訊。</block>
   <block id="002f7378a5fcfc2f66cfea851a7fd5f4" category="cell">原則名稱</block>
   <block id="ae1d52073742c822d33f127442660e95" category="cell">使用者定義的警示原則名稱。</block>
   <block id="370ed24b10bc15a8ba6506396950587d" category="cell">警示原則中定義的電子郵件地址。</block>
@@ -543,8 +542,6 @@
   <block id="ad5a54b96d86e967dc2a014c681f9377" category="list-text">確認行動。</block>
   <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">原則會從系統中永久移除。</block>
   <block id="685a82571a4b315892d300d3410d13b9" category="section-title">檢視抑制的叢集</block>
-  <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">在「*所有叢集檢視*」*內*「警示*」下拉式功能表的「*受支援的叢集*」頁面上、您可以檢視已抑制警示通知的叢集清單。</block>
-  <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">下列資訊可在*受支援的叢集*頁面上找到。</block>
   <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">指派給叢集的公司名稱。</block>
   <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">叢集ID</block>
   <block id="ede2b30206235e476ba08b09618f897f" category="cell">建立叢集時指派的叢集編號。</block>
@@ -553,7 +550,6 @@
   <block id="2bbc845892f400626baab5af687527c5" category="cell">開始時間</block>
   <block id="c91a577b72313356fad611c55f43c10f" category="cell">結束時間</block>
   <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">通知抑制排定結束的確切時間</block>
-  <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">選取選項以隱藏或恢復叢集的通知。</block>
   <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">隱藏叢集通知</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項：</block>
   <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">從*儀表板*總覽中、選取您要隱藏之叢集的「動作」功能表。</block>
@@ -1124,4 +1120,17 @@
   <block id="86d684bea1d4ec8e7ab5dd525434db07" category="paragraph">代表目前的 Volume 節流。</block>
   <block id="8affec94c4ca90859e2feacff861a492" category="paragraph">該值不包括捲上的歷史節流。</block>
   <block id="b58d6152d74cfc9445a90c470e4070bc" category="paragraph">顯示磁碟區的完整容量。</block>
+  <block id="32082878b3285421b4e15f332218aaf4" category="paragraph">All Clusters* 檢視中警示下拉式功能表中的 * 原則 * 頁面會顯示所有叢集的下列原則資訊。</block>
+  <block id="3f35e5d4a65d2fabe1b0df43b7f95473" category="paragraph">在「所有叢集檢視」的「警示」下拉式功能表的 * 「受抑制的叢集」 * 頁面上、您可以檢視已隱藏警示通知的叢集清單。</block>
+  <block id="b0375fa371accb0190cfd4697a3d3a72" category="paragraph">在 *Suppressed Clusters* 頁面上、您可以選擇檢視下列 * 過去 * 、 * 主動 * 和 * 未來 * 抑制的資訊。過去 * 選項顯示過去 90 天內結束的預置。</block>
+  <block id="7b1255f8fdd0cb8751baee55621164e1" category="cell">建立者</block>
+  <block id="85c70e46956e908554028a7cfb3c9bb3" category="cell">建立抑制的帳戶使用者名稱。</block>
+  <block id="171f0707519d57cefcbb271e1ecffd3c" category="cell">建立時間</block>
+  <block id="37e9a8f9aba121bfbca96f517e2c6767" category="cell">建立抑制的確切時間。</block>
+  <block id="c94ff6ebc86390bffc57ed46a873a939" category="cell">更新時間</block>
+  <block id="20e8cffa15ad2f6d665e2a2a6fd9cfd9" category="cell">如果在建立後修改了抑制、則這是上次變更抑制的確切時間。</block>
+  <block id="2b7dabba0077abe3732e0418b048a56b" category="cell">已排程</block>
+  <block id="65041f578bcadcc7ac79c02dc07efcf6" category="paragraph">指出建立時是否已排程抑制：</block>
+  <block id="9f161b7d0108b4a5362af45388ad5756" category="list-text">* 對 * ：建立的時間和開始時間值相同。</block>
+  <block id="7167ed746d9c6278dbbbb2634f319107" category="list-text">*False* ：建立的時間和開始時間值不同。</block>
 </blocks>
