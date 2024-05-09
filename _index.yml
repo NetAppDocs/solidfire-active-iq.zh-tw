@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: NetApp SolidFire Active IQ
+  summary: NetApp SolidFire Active IQ 支援網頁式工具、可持續更新整個叢集統計資料的歷史檢視。此功能可讓您從任何地方輕鬆存取監控容量與效能。SolidFire
+    Active IQ
+  keywords: solidfire, active iq, element software, netapp hci
+  lead: NetApp SolidFire Active IQ 支援網頁式工具、可持續更新整個叢集統計資料的歷史檢視。您可以設定通知來提醒您叢集上指定的事件、臨界值或度量、以便在發生時快速解決這些事件、臨界值或度量。Active
+    IQ 工具可讓您輕鬆監控容量和效能、並可從任何地方存取叢集健全狀況。
+  tiles:
+  - title: 使用SolidFire Active IQ 這個功能
+    links:
+    - title: 開始使用
+      url: "/task-active-iq-get-started-overview.html"
+    - title: 管理SolidFire Active IQ
+      url: "/task-active-iq-manage-overview.html"
+  - title: 產品文件
+    links:
+    - title: 支援元件軟體SolidFire
+      url: https://docs.netapp.com/us-en/element-software/index.html
+    - title: NetApp HCI
+      url: https://docs.netapp.com/us-en/hci/index.html
+    - title: NetApp 產品文件
+      url: https://www.netapp.com/support-and-training/documentation
+  - title: 疑難排解
+    links:
+    - title: 疑難排解
+      url: "/task-active-iq-troubleshoot-support.html"
+    - title: 聯絡技術支援
+      url: https://mysupport.netapp.com/site/global/dashboard
